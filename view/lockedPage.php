@@ -30,5 +30,6 @@
 </body>
 
 <script src="../script/datetime.js"></script>
+<script src="../script/date.js"></script>
 
 </html>
