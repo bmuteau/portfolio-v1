@@ -250,3 +250,45 @@ a {
   margin-left: -33px;
   text-align: center;
 }
+/* Skill page MOBILE */
+
+#circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #80808033;
+  margin-top: 7%;
+  margin-left: 6%;
+}
+.circleText {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.info {
+  margin-top: -53px;
+  margin-left: 76px;
+}
+.mySkills {
+  margin-top: -15px;
+}
+.stackList {
+  margin-top: 15%;
+  list-style-type: none;
+}
+.stackItem {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 10%;
+}
+hr {
+  border: none;
+  border-top: 3px solid darkslategrey;
+  text-align: center;
+  height: 5px;
+  width: 70%;
+  margin-top: 17%;
+}
+.imgStack {
+  margin-right: 10%;
+}
