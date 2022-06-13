@@ -14,7 +14,7 @@
     <title>Brandon Muteau Portfolio V1</title>
 </head>
 
-<body>
+<body class="home">
     <h1 class="title">Portfolio de Brandon Muteau</h1>
 
     <div class="datetime">

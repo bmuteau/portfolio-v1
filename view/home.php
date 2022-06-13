@@ -13,7 +13,7 @@
     <title>Home</title>
 </head>
 
-<body>
+<body class="home">
 
     <div class="datetime">
         <p id="timeHeader"></p>
