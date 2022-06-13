@@ -327,7 +327,7 @@ hr {
   margin-top: -10px;
   margin-left: 3%;
 }
-.listFormation, .listExperience {
+.listFormation, .listExperience, .listHobbie {
   margin-left: 10%;
   list-style: none;
 }
@@ -338,4 +338,14 @@ hr {
 .hrFormation, .hrExperience {
   margin-left: 18px;
   margin-top: -10px;
+}
+.hobbieImg {
+  height: 100px;
+  margin-left: -5%;
+}
+.hobbieName {
+  margin-left: 31%;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bolder;
 }

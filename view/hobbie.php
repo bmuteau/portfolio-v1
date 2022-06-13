@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 
-    <title>Brandon Muteau - Mes formations </title>
+    <title>Brandon Muteau - Mes loisirs </title>
 </head>
 
 <body class="white">
@@ -30,13 +30,14 @@
 
     <h1 class="name">Qui suis-je? </h1>
  
-    <h2 class="formation">FORMATIONS</h2>
-    <hr class="hrFormation">
-    <ul class="listFormation">
-        <!-- Take information in BDD ( name and date) -->
+    <h2 class="hobbie">LOISIRS</h2>
+    <hr class="hrHobbie">
+    <ul class="listHobbie">
+        <!-- Take information in BDD ( name and image) -->
         <li>
-            <p class="formationTitle">DUT Informatique</p>
-            <p class="formationDate">2020 - 2021</p>
+            <img src="../src/hobbie/velo.png" alt="velo" class="hobbieImg">
+            <p class="hobbieName">Vélo</p>
+           
         </li>
     </ul>
 

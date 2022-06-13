@@ -18,7 +18,7 @@ ToDo :
         * Add Experience to BDD  
         * loop for formation | formation page
         * loop for experience | experience page
-
+        * loop for hobbie | hobbie page
 
     Back-Office : 
         * Make the back office for push :
@@ -27,3 +27,6 @@ ToDo :
             - formation 
             - experience
         
+    Others: 
+        * organized image folder
+        * clean code 

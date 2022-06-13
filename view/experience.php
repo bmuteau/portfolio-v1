@@ -29,8 +29,6 @@
     </div>
 
     <h1 class="name">Qui suis-je? </h1>
-
-    <p class="staticNames">Brandon Muteau</p>
  
     <h2 class="experience">EXPERIENCES</h2>
     <hr class="hrExperience">
