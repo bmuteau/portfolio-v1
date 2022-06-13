@@ -55,8 +55,7 @@
         <a href="">Experiences</a></br>
         <hr>
         <a href="">Loisirs</a></br>
-        <hr>
-        <a href="">intérêts</a>
+        
     </div>
 
 

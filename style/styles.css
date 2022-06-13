@@ -67,24 +67,24 @@
   grid-row-gap: 50px;
   margin-left: 5px;
 }
-.project { 
-  grid-area: 1 / 1 / 2 / 2; 
+.project {
+  grid-area: 1 / 1 / 2 / 2;
 }
 .project img {
   height: 65px;
   width: 65px;
   margin: 16px;
 }
-.skills { 
+.skills {
   grid-area: 1 / 2 / 2 / 3;
 }
 .skills img {
-height: 65px;
-width: 65px;
-margin: 16px;
+  height: 65px;
+  width: 65px;
+  margin: 16px;
 }
-.who { 
-  grid-area: 1 / 3 / 2 / 4; 
+.who {
+  grid-area: 1 / 3 / 2 / 4;
 }
 .who img {
   height: 65px;
@@ -92,7 +92,7 @@ margin: 16px;
   margin: 16px;
 }
 .opinion {
-   grid-area: 2 / 1 / 3 / 2;
+  grid-area: 2 / 1 / 3 / 2;
 }
 .opinion img {
   height: 65px;
@@ -119,7 +119,7 @@ margin: 16px;
   border-radius: 35px;
 }
 .mail {
-   grid-area: 1 / 1 / 2 / 2; 
+  grid-area: 1 / 1 / 2 / 2;
 }
 .mail img {
   height: 65px;
@@ -127,7 +127,7 @@ margin: 16px;
   margin: 16px;
 }
 .blue_github {
-   grid-area: 1 / 2 / 2 / 3;
+  grid-area: 1 / 2 / 2 / 3;
 }
 .blue_github img {
   height: 65px;
@@ -135,7 +135,7 @@ margin: 16px;
   margin: 16px;
 }
 .blue_linkedin {
-   grid-area: 1 / 3 / 2 / 4;
+  grid-area: 1 / 3 / 2 / 4;
 }
 .blue_linkedin img {
   height: 65px;
@@ -181,17 +181,17 @@ a {
   grid-row-gap: 15px;
   margin-left: 15%;
   margin-top: 5%;
-  }
-  
-.projectItem { 
-  grid-area: 1 / 1 / 2 / 2; 
-  }
+}
+
+.projectItem {
+  grid-area: 1 / 1 / 2 / 2;
+}
 .projectItem2 {
-   grid-area: 1 / 2 / 2 / 3;
-  }
+  grid-area: 1 / 2 / 2 / 3;
+}
 .projectItem3 {
-   grid-area: 2 / 1 / 3 / 2;
-  }
+  grid-area: 2 / 1 / 3 / 2;
+}
 .texts {
   color: black;
   font-size: 20px;
@@ -235,9 +235,9 @@ a {
   grid-row-gap: 10px;
   margin-left: 7%;
 }
-  
+
 .stack1 {
-   grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1 / 1 / 2 / 2;
 }
 .stack1 > img {
   height: 60px;
@@ -321,21 +321,25 @@ hr {
   top: 22%;
   left: 10%;
 }
-/* Formation and Experience page MOBILE */
+/* Formation, Experience and Hobbie page MOBILE */
 
 .staticNames {
   margin-top: -10px;
   margin-left: 3%;
 }
-.listFormation, .listExperience, .listHobbie {
+.listFormation,
+.listExperience,
+.listHobbie {
   margin-left: 10%;
   list-style: none;
 }
-.formation, .experience {
+.formation,
+.experience {
   margin-left: 5%;
   margin-top: 14%;
 }
-.hrFormation, .hrExperience {
+.hrFormation,
+.hrExperience {
   margin-left: 18px;
   margin-top: -10px;
 }
@@ -348,4 +352,68 @@ hr {
   margin-top: 10px;
   font-size: 25px;
   font-weight: bolder;
+}
+
+/* Opinion Page Mobile */
+
+.opinion {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 90px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-align: center;
+  margin-left: -38px;
+}
+
+.surname {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-top: 45%;
+}
+.avis {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.note {
+  grid-area: 1 / 3 / 2 / 4;
+  margin-top: 65%;
+}
+.hrOpinion {
+  width: 400%;
+  margin-top: -15px;
+  margin-left: 45%;
+}
+.formOpinion {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 30px 110px 30px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 5%;
+}
+.surnameInput {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.noteInput {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.emailInput {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.opinionInput {
+  grid-area: 2 / 1 / 3 / 4;
+  margin-left: 5%;
+}
+.submitInput {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.formOpinion > input, textarea {
+  border: none;
+  background-color: #91919124;
+  width: 80%;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+.formOpinion > input::placeholder, textarea::placeholder {
+  color:black;
+  text-align: center;
 }
