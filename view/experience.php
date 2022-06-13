@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 
-    <title>Brandon Muteau - Mes formations </title>
+    <title>Brandon Muteau - Mes expériences </title>
 </head>
 
 <body class="white">
@@ -32,13 +32,14 @@
 
     <p class="staticNames">Brandon Muteau</p>
  
-    <h2 class="formation">FORMATIONS</h2>
-    <hr class="hrFormation">
-    <ul class="listFormation">
-        <!-- Take information in BDD ( name and date) -->
+    <h2 class="experience">EXPERIENCES</h2>
+    <hr class="hrExperience">
+    <ul class="listExperience">
+        <!-- Take information in BDD ( name, date and details) -->
         <li>
-            <p class="formationTitle">DUT Informatique</p>
-            <p class="formationDate">2020 - 2021</p>
+            <p class="experienceTitle">DUT Informatique</p>
+            <p class="experienceDate">2020 - 2021</p>
+            <p class="experienceDetails">Details</p>
         </li>
     </ul>
 

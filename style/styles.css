@@ -321,20 +321,21 @@ hr {
   top: 22%;
   left: 10%;
 }
-/* Formation page MOBILE */
+/* Formation and Experience page MOBILE */
 
 .staticNames {
   margin-top: -10px;
   margin-left: 3%;
 }
-.listFormation {
+.listFormation, .listExperience {
   margin-left: 10%;
+  list-style: none;
 }
-.formation {
+.formation, .experience {
   margin-left: 5%;
   margin-top: 14%;
 }
-.hrFormation {
+.hrFormation, .hrExperience {
   margin-left: 18px;
   margin-top: -10px;
 }

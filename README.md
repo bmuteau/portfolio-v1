@@ -15,7 +15,9 @@ ToDo :
         * loop for stack | ProjectProfil page
         * loop for stackList | Skill page
         * Add Formation to BDD  
+        * Add Experience to BDD  
         * loop for formation | formation page
+        * loop for experience | experience page
 
 
     Back-Office : 
@@ -23,4 +25,5 @@ ToDo :
             - stack item
             - project info 
             - formation 
+            - experience
         
