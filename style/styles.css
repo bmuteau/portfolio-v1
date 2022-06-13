@@ -321,3 +321,20 @@ hr {
   top: 22%;
   left: 10%;
 }
+/* Formation page MOBILE */
+
+.staticNames {
+  margin-top: -10px;
+  margin-left: 3%;
+}
+.listFormation {
+  margin-left: 10%;
+}
+.formation {
+  margin-left: 5%;
+  margin-top: 14%;
+}
+.hrFormation {
+  margin-left: 18px;
+  margin-top: -10px;
+}

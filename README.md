@@ -11,12 +11,16 @@ ToDo :
     Back-End :
         * loop for project | Project page
         * search | Project page 
+        * search | Skill page 
         * loop for stack | ProjectProfil page
         * loop for stackList | Skill page
+        * Add Formation to BDD  
+        * loop for formation | formation page
 
 
     Back-Office : 
         * Make the back office for push :
             - stack item
             - project info 
+            - formation 
         
