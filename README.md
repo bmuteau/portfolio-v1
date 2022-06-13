@@ -3,6 +3,7 @@ First portfolio
 ToDo :
     Front-End:
         * Link all page with href | Home page 
+        * Link all page with href | Profil page 
         * locker open on click | Home page Mobile
         * animation grey to click in a logo | Home page
         * think to a cross button for return in home page

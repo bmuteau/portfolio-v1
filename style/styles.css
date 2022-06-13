@@ -287,8 +287,37 @@ hr {
   text-align: center;
   height: 5px;
   width: 70%;
-  margin-top: 17%;
+  margin-top: 5%;
 }
 .imgStack {
   margin-right: 10%;
+}
+/* Profil page MOBILE */
+.mail {
+  color: black;
+}
+.me {
+  text-align: center;
+  font-weight: bolder;
+  border: 1px solid #80808033;
+  border-radius: 40px;
+  padding: 12px;
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 8%;
+  background-color: #8080806e;
+}
+.profilImg {
+  height: 115px;
+  width: 100px;
+  border-radius: 100px;
+}
+.me > a {
+  color: black;
+  text-transform: uppercase;
+}
+.circleText {
+  position: absolute;
+  top: 22%;
+  left: 10%;
 }
