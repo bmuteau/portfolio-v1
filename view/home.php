@@ -19,55 +19,58 @@
         <p id="timeHeader"></p>
     </div>
 
+    <div class="onlyTablet w" hidden> Portfolio de Brandon Muteau </div>
+
+
     <div class="parent">
-        
+
         <div class="project">
             <a href="">
-            <img src="../src/icon/folder.svg" alt="folder">
-            <p class="text">Mes projets</p>
+                <img src="../src/icon/folder.svg" alt="folder">
+                <p class="text">Mes projets</p>
             </a>
         </div>
         <div class="skills">
             <a href="">
-            <img src="../src/icon/contact.svg" alt="contact">
-            <p class="text">Mes compétences</p>
+                <img src="../src/icon/contact.svg" alt="contact">
+                <p class="text">Mes compétences</p>
             </a>
         </div>
         <div class="who">
             <a href="">
-            <img src="../src/icon/setting.png" alt="setting">
-            <p class="text">Qui suis-je?</p>
+                <img src="../src/icon/setting.png" alt="setting">
+                <p class="text">Qui suis-je?</p>
             </a>
         </div>
         <div class="opinion">
             <a href="">
-            <img src="../src/icon/textnote.svg" alt="textnote">
-            <p class="text">Avis</p>
+                <img src="../src/icon/textnote.svg" alt="textnote">
+                <p class="text l">Avis</p>
             </a>
         </div>
     </div>
 
     <div class="tools">
-        
+
         <div class="mail">
             <a href="">
-            <img src="../src/icon/blue_mail.svg" alt="mail">
+                <img src="../src/icon/blue_mail.svg" alt="mail">
             </a>
         </div>
         <div class="blue_github">
             <a href="">
-            <img src="../src/icon/blue_github.svg" alt="github">
+                <img src="../src/icon/blue_github.svg" alt="github">
             </a>
         </div>
         <div class="blue_linkedin">
             <a href="">
-            <img src="../src/icon/blue_linkedin.svg" alt="linkedin">
+                <img src="../src/icon/blue_linkedin.svg" alt="linkedin">
             </a>
         </div>
     </div>
 
 
-    
+
     <script src="../script/datetimeHeader.js"></script>
 </body>
 

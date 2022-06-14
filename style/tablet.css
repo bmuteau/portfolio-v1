@@ -33,12 +33,81 @@
     font-size: 1.5rem;
   }
   .hobbieImg {
-    height: 9rem!important;
-    margin-left: 3rem!important;
+    height: 9rem !important;
+    margin-left: 3rem !important;
   }
   .hobbieName {
-    margin-left: 12rem!important;
-    margin-top: 2rem!important;
-    font-size: 3rem!important;
+    margin-left: 12rem !important;
+    margin-top: 2rem !important;
+    font-size: 3rem !important;
+  }
+
+  /* Home Page TABLET */
+
+  .home {
+    background-image: url(../src/fond-d-ecran-ipad.jpg) !important;
+    background-size: 64rem !important;
+  }
+  .w {
+    color: white;
+    margin-top: -4rem;
+  }
+  #timeHeader {
+    font-size: 2rem !important;
+    margin-left: -7rem !important;
+    font-weight: bolder;
+  }
+  .parent {
+    grid-template-columns: repeat(3, 13rem) !important;
+    grid-template-rows: repeat(4, 10rem) !important;
+    margin-left: 2rem !important;
+    margin-top: 2rem;
+  }
+  .project img {
+    height: 6rem !important;
+    width: 6rem !important;
+    margin: 2rem 3rem !important;
+  }
+  .skills img {
+    height: 6rem !important;
+    width: 6rem !important;
+    margin: 2rem 3rem !important;
+  }
+  .who img {
+    height: 6rem !important;
+    width: 6rem !important;
+    margin: 2rem 3rem !important;
+  }
+  .opinion img {
+    height: 6rem !important;
+    width: 11rem !important;
+    margin: 2rem 3rem !important;
+  }
+  .text {
+    font-size: 1.7rem !important;
+  }
+  .l {
+    margin-left: 7rem;
+  }
+  .tools {
+    grid-template-rows: 8rem !important;
+    margin-left: 12rem !important;
+    margin-right: 11rem !important;
+    margin-top: -3rem !important;
+  }
+  .mail img {
+    height: 6rem !important;
+    width: 6rem !important;
+    margin: 1rem 2rem !important;
+  }
+  .blue_github img {
+    height: 6rem !important;
+    width: 6rem !important;
+    margin: 1rem 3rem !important;
+  }
+  .blue_linkedin img {
+    height: 6rem !important;
+    width: 6rem !important;
+    margin: 1rem 4rem !important;
   }
 }
