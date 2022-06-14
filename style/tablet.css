@@ -1,5 +1,5 @@
 @media (min-width: 426px) {
-  /* Experience,Formation Page TABLET  */
+  /* Experience,Formation and Hobbie Page TABLET  */
   .datetime {
     margin-top: 50px;
     margin-left: 47rem;
@@ -12,16 +12,33 @@
     font-weight: bolder;
   }
   .name {
-    margin-top: 5rem!important;
+    margin-top: 5rem !important;
     font-size: 3rem;
   }
-  .formation, .experience {
+  .formation,
+  .experience,
+  .hobbie {
     font-size: 2rem;
   }
-  .hrFormation, .hrExperience {
+  .hobbie {
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+  .hrFormation,
+  .hrExperience,
+  .hrHobbie {
     margin-left: 2rem;
   }
   li {
     font-size: 1.5rem;
+  }
+  .hobbieImg {
+    height: 9rem!important;
+    margin-left: 3rem!important;
+  }
+  .hobbieName {
+    margin-left: 12rem!important;
+    margin-top: 2rem!important;
+    font-size: 3rem!important;
   }
 }

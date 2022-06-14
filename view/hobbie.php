@@ -17,9 +17,7 @@
 <body class="white">
 
     <div class="datetime">
-        <p 
-            id="time"
-            style=" 
+        <p id="time" style=" 
                 color: black;
                 margin-top: -24px;
                 margin-left: -265px;
@@ -28,16 +26,19 @@
         </p>
     </div>
 
+    <div class="onlyTablet" hidden> Portfolio de Brandon Muteau </div>
+
     <h1 class="name">Qui suis-je? </h1>
- 
+
     <h2 class="hobbie">LOISIRS</h2>
+
     <hr class="hrHobbie">
     <ul class="listHobbie">
         <!-- Take information in BDD ( name and image) -->
         <li>
             <img src="../src/hobbie/velo.png" alt="velo" class="hobbieImg">
             <p class="hobbieName">Vélo</p>
-           
+
         </li>
     </ul>
 
