@@ -65,7 +65,7 @@
 
         <div class="content">
             <ul class="content_list">
-                <li>Nom | Date | Detail </br>
+                <li>Nom | Date | Lieu | Detail </br>
                     <hr>
                 </li>
             </ul>
@@ -103,7 +103,7 @@
             <button class="skill__start">
                 <img class="skill__start--logo" src="../src/icon/folder.svg" alt="folder">
                 <a href="">
-                    Mes expériences
+                    Mes compétences
                 </a>
             </button>
 

@@ -27,6 +27,7 @@ ToDo :
         * loop for hobbie | hobbie page
         * send opinion in bdd | opinion page
         * loop for opinion | opinion page
+        * make some template for delete doublon
 
     Back-Office : 
         * Make the back office for push :
