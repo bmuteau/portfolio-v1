@@ -1,0 +1,27 @@
+@media (min-width: 426px) {
+  /* Experience,Formation Page TABLET  */
+  .datetime {
+    margin-top: 50px;
+    margin-left: 47rem;
+  }
+  .onlyTablet {
+    display: block;
+    margin-top: -3rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .name {
+    margin-top: 5rem!important;
+    font-size: 3rem;
+  }
+  .formation, .experience {
+    font-size: 2rem;
+  }
+  .hrFormation, .hrExperience {
+    margin-left: 2rem;
+  }
+  li {
+    font-size: 1.5rem;
+  }
+}

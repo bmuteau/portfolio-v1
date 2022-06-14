@@ -17,9 +17,7 @@
 <body class="white">
 
     <div class="datetime">
-        <p 
-            id="time"
-            style=" 
+        <p id="time" style=" 
                 color: black;
                 margin-top: -24px;
                 margin-left: -265px;
@@ -28,15 +26,15 @@
         </p>
     </div>
 
-    <h1 class="name">Votre avis m'intéresse !  </h1>
+    <h1 class="name">Votre avis m'intéresse ! </h1>
     <form class="formOpinion">
         <input type="text" name="surname" class="surnameInput" placeholder="Prénom">
         <input type="number" name="note" class="noteInput" min="0" max="10" placeholder="Note">
-        <input type="email" name="email" class="emailInput" placeholder="E-mail">        
-        <textarea name="opinion" class="opinionInput" rows="6" cols="50" maxlength="250"placeholder="Votre avis..."></textarea>
+        <input type="email" name="email" class="emailInput" placeholder="E-mail">
+        <textarea name="opinion" class="opinionInput" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
         <input type="submit" name="submit" class="submitInput" placeholder="Envoyer">
     </form>
-    
+
     <h2 class="name">Vos avis</h2>
     <ul>
         <!-- boucle for qui liste tout les avis -->

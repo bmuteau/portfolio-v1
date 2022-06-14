@@ -17,9 +17,7 @@
 <body class="white">
 
     <div class="datetime">
-        <p 
-            id="time"
-            style=" 
+        <p id="time" style=" 
                 color: black;
                 margin-top: -24px;
                 margin-left: -265px;
@@ -27,15 +25,16 @@
             ">
         </p>
     </div>
+    <div class="onlyTablet" hidden> Portfolio de Brandon Muteau </div>
 
     <h1 class="name">Qui suis-je? </h1>
- 
+
     <h2 class="experience">EXPERIENCES</h2>
     <hr class="hrExperience">
     <ul class="listExperience">
         <!-- Take information in BDD ( name, date and details) -->
         <li>
-            <p class="experienceTitle">DUT Informatique</p>
+            <p class="experienceTitle">title</p>
             <p class="experienceDate">2020 - 2021</p>
             <p class="experienceDetails">Details</p>
         </li>
