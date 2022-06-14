@@ -10,6 +10,9 @@ ToDo :
         * change px and % to rem 
         * fix !important in CSS
         * fix scroll | tablet lockedpage
+        * check all the href
+        * fix the time in computer page
+        * update all syntaxe name like this (name_class)
     
     Back-End :
         * loop for project | Project page
@@ -34,7 +37,7 @@ ToDo :
         
     Others: 
         * organized image folder
-        * clean code 
+        * clean code and remove doublon in css
         * test responsive
         * test backend
         * test backoffice

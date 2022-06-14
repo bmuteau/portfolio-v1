@@ -1,4 +1,5 @@
 @import url(../style/tablet.css);
+@import url(../style/computer.css);
 
 * {
   font-family: "Josefin Sans", sans-serif;

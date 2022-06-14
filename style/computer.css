@@ -1,0 +1,206 @@
+@media (min-width: 768px) {
+  /* Experience,Formation and Hobbie Page TABLET  */
+  body {
+    margin: 0;
+  }
+  .onlyComputer {
+    display: block;
+  }
+  .onlyMobile {
+    display: none;
+  }
+  .taskbar {
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(
+      180deg,
+      #0997ff,
+      #0053ee 8%,
+      #0050ee 40%,
+      #06f 88%,
+      #06f 93%,
+      #005bff 95%,
+      #003dd7 96%,
+      #003dd7
+    );
+    width: 100vw;
+    height: 3rem;
+  }
+
+  .taskbar__start {
+    padding-right: 4rem;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    border: none;
+    border-radius: 0px 10px 12px 0px;
+    box-shadow: 0px 5px 10px #79ce71 inset;
+    background: radial-gradient(circle, #5eac56 0%, #3c873c 100%) center/cover
+      no-repeat;
+    display: flex;
+    align-items: center;
+  }
+  .projects__start {
+    padding-right: 7rem;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    border: none;
+    box-shadow: 0px 5px 10px #4375e0 inset;
+    background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
+      no-repeat;
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+    margin-top: -3rem;
+  }
+  .opinion__start {
+    padding-right: 7rem;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    border: none;
+    box-shadow: 0px 5px 10px #4375e0 inset;
+    background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
+      no-repeat;
+    display: flex;
+    align-items: center;
+    margin-left: 30rem;
+    margin-top: -3rem;
+  }
+  .who__start {
+    padding-right: 7rem;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    border: none;
+    box-shadow: 0px 5px 10px #4375e0 inset;
+    background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
+      no-repeat;
+    display: flex;
+    align-items: center;
+    margin-left: 44rem;
+    margin-top: -3rem;
+  }
+  .skill__start {
+    padding-right: 7rem;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    border: none;
+    box-shadow: 0px 5px 10px #4375e0 inset;
+    background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
+      no-repeat;
+    display: flex;
+    align-items: center;
+    margin-left: 62rem;
+    margin-top: -3rem;
+  }
+  .taskbar__start--logo {
+    width: auto;
+    height: 80%;
+  }
+  .projects__start--logo {
+    width: auto;
+    height: 80%;
+    padding-right: 3rem;
+  }
+  .opinion__start--logo {
+    width: auto;
+    height: 80%;
+    padding-right: 3rem;
+  }
+  .who__start--logo {
+    width: auto;
+    height: 80%;
+    padding-right: 3rem;
+  }
+  .skill__start--logo {
+    width: auto;
+    height: 80%;
+    padding-right: 3rem;
+  }
+  #time {
+    color: white !important;
+    font-size: 2.5rem !important;
+    margin-top: -2.5rem !important;
+    margin-left: 112rem !important;
+  }
+  .logo__start {
+    margin-left: 105rem;
+    margin-top: -2.8rem;
+    background-color: #03a9f4;
+  }
+  .github__start,
+  .mail__start,
+  .linkedin__start {
+    height: 2.5rem;
+    width: auto;
+  }
+  a {
+    color: white;
+  }
+  .ac {
+    background: #03a9f4;
+  }
+  .formation,
+  .experience {
+    margin-top: 2rem !important;
+    padding-top: 0.8rem;
+  }
+  .bar {
+    background-color: #121cde;
+    height: 3rem;
+    margin-top: -2rem;
+  }
+  .sideList {
+    background-color: #8080806b;
+    width: 24rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  li {
+    font-size: 2.5rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .star {
+    height: 5rem;
+    margin-top: 2rem;
+  }
+  .starName {
+    width: 15rem;
+    margin-left: 6rem;
+    margin-top: -4.6rem;
+    padding-bottom: 2rem;
+
+  }
+  .b {
+    color: black;
+  }
+  .sideList__ul > li {
+    margin-left: 4rem;
+  }
+  .content {
+    background-color: #efefef;
+    width: 60rem;
+    margin-left: 48rem;
+    margin-top: -27rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .content_list {
+    list-style: none;
+  }
+}
