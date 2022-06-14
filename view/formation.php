@@ -17,9 +17,7 @@
 <body class="white">
 
     <div class="datetime">
-        <p 
-            id="time"
-            style=" 
+        <p id="time" style=" 
                 color: black;
                 margin-top: -24px;
                 margin-left: -265px;
@@ -27,9 +25,11 @@
             ">
         </p>
     </div>
+    <div class="onlyTablet" hidden> Portfolio de Brandon Muteau </div>
 
     <h1 class="name">Qui suis-je? </h1>
- 
+
+
     <h2 class="formation">FORMATIONS</h2>
     <hr class="hrFormation">
     <ul class="listFormation">
