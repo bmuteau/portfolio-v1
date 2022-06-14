@@ -18,18 +18,19 @@
 
     <div class="datetime">
         <p id="time" style=" 
-                color: black;
-                margin-top: 50px;
-                margin-left: -5rem;
+                color: black!important;
+                margin-top: 0px;
+                margin-left: 40rem;
                 font-size: 25px;
             ">
         </p>
     </div>
+    <div class="onlyTablet " hidden> Portfolio de Brandon Muteau </div>
 
     <h1 class="name">Mes projets</h1>
 
     <form method="">
-        <button class="search-button" type='submit'><span class='icone-loupe'><img src="../src/icon/find_loupe.svg"></span></button>
+        <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="../src/icon/find_loupe.svg"></span></button>
         <input type="text" name="search" placeholder="Rechercher un projet" class="search">
     </form>
 

@@ -163,4 +163,22 @@
     font-size: 1.5rem!important;
     margin-top: 1rem!important;
   }
+  /* Project Page TABLET */
+
+  .search {
+    height: 3rem!important;
+  }
+  .loupe{
+    height: 3rem!important;
+  }
+  .search::placeholder {
+    font-size: 1.5rem!important;
+  }
+  .projectList {
+    grid-template-columns: repeat(3, 9rem)!important;
+    grid-template-rows: repeat(4, 11rem)!important;
+  }
+  .projectItem3 {
+    grid-area: 1 / 3 / 2 / 4 !important;
+  }
 }
