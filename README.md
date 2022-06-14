@@ -9,6 +9,7 @@ ToDo :
         * think to a cross button for return in home page
         * change px and % to rem 
         * fix !important in CSS
+        * fix scroll | tablet lockedpage
     
     Back-End :
         * loop for project | Project page

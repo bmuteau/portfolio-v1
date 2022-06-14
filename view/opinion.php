@@ -12,15 +12,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 
     <title>Brandon Muteau - Vos avis </title>
+
 </head>
 
 <body class="white">
+    <div class="onlyTablet t" hidden> Portfolio de Brandon Muteau </div>
 
     <div class="datetime">
         <p id="time" style=" 
-                color: black;
-                margin-top: 50px;
-                margin-left: -5rem;
+                color: black !important;
+                margin-top: -5rem;
+                margin-left: 37rem;
                 font-size: 25px;
             ">
         </p>

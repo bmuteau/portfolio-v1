@@ -121,4 +121,22 @@
   .logo {
     visibility: hidden!important;
   }
+
+  /* Opinion Page Tablet */
+  .t {
+    margin-top: 1rem!important;
+  }
+  .formOpinion {
+    grid-row-gap: 3rem!important;
+  }
+  .formOpinion > input , textarea {
+    height: 3rem !important;
+    font-size: 2rem !important;
+  }
+ textarea {
+    height: 8rem!important;
+ }
+ .hrOpinion {
+    margin-top: 3rem !important;
+  }
 }
