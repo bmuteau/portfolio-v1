@@ -139,4 +139,28 @@
  .hrOpinion {
     margin-top: 3rem !important;
   }
+  /* Profil Page TABLET */
+  #circle {
+    width: 5rem!important;
+    height: 5rem!important;
+    border-radius: 5rem!important;
+  }
+  .circleText {
+    top: 15rem!important;
+    left: 4.4rem!important;
+    font-size: 2rem!important;
+  }
+  .info {
+    margin-top: -7rem!important;
+    margin-left: 9rem!important;
+    font-size: 2rem!important;
+  }
+  .profilImg {
+    height: 10rem!important;
+    width: 8rem!important;
+  }
+  .me {
+    font-size: 1.5rem!important;
+    margin-top: 1rem!important;
+  }
 }

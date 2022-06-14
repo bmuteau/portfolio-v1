@@ -18,13 +18,14 @@
 
     <div class="datetime">
         <p id="time" style=" 
-                color: black;
-                margin-top: 50px;
-                margin-left: -5rem;
+                color: black !important;
+                margin-top: -1rem;
+                margin-left: 37rem;
                 font-size: 25px;
             ">
         </p>
     </div>
+    <div class="onlyTablet " hidden> Portfolio de Brandon Muteau </div>
 
     <h1 class="name">Qui suis-je? </h1>
 
