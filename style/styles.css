@@ -230,18 +230,10 @@ a {
   margin-top: -15px;
 }
 .stack {
-  display: grid;
-  grid-template-columns: repeat(3, 90px);
-  grid-template-rows: 90px;
-  grid-column-gap: 20px;
-  grid-row-gap: 10px;
-  margin-left: 7%;
+  text-align: center;
 }
 
-.stack1 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.stack1 > img {
+.stack > img {
   height: 60px;
 }
 .texte {

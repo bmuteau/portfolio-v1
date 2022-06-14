@@ -18,13 +18,14 @@
 
     <div class="datetime">
         <p id="time" style=" 
-                color: black;
-                margin-top: 50px;
-                margin-left: -5rem;
-                font-size: 25px;
+                   color: black!important;
+                    margin-top: 50px;
+                    margin-left: 38rem;
+                    font-size: 25px;
             ">
         </p>
     </div>
+    <div class="onlyTablet " hidden> Portfolio de Brandon Muteau </div>
 
     <h1 class="name">Nom du projet</h1>
 
@@ -41,11 +42,11 @@
 
     <h2 class="desc">Stack utilisés</h2>
 
+
     <div class="stack">
-        <div class="stack1">
-            <img src="../src/icon/badge_html.svg" alt="html">
-            <p class="texte">Nom </p>
-        </div>
+        <img src="../src/icon/badge_html.svg" alt="html">
+        <img src="../src/icon/badge_html.svg" alt="html">
+        <img src="../src/icon/badge_html.svg" alt="html">
     </div>
 
 </body>

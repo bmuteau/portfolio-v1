@@ -35,3 +35,6 @@ ToDo :
     Others: 
         * organized image folder
         * clean code 
+        * test responsive
+        * test backend
+        * test backoffice
