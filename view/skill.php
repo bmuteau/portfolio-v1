@@ -18,23 +18,24 @@
 
     <div class="datetime">
         <p id="time" style=" 
-                color: black;
+                color: black!important;
                 margin-top: 50px;
-                margin-left: -5rem;
+                margin-left: 40rem;
                 font-size: 25px;
             ">
         </p>
     </div>
+    <div class="onlyTablet " hidden> Portfolio de Brandon Muteau </div>
 
     <h1 class="name">Mes compétences</h1>
 
     <form method="">
-        <button class="search-button" type='submit'><span class='icone-loupe'><img src="../src/icon/find_loupe.svg"></span></button>
+        <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="../src/icon/find_loupe.svg"></span></button>
         <input type="text" name="search" placeholder="Rechercher une compétences" class="search">
     </form>
 
     <div id="circle">
-        <p class="circleText">BM</p>
+        <p class="circleText ct">BM</p>
     </div>
     <div class="info">
         <p class="staticName">Brandon Muteau</p>
@@ -44,7 +45,13 @@
     <hr>
 
     <ul class="stackList">
-        <h2>Mes stacks: </h2>
+
+        <li class="stackItem">
+            <img src="../src/icon/badge_html.svg" class="imgStack" alt="html">Nom de la stack
+        </li>
+        <li class="stackItem">
+            <img src="../src/icon/badge_html.svg" class="imgStack" alt="html">Nom de la stack
+        </li>
         <li class="stackItem">
             <img src="../src/icon/badge_html.svg" class="imgStack" alt="html">Nom de la stack
         </li>

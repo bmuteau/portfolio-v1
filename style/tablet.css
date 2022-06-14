@@ -198,4 +198,18 @@
   .description {
     font-size: 2rem;
   }
+  .ct {
+    top: 21rem!important; ;
+  }
+  .stackItem {
+    font-size: 2rem!important;
+    margin-top: 3rem!important;
+    
+}
+.imgStack {
+    height: 4rem!important;
+}
+.stackList {
+    margin-top: 1rem!important;
+}
 }
