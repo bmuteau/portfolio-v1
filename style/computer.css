@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-  /* Experience,Formation and Hobbie and taskbar Page TABLET  */
+  /* Experience,Formation and Hobbie and taskbar Page COMPUTER  */
   body {
     margin: 0;
   }
@@ -183,7 +183,6 @@
     margin-left: 6rem;
     margin-top: -4.6rem;
     padding-bottom: 2rem;
-
   }
   .b {
     color: black;
@@ -205,5 +204,44 @@
   }
   .content_li > img {
     height: 7rem;
+  }
+  /* Home Page COMPUTER */
+  .home {
+    background-image: url("../src/fond-d-ecran-windows.jpg") !important;
+    background-size: cover !important;
+  }
+  .home_container {
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    grid-template-rows: repeat(3, 21rem);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .home_projects > img {
+    height: 8rem;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+  }
+  .home_opinion > img {
+    height: 8rem;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+  }
+  .home_who > img {
+    height: 8rem;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+  }
+  .home_skill > img {
+    height: 8rem;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+  }
+  .home_container > a {
+    color: black;
   }
 }
