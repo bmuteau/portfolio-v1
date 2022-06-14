@@ -22,6 +22,7 @@ ToDo :
         * loop for stackList | Skill page
         * Add Formation to BDD  
         * Add Experience to BDD  
+        * Add Hobbie to BDD  
         * loop for formation | formation page
         * loop for experience | experience page
         * loop for hobbie | hobbie page

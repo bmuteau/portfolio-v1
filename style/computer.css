@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-  /* Experience,Formation and Hobbie Page TABLET  */
+  /* Experience,Formation and Hobbie and taskbar Page TABLET  */
   body {
     margin: 0;
   }
@@ -202,5 +202,8 @@
   }
   .content_list {
     list-style: none;
+  }
+  .content_li > img {
+    height: 7rem;
   }
 }
