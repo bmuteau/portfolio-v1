@@ -17,12 +17,10 @@
 <body class="white">
 
     <div class="datetime">
-        <p 
-            id="time"
-            style=" 
+        <p id="time" style=" 
                 color: black;
-                margin-top: -24px;
-                margin-left: -265px;
+                margin-top: 50px;
+                margin-left: -5rem;
                 font-size: 25px;
             ">
         </p>
@@ -35,17 +33,20 @@
         <input type="text" name="search" placeholder="Rechercher une compétences" class="search">
     </form>
 
-    <div id="circle"><p class="circleText">BM</p></div>
+    <div id="circle">
+        <p class="circleText">BM</p>
+    </div>
     <div class="info">
         <p class="staticName">Brandon Muteau</p>
         <p class="mySkills">Mes stacks maitrisés</p>
     </div>
 
-<hr>
-   
-    <ul class="stackList"> <h2>Mes stacks: </h2>
+    <hr>
+
+    <ul class="stackList">
+        <h2>Mes stacks: </h2>
         <li class="stackItem">
-             <img src="../src/icon/badge_html.svg" class="imgStack" alt="html">Nom de la stack
+            <img src="../src/icon/badge_html.svg" class="imgStack" alt="html">Nom de la stack
         </li>
     </ul>
 

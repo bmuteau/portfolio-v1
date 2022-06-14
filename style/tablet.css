@@ -1,9 +1,8 @@
 @media (min-width: 426px) {
   /* Experience,Formation and Hobbie Page TABLET  */
-  .datetime {
-    margin-top: 50px;
-    margin-left: 47rem;
-  }
+#time {
+    color: white!important;
+}
   .onlyTablet {
     display: block;
     margin-top: -3rem;
@@ -54,7 +53,7 @@
   }
   #timeHeader {
     font-size: 2rem !important;
-    margin-left: -7rem !important;
+    margin-left: 38rem !important;
     font-weight: bolder;
   }
   .parent {
@@ -109,5 +108,17 @@
     height: 6rem !important;
     width: 6rem !important;
     margin: 1rem 4rem !important;
+  }
+
+  /* Locked Page TABLET */
+
+  .title {
+    font-size: 2rem !important;
+  }
+  #date {
+    color: white!important;
+  }
+  .logo {
+    visibility: hidden!important;
   }
 }

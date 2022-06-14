@@ -17,12 +17,10 @@
 <body class="white">
 
     <div class="datetime">
-        <p 
-            id="time"
-            style=" 
+        <p id="time" style=" 
                 color: black;
-                margin-top: -24px;
-                margin-left: -265px;
+                margin-top: 50px;
+                margin-left: -5rem;
                 font-size: 25px;
             ">
         </p>
@@ -30,7 +28,9 @@
 
     <h1 class="name">Qui suis-je? </h1>
 
-    <div id="circle"><p class="circleText">BM</p></div>
+    <div id="circle">
+        <p class="circleText">BM</p>
+    </div>
     <div class="info">
         <p class="staticName">Brandon Muteau</p>
         <p class="mySkills">Développeur Web</p>
@@ -55,7 +55,7 @@
         <a href="">Experiences</a></br>
         <hr>
         <a href="">Loisirs</a></br>
-        
+
     </div>
 
 

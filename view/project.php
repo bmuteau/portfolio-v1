@@ -17,12 +17,10 @@
 <body class="white">
 
     <div class="datetime">
-        <p 
-            id="time"
-            style=" 
+        <p id="time" style=" 
                 color: black;
-                margin-top: -24px;
-                margin-left: -265px;
+                margin-top: 50px;
+                margin-left: -5rem;
                 font-size: 25px;
             ">
         </p>
@@ -39,23 +37,23 @@
         <!-- Remplacer par une boucle for avec les projets trouvé en BDD -->
         <div class="projectItem">
             <a href="">
-            <img src="../src/icon/drive.svg" alt="drive">
-            <p class="texts">Projet</p>
+                <img src="../src/icon/drive.svg" alt="drive">
+                <p class="texts">Projet</p>
             </a>
         </div>
         <div class="projectItem2">
             <a href="">
-            <img src="../src/icon/drive.svg" alt="drive">
-            <p class="texts">Projet</p>
+                <img src="../src/icon/drive.svg" alt="drive">
+                <p class="texts">Projet</p>
             </a>
         </div>
         <div class="projectItem3">
             <a href="">
-            <img src="../src/icon/drive.svg" alt="drive">
-            <p class="texts">Projet</p>
+                <img src="../src/icon/drive.svg" alt="drive">
+                <p class="texts">Projet</p>
             </a>
         </div>
-        
+
     </div>
 
 </body>

@@ -17,12 +17,10 @@
 <body class="white">
 
     <div class="datetime">
-        <p 
-            id="time"
-            style=" 
+        <p id="time" style=" 
                 color: black;
-                margin-top: -24px;
-                margin-left: -265px;
+                margin-top: 50px;
+                margin-left: -5rem;
                 font-size: 25px;
             ">
         </p>
