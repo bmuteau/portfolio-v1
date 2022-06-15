@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="white">
+<body class="white wo">
     <div class="onlyMobile">
         <div class="onlyTablet t" hidden> Portfolio de Brandon Muteau </div>
 
@@ -93,14 +93,14 @@
                 </a>
             </button>
 
-            <button class="opinion__start">
+            <button class="opinion__start ac">
                 <img class="opinion__start--logo" src="../src/icon/word.svg" alt="word">
                 <a href="">
                     Avis
                 </a>
             </button>
 
-            <button class="who__start ac">
+            <button class="who__start ">
                 <img class="who__start--logo" src="../src/icon/config_user.svg" alt="user">
                 <a href="">
                     Qui suis-je?
