@@ -2,9 +2,6 @@ First portfolio
 
 ToDo :
     Front-End:
-        * Link all page with href | Home page 
-        * Link all page with href | Profil page 
-        * locker open on click | Home page Mobile
         * animation grey to click in a logo | Home page
         * think to a cross button for return in home page
         * change px and % to rem 
@@ -14,8 +11,12 @@ ToDo :
         * update all syntaxe name like this (name_class)
         * change the hard time by "timeComputer" in computer taskbar
         * verify windows open with "ac" in the taskbar in every computer page
+        * make 404 notfound page
+        
     
     Back-End :
+        * router
+        * connect BDD
         * loop for project | Project page
         * search | Project page 
         * search | Skill page 
@@ -42,6 +43,7 @@ ToDo :
     Others: 
         * organized image folder
         * clean code and remove doublon in css
+        * test all road
         * test responsive
         * test backend
         * test backoffice

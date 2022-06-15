@@ -53,11 +53,11 @@
         </div>
 
         <div class="me">
-            <a href="">Formations</a></br>
+            <a href="../view/formation.php">Formations</a></br>
             <hr>
-            <a href="">Experiences</a></br>
+            <a href="../view/experience.php">Experiences</a></br>
             <hr>
-            <a href="">Loisirs</a></br>
+            <a href="../view/hobbie.php">Loisirs</a></br>
 
         </div>
 </div>
@@ -72,27 +72,27 @@
         <img class="star" src="../src/icon/star.svg">
         <p class="starName">Brandon Muteau</p>
         <ul class="sideList__ul">
-            <li><a class="b" href="">Info</a></li>
-            <li><a class="b" href="">Formation</a></li>
-            <li><a class="b" href="">Experience</a></li>
-            <li><a class="b" href="">Loisirs</a></li>
+            <li><a class="b" href="../view/profil.php">Info</a></li>
+            <li><a class="b" href="../view/formation.php">Formation</a></li>
+            <li><a class="b" href="../view/experience.php">Experience</a></li>
+            <li><a class="b" href="../view/hobbie.php">Loisirs</a></li>
         </ul>
     </div>
     <div class="profil_logo">
         <div class="profil_formation">
-            <a href="">
+            <a href="../view/formation.php">
                 <img class="logo_prof" src="../src/icon/data.svg" alt="data">
                 <p class="prof_name">Formations</p>
             </a>
         </div>
         <div class="profil_exp">
-            <a href="">
+            <a href="../view/experience.php">
                 <img class="logo_prof" src="../src/icon/styling_wp.png" alt="screen">
                 <p class="prof_name">Experiences</p>
             </a>
         </div>
         <div class="profil_hobbie">
-            <a href="">
+            <a href="../view/hobbie.php">
                 <img class="logo_prof" src="../src/icon/control_game.svg" alt="controller game">
                 <p class="prof_name">Loisirs</p>
             </a>
@@ -110,36 +110,36 @@
 
         <button class="projects__start">
             <img class="projects__start--logo" src="../src/icon/edge.svg" alt="edge">
-            <a href="">
+            <a href="../view/project.php">
                 Mes projets
             </a>
         </button>
 
         <button class="opinion__start">
             <img class="opinion__start--logo" src="../src/icon/word.svg" alt="word">
-            <a href="">
+            <a href="../view/opinion.php">
                 Avis
             </a>
         </button>
 
         <button class="who__start ac">
             <img class="who__start--logo" src="../src/icon/config_user.svg" alt="user">
-            <a href="">
+            <a href="../view/profil.php">
                 Qui suis-je?
             </a>
         </button>
 
         <button class="skill__start">
             <img class="skill__start--logo" src="../src/icon/folder.svg" alt="folder">
-            <a href="">
+            <a href="../view/skill.php">
                 Mes compétences
             </a>
         </button>
 
         <div class="logo__start">
-            <a href=""> <img class="github__start" src="../src/icon/black_github.svg" alt="github"></a>
-            <a href=""> <img class="linkedin__start" src="../src/icon/black_linkedin.svg" alt="linkedin"></a>
-            <a href=""> <img class="mail__start" src="../src/icon/blue_mail.svg" alt="mail"></a>
+            <a href="https://github.com/bmuteau"> <img class="github__start" src="../src/icon/black_github.svg" alt="github"></a>
+            <a href="https://www.linkedin.com/in/brandon-muteau-a38467169/"> <img class="linkedin__start" src="../src/icon/black_linkedin.svg" alt="linkedin"></a>
+            <a href="mailto:muteaub@gmail.com"> <img class="mail__start" src="../src/icon/blue_mail.svg" alt="mail"></a>
         </div>
 
         <p id="timeComputer"></p>

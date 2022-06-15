@@ -37,95 +37,85 @@
         <div class="projectList">
             <!-- Remplacer par une boucle for avec les projets trouvé en BDD -->
             <div class="projectItem">
-                <a href="">
+                <a href="../view/projectProfil.php:id">
                     <img src="../src/icon/drive.svg" alt="drive">
                     <p class="texts">Projet</p>
                 </a>
             </div>
             <div class="projectItem2">
-                <a href="">
-                    <img src="../src/icon/drive.svg" alt="drive">
-                    <p class="texts">Projet</p>
-                </a>
-            </div>
-            <div class="projectItem3">
-                <a href="">
-                    <img src="../src/icon/drive.svg" alt="drive">
-                    <p class="texts">Projet</p>
-                </a>
-            </div>
 
+
+            </div>
         </div>
-    </div>
 
-    <div class="onlyComputer" hidden>
+        <div class="onlyComputer" hidden>
 
-        <h1 class="name">Mes projets</h1>
+            <h1 class="name">Mes projets</h1>
 
-        <form class="search_bar" method="">
-            <input type="text" name="search" placeholder="Rechercher un projet" class="search">
-            <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="../src/icon/find_loupe.svg"></span></button>
-        </form>
-        <!-- Quand une recherche est faite, basculer sur une page blanche avec les resultats(pas de redirection vers projectProfil) -->
+            <form class="search_bar" method="">
+                <input type="text" name="search" placeholder="Rechercher un projet" class="search">
+                <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="../src/icon/find_loupe.svg"></span></button>
+            </form>
+            <!-- Quand une recherche est faite, basculer sur une page blanche avec les resultats(pas de redirection vers projectProfil) -->
 
-        <div class="lastProject">
-            <ul class="proj_list">
-                <li>
-                    <a href="">
-                        <img class="proj_logo" src="../src/icon/drive.svg" alt="drive">
-                        <p class="texts">Projet</p>
+            <div class="lastProject">
+                <ul class="proj_list">
+                    <li>
+                        <a href="../view/projectProfil.php:id">
+                            <img class="proj_logo" src="../src/icon/drive.svg" alt="drive">
+                            <p class="texts">Projet</p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="taskbar">
+
+                <button class="taskbar__start">
+                    <img class="taskbar__start--logo" src="../src/icon/windows.png" alt="Windows">
+                    Brandon
+                </button>
+
+                <button class="projects__start ac">
+                    <img class="projects__start--logo" src="../src/icon/edge.svg" alt="edge">
+                    <a href="../view/project.php">
+                        Mes projets
                     </a>
-                </li>
+                </button>
 
-            </ul>
-        </div>
+                <button class="opinion__start">
+                    <img class="opinion__start--logo" src="../src/icon/word.svg" alt="word">
+                    <a href="../view/opinion.php">
+                        Avis
+                    </a>
+                </button>
 
-        <div class="taskbar">
+                <button class="who__start ">
+                    <img class="who__start--logo" src="../src/icon/config_user.svg" alt="user">
+                    <a href="../view/profil.php">
+                        Qui suis-je?
+                    </a>
+                </button>
 
-            <button class="taskbar__start">
-                <img class="taskbar__start--logo" src="../src/icon/windows.png" alt="Windows">
-                Brandon
-            </button>
+                <button class="skill__start">
+                    <img class="skill__start--logo" src="../src/icon/folder.svg" alt="folder">
+                    <a href="../view/skill.php">
+                        Mes compétences
+                    </a>
+                </button>
 
-            <button class="projects__start ac">
-                <img class="projects__start--logo" src="../src/icon/edge.svg" alt="edge">
-                <a href="">
-                    Mes projets
-                </a>
-            </button>
+                <div class="logo__start">
+                    <a href="https://github.com/bmuteau"> <img class="github__start" src="../src/icon/black_github.svg" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/brandon-muteau-a38467169/"> <img class="linkedin__start" src="../src/icon/black_linkedin.svg" alt="linkedin"></a>
+                    <a href="mailto:muteaub@gmail.com"> <img class="mail__start" src="../src/icon/blue_mail.svg" alt="mail"></a>
+                </div>
 
-            <button class="opinion__start">
-                <img class="opinion__start--logo" src="../src/icon/word.svg" alt="word">
-                <a href="">
-                    Avis
-                </a>
-            </button>
-
-            <button class="who__start ">
-                <img class="who__start--logo" src="../src/icon/config_user.svg" alt="user">
-                <a href="">
-                    Qui suis-je?
-                </a>
-            </button>
-
-            <button class="skill__start">
-                <img class="skill__start--logo" src="../src/icon/folder.svg" alt="folder">
-                <a href="">
-                    Mes compétences
-                </a>
-            </button>
-
-            <div class="logo__start">
-                <a href=""> <img class="github__start" src="../src/icon/black_github.svg" alt="github"></a>
-                <a href=""> <img class="linkedin__start" src="../src/icon/black_linkedin.svg" alt="linkedin"></a>
-                <a href=""> <img class="mail__start" src="../src/icon/blue_mail.svg" alt="mail"></a>
+                <p id="timeComputer"></p>
             </div>
 
-            <p id="timeComputer"></p>
+
         </div>
-
-
-    </div>
 
 </body>
 

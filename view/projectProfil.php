@@ -34,7 +34,7 @@
         <p class="projectName"> Nom du projet</p>
         <p class="projectType"> Pro ou perso </p>
         <p class="ProjectDuration"> Temps de dévelopement</p>
-        <p class="ProjectLink"><a href="" class="link"> Lien du projet </a></p>
+        <p class="ProjectLink"><a href="lien du projet en bdd" class="link"> Lien du projet </a></p>
     </div>
 
     <h2 class="desc">Description</h2>
