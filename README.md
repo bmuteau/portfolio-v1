@@ -13,6 +13,7 @@ ToDo :
         * check all the href
         * update all syntaxe name like this (name_class)
         * change the hard time by "timeComputer" in computer taskbar
+        * verify windows open with "ac" in the taskbar in every computer page
     
     Back-End :
         * loop for project | Project page

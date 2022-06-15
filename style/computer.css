@@ -312,7 +312,6 @@
     grid-template-columns: repeat(5, 8rem);
     grid-template-rows: repeat(3, 8rem);
     grid-column-gap: 3.5rem;
-
   }
   .logo_prof {
     height: 8rem;
@@ -333,5 +332,39 @@
   }
   .profil_hobbie {
     grid-area: 1 / 3 / 2 / 4;
+  }
+  /* Project Page COMPUTER */
+  .proj_edge {
+    background-image: url("../src/fond-d-ecran-edge.jpg");
+    background-size: cover;
+    background-position-y: -7rem;
+  }
+
+  .name {
+    text-align: center !important;
+    color: white !important;
+  }
+  .search_bar {
+    text-align: center;
+  }
+  .search{
+    background-color: white!important;
+  }
+  .loupe {
+    margin-left: 70rem;
+  }
+  .proj_logo {
+    height: 8rem;
+    margin-top: 13rem;
+    margin-left: 3rem;
+  }
+  .texts {
+    font-size: 1.5rem!important;
+    text-align: inherit!important;
+    margin-left: 5.5rem!important;
+  }
+  .proj_list {
+    list-style-type: none;
+    display: inline-flex;
   }
 }
