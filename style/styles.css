@@ -1,5 +1,6 @@
-@import url(../style/tablet.css);
-@import url(../style/computer.css);
+
+@import url(tablet.css) (min-width:600px) and (max-width: 1024px);
+@import url(computer.css) (min-width:1025px);
 
 * {
   font-family: "Josefin Sans", sans-serif;

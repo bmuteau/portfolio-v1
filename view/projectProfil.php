@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="../style/styles.css" rel="stylesheet">
+    <link href="style/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -28,10 +28,10 @@
     <div class="onlyTablet " hidden> Portfolio de Brandon Muteau </div>
 
     <h1 class="name">Nom du projet</h1>
-    <a href="../view/home.php" class="close">X</a>
+    <a href="home" class="close">X</a>
 
 
-    <img src="../src/icon/drive.svg" class="projectImage" alt="drive">
+    <img src="src/icon/drive.svg" class="projectImage" alt="drive">
     <div class="infoProject">
         <p class="projectName"> Nom du projet</p>
         <p class="projectType"> Pro ou perso </p>
@@ -46,14 +46,14 @@
 
 
     <div class="stack">
-        <img src="../src/icon/badge_html.svg" alt="html">
-        <img src="../src/icon/badge_html.svg" alt="html">
-        <img src="../src/icon/badge_html.svg" alt="html">
+        <img src="src/icon/badge_html.svg" alt="html">
+        <img src="src/icon/badge_html.svg" alt="html">
+        <img src="src/icon/badge_html.svg" alt="html">
     </div>
 
 </body>
 
-<script src="../script/datetime.js"></script>
+<script src="script/datetime.js"></script>
 
 
 </html>
