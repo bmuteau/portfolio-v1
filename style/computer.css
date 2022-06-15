@@ -216,8 +216,6 @@
     display: grid;
     grid-template-columns: repeat(4, 20rem);
     grid-template-rows: repeat(3, 21rem);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     font-size: 2rem;
     text-align: center;
     font-weight: bolder;

@@ -12,7 +12,7 @@
 .title {
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 .close {
   float: right;
@@ -23,133 +23,130 @@
 #time {
   font-weight: bold;
   color: black;
-  font-size: 60px;
+  font-size: 3rem;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 8rem;
 }
 
 #date {
   font-weight: bold;
   color: black;
-  font-size: 30px;
+  font-size: 1.5rem;
   text-align: center;
-  margin-top: -45px;
+  margin-top: -3rem;
 }
 .lock {
-  height: 60px;
-  margin-left: 43%;
-  margin-top: 15%;
+  height: 4rem;
+  margin-left: 10rem;
+  margin-top: 4rem;
 }
 .logo {
   display: grid;
-  grid-template-columns: 25% 50% 25%;
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  margin-top: 50%;
+  grid-template-columns: 5rem 17rem 2rem;
+  grid-template-rows: 1rem;
+  margin-top: 12rem;
 }
 
 .black_github {
   grid-area: 1 / 1 / 2 / 2;
-  height: 70px;
-  margin-left: 11px;
+  height: 4.5rem;
+    margin-left: 1rem;
 }
 .black_linkedin {
   grid-area: 1 / 3 / 2 / 4;
-  height: 65px;
-  margin-left: 190px;
-  margin-top: 4px;
+  height: 4rem;
+  margin-left: 12rem;
+  margin-top: 0.5rem;
 }
 
 /* Home page MOBILE */
 
 #timeHeader {
   color: white;
-  font-size: 20px;
-  margin-left: 10px;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-top: -2rem;
 }
 .parent {
   display: grid;
-  grid-template-columns: repeat(3, 90px);
-  grid-template-rows: repeat(4, 90px);
-  grid-column-gap: 33px;
-  grid-row-gap: 50px;
-  margin-left: 5px;
+  grid-template-columns: repeat(3, 5.6rem);
+  grid-template-rows: repeat(4, 5.6rem);
+  grid-column-gap: 2.1rem;
+  grid-row-gap: 3.1rem;
+  margin-left: 0.3rem;
 }
 .project {
   grid-area: 1 / 1 / 2 / 2;
 }
 .project img {
-  height: 65px;
-  width: 65px;
-  margin: 16px;
+  height: 4.1rem;
+  width: 4.1rem;
+  margin: 1rem;
 }
 .skills {
   grid-area: 1 / 2 / 2 / 3;
 }
 .skills img {
-  height: 65px;
-  width: 65px;
-  margin: 16px;
+  height: 4.1rem;
+  width: 4.1rem;
+  margin: 1rem;
 }
 .who {
   grid-area: 1 / 3 / 2 / 4;
 }
 .who img {
-  height: 65px;
-  width: 65px;
-  margin: 16px;
+  height: 4.1rem;
+  width: 4.1rem;
+  margin: 1rem;
 }
 .opinion {
   grid-area: 2 / 1 / 3 / 2;
 }
 .opinion img {
-  height: 65px;
-  width: 65px;
-  margin: 16px;
+  height: 4.1rem;
+  width: 4.1rem;
+  margin: 1rem;
 }
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-top: 0;
   text-align: center;
 }
 .tools {
   display: grid;
-  grid-template-columns: repeat(3, 90px);
-  grid-template-rows: 90px;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: -10px;
+  grid-template-columns: repeat(3, 5.6rem);
+  grid-template-rows: 5.6rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: -0.6rem;
   background-color: #808080cf;
-  border-radius: 35px;
+  border-radius: 2.2rem;
 }
 .mail {
   grid-area: 1 / 1 / 2 / 2;
 }
 .mail img {
-  height: 65px;
-  width: 65px;
-  margin: 16px;
+  height: 4.1rem;
+  width: 4.1rem;
+  margin: 1rem;
 }
 .blue_github {
   grid-area: 1 / 2 / 2 / 3;
 }
 .blue_github img {
-  height: 65px;
-  width: 65px;
-  margin: 16px;
+  height: 4.1rem;
+  width: 4.1rem;
+  margin: 1rem;
 }
 .blue_linkedin {
   grid-area: 1 / 3 / 2 / 4;
 }
 .blue_linkedin img {
-  height: 65px;
-  width: 65px;
-  margin: 16px;
+  height: 4.1rem;
+  width: 4.1rem;
+  margin: 1rem;
 }
 a {
   text-decoration: none;
@@ -158,22 +155,22 @@ a {
 /* project page MOBILE */
 
 .datetime {
-  margin-top: 50px;
+  margin-top: 3.1rem;
 }
 .name {
   font-weight: bolder;
-  margin-top: 40px;
+  margin-top: 2.5;
 }
 .search-button {
   border: none;
   background: none;
   position: absolute;
-  left: 7%;
+  left: 2rem;
 }
 .search {
-  height: 30px;
-  width: 75%;
-  margin-left: 7%;
+  height: 1.9rem;
+  width: 18.5rem;
+  margin-left: 2rem;
   background-color: #80808033;
   border: none;
 }
@@ -184,12 +181,12 @@ a {
 }
 .projectList {
   display: grid;
-  grid-template-columns: repeat(2, 90px);
-  grid-template-rows: repeat(4, 90px);
-  grid-column-gap: 50px;
-  grid-row-gap: 15px;
-  margin-left: 15%;
-  margin-top: 5%;
+  grid-template-columns: repeat(2, 5.6rem);
+  grid-template-rows: repeat(4, 5.6rem);
+  grid-column-gap: 3.1rem;
+  grid-row-gap: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 
 .projectItem {
@@ -203,95 +200,95 @@ a {
 }
 .texts {
   color: black;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-top: -10px;
+  margin-top: -0.6rem;
   text-align: center;
 }
 
 /* ProjectProfil page MOBILE */
 
 .projectImage {
-  height: 150px;
-  margin-left: 28%;
+  height: 9.4rem;
+  margin-left: 6rem;
 }
 .infoProject {
   text-align: center;
   font-weight: bolder;
-  font-size: 18px;
-  margin-top: -24px;
+  font-size: 1rem;
+  margin-top: -1.5rem;
 }
 .link {
   color: black;
 }
 .desc {
   color: black;
-  font-size: 35px;
+  font-size: 2.2rem;
   text-align: center;
-  margin-top: 9%;
+  margin-top: 3rem;
 }
 .description {
-  width: 80%;
-  margin-left: 10%;
+  width: 18rem;
+  margin-left: 2rem;
   text-align: center;
-  margin-top: -15px;
+  margin-top: -1rem;
 }
 .stack {
   text-align: center;
 }
 
 .stack > img {
-  height: 60px;
+  height: 3.7rem;
 }
 .texte {
   color: black;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-top: 0px;
-  margin-left: -33px;
+  margin-top: 0;
+  margin-left: -2.1rem;
   text-align: center;
 }
 /* Skill page MOBILE */
 
 #circle {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
   background: #80808033;
-  margin-top: 7%;
-  margin-left: 6%;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
 }
 .circleText {
   position: absolute;
-  top: 30%;
-  left: 10%;
+  top: 13.5rem;
+  left: 2.5rem;
 }
 .info {
-  margin-top: -53px;
-  margin-left: 76px;
+  margin-top: -3.3rem;
+  margin-left: 4.7rem;
 }
 .mySkills {
-  margin-top: -15px;
+  margin-top: -1rem;
 }
 .stackList {
-  margin-top: 15%;
+  margin-top: 1rem;
   list-style-type: none;
 }
 .stackItem {
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: bolder;
-  margin-left: 10%;
+  margin-left: 1rem;
 }
 hr {
   border: none;
   border-top: 3px solid darkslategrey;
   text-align: center;
-  height: 5px;
-  width: 70%;
-  margin-top: 5%;
+  height: 0.3rem;
+  width: 16rem;
+  margin-top: 2rem;
 }
 .imgStack {
-  margin-right: 10%;
+  margin-right: 1.2rem;
 }
 /* Profil page MOBILE */
 .mail {
@@ -301,17 +298,17 @@ hr {
   text-align: center;
   font-weight: bolder;
   border: 1px solid #80808033;
-  border-radius: 40px;
-  padding: 12px;
-  width: 80%;
-  margin-left: 8%;
-  margin-top: 8%;
+  border-radius: 2.5rem;
+  padding: 0.7rem;
+  width: 17rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
   background-color: #8080806e;
 }
 .profilImg {
-  height: 115px;
-  width: 100px;
-  border-radius: 100px;
+  height: 7.2rem;
+  width: 6.2rem;
+  border-radius: 6.2rem;
 }
 .me > a {
   color: black;
@@ -319,42 +316,35 @@ hr {
 }
 .circleText {
   position: absolute;
-  top: 22%;
-  left: 10%;
+  top: 9rem;
+  left: 2.5rem
 }
 /* Formation, Experience and Hobbie page MOBILE */
 
-/* .onlyTablet {
-  display: none;
-} */
-.staticNames {
-  margin-top: -10px;
-  margin-left: 3%;
-}
 .listFormation,
 .listExperience,
 .listHobbie {
-  margin-left: 10%;
+  margin-left: 2rem;
   list-style: none;
 }
 .formation,
 .experience {
-  margin-left: 5%;
-  margin-top: 14%;
+  margin-left: 1.2rem;
+  margin-top: 3rem;
 }
 .hrFormation,
 .hrExperience {
-  margin-left: 18px;
-  margin-top: -10px;
+  margin-left: 1.1rem;
+  margin-top: -0.6rem;
 }
 .hobbieImg {
-  height: 100px;
-  margin-left: -5%;
+  height: 6.2rem;
+  margin-left: -1rem;
 }
 .hobbieName {
-  margin-left: 31%;
-  margin-top: 10px;
-  font-size: 25px;
+  margin-left: 5.5rem;
+  margin-top: 0.6rem;
+  font-size: 1.6rem;
   font-weight: bolder;
 }
 
@@ -362,37 +352,33 @@ hr {
 
 .opinion {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 90px;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-template-columns: 5rem 12rem 5rem;
+  grid-template-rows: 5.6rem;
   text-align: center;
-  margin-left: -38px;
+  margin-left: -2.3rem;
 }
 
 .surname {
   grid-area: 1 / 1 / 2 / 2;
-  margin-top: 45%;
+  margin-top: 2rem;
 }
 .avis {
   grid-area: 1 / 2 / 2 / 3;
 }
 .note {
   grid-area: 1 / 3 / 2 / 4;
-  margin-top: 65%;
+  margin-top: 3rem;
 }
 .hrOpinion {
-  width: 400%;
-  margin-top: -15px;
-  margin-left: 45%;
+  width: 16rem;
+  margin-top: -1rem;
+  margin-left: 3rem;
 }
 .formOpinion {
   display: grid;
-  grid-template-columns: repeat(3, 33%);
-  grid-template-rows: 30px 110px 30px;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  margin-left: 5%;
+  grid-template-columns: repeat(3, 7rem);
+  grid-template-rows: 1.9rem 6.9rem 1.9rem;
+  margin-left: 1rem;
 }
 .surnameInput {
   grid-area: 1 / 1 / 2 / 2;
@@ -405,7 +391,7 @@ hr {
 }
 .opinionInput {
   grid-area: 2 / 1 / 3 / 4;
-  margin-left: 5%;
+  margin-left: 1rem;
 }
 .submitInput {
   grid-area: 3 / 2 / 4 / 3;
@@ -414,8 +400,8 @@ hr {
   border: none;
   background-color: #91919124;
   width: 80%;
-  margin-bottom: 8px;
-  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  border-radius: 0.4rem;
 }
 .formOpinion > input::placeholder, textarea::placeholder {
   color:black;

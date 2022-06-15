@@ -4,7 +4,6 @@ ToDo :
 
 
     Front-End:
-        * change px and % to rem 
         * fix !important in CSS
         * fix scroll | tablet lockedpage
         * check all the href

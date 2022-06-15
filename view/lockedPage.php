@@ -31,7 +31,7 @@
 
     </div>
 
-    <div class="onlyComputer">
+    <div class="onlyComputer" hidden>
 
         <div class="goToHome"><a href="../view/home.php" title="Clique pour accéder à mon portfolio">Se connecter ! </a></div>
 
