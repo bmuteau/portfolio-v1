@@ -12,12 +12,10 @@ ToDo :
         * make 404 notfound page
         * flex wrap for project list mobile and tablet
         * fix list project with a max item (?)
+        * fix presentation of project result search
         
     
     Back-End :
-
-        * loop for project | Project page
-        * search | Project page 
         * search | Skill page 
         * loop for stack | ProjectProfil page
         * loop for stackList | Skill page

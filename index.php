@@ -3,6 +3,7 @@ session_start();
 
 
 use Application\Database;
+use Application\HelperFunction;
 
 
 
@@ -25,7 +26,7 @@ $autoloader_db = function ($db_class_name) {
 };
 spl_autoload_register($autoloader_db);
 
-$hlp_class_name = "Application\HelperFunctions";
+$hlp_class_name = "Application\HelperFunction";
 
 $autoloader_hlp = function ($hlp_class_name) {
     // on prépare le terrain : on remplace le séparteur d'espace de nom par le séparateur de répertoires du système
@@ -47,6 +48,8 @@ spl_autoload_register($autoloader_hlp);
 
 $db = new Application\Database();
 $db = new Database();
+$hlp = new Application\HelperFunction();
+$hlp = new HelperFunction();
 
 
 
