@@ -12,6 +12,7 @@ ToDo :
         * fix scroll | tablet lockedpage
         * check all the href
         * update all syntaxe name like this (name_class)
+        * change the hard time by "timeComputer" in computer taskbar
     
     Back-End :
         * loop for project | Project page
