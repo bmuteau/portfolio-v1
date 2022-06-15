@@ -79,7 +79,7 @@
 
             <button class="projects__start">
                 <img class="projects__start--logo" src="src/icon/edge.svg" alt="edge">
-                <a href="project">
+                <a href="projet">
                     Mes projets
                 </a>
             </button>

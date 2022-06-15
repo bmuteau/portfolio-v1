@@ -74,7 +74,7 @@
     <div class="onlyComputer" hidden>
         <div class="home_container">
 
-            <a href="project">
+            <a href="projet">
                 <div class="home_projects">
                     <img src="src/icon/edge.svg" alt="edge">
                     <p>Mes projets</p>
@@ -114,7 +114,7 @@
 
             <button class="projects__start">
                 <img class="projects__start--logo" src="src/icon/edge.svg" alt="edge">
-                <a href="project">
+                <a href="projet">
                     Mes projets
                 </a>
             </button>

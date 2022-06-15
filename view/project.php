@@ -39,85 +39,97 @@
         <div class="projectList">
             <!-- Remplacer par une boucle for avec les projets trouvé en BDD -->
             <div class="projectItem">
-                <a href="projectProfil:id">
-                    <img src="src/icon/drive.svg" alt="drive">
-                    <p class="texts">Projet</p>
+
+                <?php foreach ($mtProject as $mtProjects) : ?>
+
+                    <?=
+                    '<a href="projectProfil?id=' . $mtProjects['id'] . ' ">' .
+
+                        '<img src="src/icon/drive.svg" alt="drive">' .
+                        $mtProjects['name'] .
+                        '</a>'
+
+                    ?>
+
+                <?php endforeach ?>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="onlyComputer" hidden>
+
+        <h1 class="name">Mes projets</h1>
+
+        <form class="search_bar" method="">
+            <input type="text" name="search" placeholder="Rechercher un projet" class="search">
+            <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="src/icon/find_loupe.svg"></span></button>
+        </form>
+        <!-- Quand une recherche est faite, basculer sur une page blanche avec les resultats(pas de redirection vers projectProfil) -->
+
+        <div class="lastProject">
+            <ul class="proj_list">
+                <?php foreach ($mtProject as $mtProjects) : ?>
+                    <?=
+                    '<li>' .
+                        '<a href="projectProfil?id=' . $mtProjects['id'] . ' ">' .
+                        '<img class="proj_logo" src="src/icon/drive.svg" alt="drive">' .
+                        '<p class="texts>' .  $mtProjects['name'] . '</p>' .
+                        '</a>  </li>'
+
+                    ?>
+                <?php endforeach ?>
+            </ul>
+
+        </div>
+
+        <div class="taskbar">
+
+            <button class="taskbar__start">
+                <img class="taskbar__start--logo" src="src/icon/windows.png" alt="Windows">
+                Brandon
+            </button>
+
+            <button class="projects__start ac">
+                <img class="projects__start--logo" src="src/icon/edge.svg" alt="edge">
+                <a href="projet">
+                    Mes projets
                 </a>
-            </div>
-            <div class="projectItem2">
+            </button>
 
+            <button class="opinion__start">
+                <img class="opinion__start--logo" src="src/icon/word.svg" alt="word">
+                <a href="opinion">
+                    Avis
+                </a>
+            </button>
 
+            <button class="who__start ">
+                <img class="who__start--logo" src="src/icon/config_user.svg" alt="user">
+                <a href="profil">
+                    Qui suis-je?
+                </a>
+            </button>
+
+            <button class="skill__start">
+                <img class="skill__start--logo" src="src/icon/folder.svg" alt="folder">
+                <a href="competence">
+                    Mes compétences
+                </a>
+            </button>
+
+            <div class="logo__start">
+                <a href="https://github.com/bmuteau"> <img class="github__start" src="src/icon/black_github.svg" alt="github"></a>
+                <a href="https://www.linkedin.com/in/brandon-muteau-a38467169/"> <img class="linkedin__start" src="src/icon/black_linkedin.svg" alt="linkedin"></a>
+                <a href="mailto:muteaub@gmail.com"> <img class="mail__start" src="src/icon/blue_mail.svg" alt="mail"></a>
             </div>
+
+            <p id="timeComputer"></p>
         </div>
 
-        <div class="onlyComputer" hidden>
 
-            <h1 class="name">Mes projets</h1>
-
-            <form class="search_bar" method="">
-                <input type="text" name="search" placeholder="Rechercher un projet" class="search">
-                <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="src/icon/find_loupe.svg"></span></button>
-            </form>
-            <!-- Quand une recherche est faite, basculer sur une page blanche avec les resultats(pas de redirection vers projectProfil) -->
-
-            <div class="lastProject">
-                <ul class="proj_list">
-                    <li>
-                        <a href="projectProfil:id">
-                            <img class="proj_logo" src="src/icon/drive.svg" alt="drive">
-                            <p class="texts">Projet</p>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="taskbar">
-
-                <button class="taskbar__start">
-                    <img class="taskbar__start--logo" src="src/icon/windows.png" alt="Windows">
-                    Brandon
-                </button>
-
-                <button class="projects__start ac">
-                    <img class="projects__start--logo" src="src/icon/edge.svg" alt="edge">
-                    <a href="project">
-                        Mes projets
-                    </a>
-                </button>
-
-                <button class="opinion__start">
-                    <img class="opinion__start--logo" src="src/icon/word.svg" alt="word">
-                    <a href="opinion">
-                        Avis
-                    </a>
-                </button>
-
-                <button class="who__start ">
-                    <img class="who__start--logo" src="src/icon/config_user.svg" alt="user">
-                    <a href="profil">
-                        Qui suis-je?
-                    </a>
-                </button>
-
-                <button class="skill__start">
-                    <img class="skill__start--logo" src="src/icon/folder.svg" alt="folder">
-                    <a href="competence">
-                        Mes compétences
-                    </a>
-                </button>
-
-                <div class="logo__start">
-                    <a href="https://github.com/bmuteau"> <img class="github__start" src="src/icon/black_github.svg" alt="github"></a>
-                    <a href="https://www.linkedin.com/in/brandon-muteau-a38467169/"> <img class="linkedin__start" src="src/icon/black_linkedin.svg" alt="linkedin"></a>
-                    <a href="mailto:muteaub@gmail.com"> <img class="mail__start" src="src/icon/blue_mail.svg" alt="mail"></a>
-                </div>
-
-                <p id="timeComputer"></p>
-            </div>
-
-
-        </div>
+    </div>
 
 </body>
 

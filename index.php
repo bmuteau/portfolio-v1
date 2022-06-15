@@ -78,16 +78,16 @@ $urlsPossible = array(
 );
 
 $filesPossible = array(
-    "view/home.php", //0
-    "view/lockedPage.php", //1
-    "view/experience.php", //2
-    "view/formation.php", //3
-    "view/skill.php", //4
-    "view/hobbie.php", //5
-    "view/opinion.php", //6
-    "view/profil.php", //7
-    "view/project.php", //8
-    "view/projectProfil.php", //9   
+    "controller/home.php", //0
+    "controller/lockedPage.php", //1
+    "controller/experience.php", //2
+    "controller/formation.php", //3
+    "controller/skill.php", //4
+    "controller/hobbie.php", //5
+    "controller/opinion.php", //6
+    "controller/profil.php", //7
+    "controller/project.php", //8
+    "controller/projectProfil.php", //9   
 
 );
 

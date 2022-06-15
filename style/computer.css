@@ -335,7 +335,7 @@
   }
   /* Project Page COMPUTER */
   .proj_edge {
-    background-image: url("src/fond-d-ecran-edge.jpg");
+    background-image: url("../src/fond-d-ecran-edge.jpg");
     background-size: cover;
     background-position-y: -7rem;
   }

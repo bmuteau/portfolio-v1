@@ -10,6 +10,8 @@ ToDo :
         * change the hard time by "timeComputer" in computer taskbar
         * verify windows open with "ac" in the taskbar in every computer page
         * make 404 notfound page
+        * flex wrap for project list mobile and tablet
+        * fix list project with a max item (?)
         
     
     Back-End :
@@ -39,6 +41,7 @@ ToDo :
         
     Others: 
         * organized image folder
+        * edit project img src in project view
         * clean code and remove doublon in css
         * test all road
         * test responsive
