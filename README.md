@@ -11,7 +11,6 @@ ToDo :
         * fix !important in CSS
         * fix scroll | tablet lockedpage
         * check all the href
-        * fix the time in computer page
         * update all syntaxe name like this (name_class)
     
     Back-End :
@@ -36,6 +35,7 @@ ToDo :
             - project info 
             - formation 
             - experience
+            - hobbie
         
     Others: 
         * organized image folder

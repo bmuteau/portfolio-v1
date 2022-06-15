@@ -15,17 +15,26 @@
 </head>
 
 <body class="home">
-    <h1 class="title">Portfolio de Brandon Muteau</h1>
+    <div class="onlyMobile">
+        <h1 class="title">Portfolio de Brandon Muteau</h1>
 
-    <div class="datetime">
-        <p id="time"></p>
-        <p id="date"></p>
+        <div class="datetime">
+            <p id="time"></p>
+            <p id="date"></p>
+        </div>
+
+        <a href="../view/home.php"><img src="../src/icon/lock.svg" class="lock"></a>
+        <div class="logo">
+            <a href="https://github.com/bmuteau/"><img src="../src/icon/black_github.svg" class="black_github"></a>
+            <a href="https://www.linkedin.com/in/brandon-muteau-a38467169/"><img src="../src/icon/black_linkedin.svg" class="black_linkedin"></a>
+        </div>
+
     </div>
 
-    <a href="../view/home.php"><img src="../src/icon/lock.svg" class="lock"></a>
-    <div class="logo">
-        <a href="https://github.com/bmuteau/"><img src="../src/icon/black_github.svg" class="black_github"></a>
-        <a href="https://www.linkedin.com/in/brandon-muteau-a38467169/"><img src="../src/icon/black_linkedin.svg" class="black_linkedin"></a>
+    <div class="onlyComputer">
+
+        <div class="goToHome"><a href="" title="Clique pour accéder à mon portfolio">Se connecter ! </a></div>
+
     </div>
 </body>
 

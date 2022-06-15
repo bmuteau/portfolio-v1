@@ -146,7 +146,7 @@
                 <a href=""> <img class="mail__start" src="../src/icon/blue_mail.svg" alt="mail"></a>
             </div>
 
-            <p id="time">23:23</p>
+            <p id="timeComputer"></p>
         </div>
     </div>
     <script src="../script/datetimeHeader.js"></script>
