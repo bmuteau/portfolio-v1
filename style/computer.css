@@ -192,8 +192,8 @@
   }
   .content {
     background-color: #efefef;
-    width: 60rem;
-    margin-left: 48rem;
+    width: 47rem;
+    margin-left: 32rem;
     margin-top: -27rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -201,6 +201,8 @@
   }
   .content_list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
   }
   .content_li > img {
     height: 7rem;
@@ -366,5 +368,8 @@
   .proj_list {
     list-style-type: none;
     display: inline-flex;
+  }
+  .li_cont > img {
+    height: 5rem;
   }
 }

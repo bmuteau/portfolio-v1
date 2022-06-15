@@ -66,7 +66,7 @@
             <input type="text" name="search" placeholder="Rechercher un projet" class="search">
             <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="../src/icon/find_loupe.svg"></span></button>
         </form>
-        <!-- Quand une recherche est faite, basculer sur une page blanche avec les resultats -->
+        <!-- Quand une recherche est faite, basculer sur une page blanche avec les resultats(pas de redirection vers projectProfil) -->
 
         <div class="lastProject">
             <ul class="proj_list">
