@@ -29,6 +29,8 @@
             </p>
         </div>
 
+        <a href="../view/home.php" class="close">X</a>
+
         <h1 class="name">Votre avis m'intéresse ! </h1>
         <form class="formOpinion">
             <input type="text" name="surname" class="surnameInput" placeholder="Prénom">

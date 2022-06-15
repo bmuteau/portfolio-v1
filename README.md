@@ -1,9 +1,9 @@
 First portfolio
 
 ToDo :
+
+
     Front-End:
-        * animation grey to click in a logo | Home page
-        * think to a cross button for return in home page
         * change px and % to rem 
         * fix !important in CSS
         * fix scroll | tablet lockedpage

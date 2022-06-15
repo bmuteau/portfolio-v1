@@ -28,6 +28,8 @@
         <div class="onlyTablet " hidden> Portfolio de Brandon Muteau </div>
 
         <h1 class="name">Mes projets</h1>
+        <a href="../view/home.php" class="close">X</a>
+
 
         <form method="">
             <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="../src/icon/find_loupe.svg"></span></button>

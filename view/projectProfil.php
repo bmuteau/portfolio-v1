@@ -28,6 +28,8 @@
     <div class="onlyTablet " hidden> Portfolio de Brandon Muteau </div>
 
     <h1 class="name">Nom du projet</h1>
+    <a href="../view/home.php" class="close">X</a>
+
 
     <img src="../src/icon/drive.svg" class="projectImage" alt="drive">
     <div class="infoProject">
