@@ -4,8 +4,6 @@ ToDo :
 
 
     Front-End:
-        * fix scroll | tablet lockedpage
-        * check all the href
         * update all syntaxe name like this (computer_name_class) and delete !important
         * change the hard time by "timeComputer" in computer taskbar
         * verify windows open with "ac" in the taskbar in every computer page
@@ -13,12 +11,11 @@ ToDo :
         * flex wrap for project list mobile and tablet
         * fix list project with a max item (?)
         * fix presentation of project result search
+        * link home page with the starter button | computer taskbar
         
     
     Back-End :
-        * search | Skill page 
         * loop for stack | ProjectProfil page
-        * loop for stackList | Skill page
         * Add Formation to BDD  
         * Add Experience to BDD  
         * Add Hobbie to BDD  
@@ -45,3 +42,4 @@ ToDo :
         * test responsive
         * test backend
         * test backoffice
+        * complete with the back office my info

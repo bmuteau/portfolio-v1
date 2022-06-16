@@ -94,7 +94,7 @@
 
 <div class="onlyComputer" hidden>
     <div class="bar">
-        <h2 class="experience">EXPERIENCES</h2>
+        <h2 class="experience">COMPETENCES</h2>
     </div>
 
     <div class="sideList">
@@ -131,7 +131,7 @@
 
         <button class="opinion__start">
             <img class="opinion__start--logo" src="src/icon/word.svg" alt="word">
-            <a href="opinion">
+            <a href="avis">
                 Avis
             </a>
         </button>

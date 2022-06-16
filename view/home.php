@@ -25,7 +25,7 @@
         <div class="parent">
 
             <div class="project">
-                <a href="project">
+                <a href="projet">
                     <img src="src/icon/folder.svg" alt="folder">
                     <p class="text">Mes projets</p>
                 </a>
@@ -43,7 +43,7 @@
                 </a>
             </div>
             <div class="opinion">
-                <a href="opinion">
+                <a href="avis">
                     <img src="src/icon/textnote.svg" alt="textnote">
                     <p class="text l">Avis</p>
                 </a>
@@ -81,7 +81,7 @@
                 </div>
             </a>
 
-            <a href="opinion">
+            <a href="avis">
                 <div class="home_opinion">
                     <img src="src/icon/word.svg" alt="word">
                     <p>Avis</p>
@@ -121,7 +121,7 @@
 
             <button class="opinion__start">
                 <img class="opinion__start--logo" src="src/icon/word.svg" alt="word">
-                <a href="opinion">
+                <a href="avis">
                     Avis
                 </a>
             </button>

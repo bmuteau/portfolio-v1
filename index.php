@@ -67,8 +67,8 @@ if (isset($_GET['url'])) {
 
 
 $urlsPossible = array(
-    "home" => 0,
-    "locked" => 1,
+    "locked" => 0,
+    "home" => 1,
     "experience" => 2,
     "formation" => 3,
     "competence" => 4,
@@ -81,8 +81,8 @@ $urlsPossible = array(
 );
 
 $filesPossible = array(
-    "controller/home.php", //0
-    "controller/lockedPage.php", //1
+    "controller/lockedPage.php", //0
+    "controller/home.php", //1
     "controller/experience.php", //2
     "controller/formation.php", //3
     "controller/skill.php", //4

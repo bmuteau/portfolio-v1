@@ -68,7 +68,7 @@
         <div class="content">
             <ul class="content_list">
                 <li class="content_li"><img src="src/hobbie/velo.png" alt="velo" title="Le vélo c'est cool ! ">
-                    <hr>
+
                 </li>
             </ul>
 
