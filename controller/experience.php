@@ -9,3 +9,5 @@ $stm->execute();
 $job = $stm->fetchAll();
 
 include 'view/experience.php';
+include 'view/taskbar.php';
+include 'view/sidebar.php';

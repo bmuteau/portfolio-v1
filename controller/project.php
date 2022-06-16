@@ -16,4 +16,5 @@ if ($hlp->myGet('search') != null) {
 
 
 
+include 'view/taskbar.php';
 include 'view/project.php';

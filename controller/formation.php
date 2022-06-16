@@ -11,3 +11,5 @@ $formation = $stm->fetchAll();
 
 
 include 'view/formation.php';
+include 'view/sidebar.php';
+include 'view/taskbar.php';

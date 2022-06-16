@@ -34,4 +34,5 @@ $stm = $connect->prepare("SELECT * FROM avis  ORDER BY id DESC");
 $stm->execute();
 $avis = $stm->fetchAll();
 
+include 'view/taskbar.php';
 include 'view/opinion.php';

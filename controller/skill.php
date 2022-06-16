@@ -18,3 +18,5 @@ if ($hlp->myGet('search') != null) {
 
 
 include 'view/skill.php';
+include 'view/sidebar.php';
+include 'view/taskbar.php';
