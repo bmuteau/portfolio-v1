@@ -16,8 +16,8 @@
 
 <body class="white">
 
-    <div class="onlyMobile">
-        <div class="datetime">
+    <div class="only-mobile">
+        <div class="g-datetime">
             <p id="time" style=" 
                 color: black!important;
                 margin-top: 50px;
@@ -26,10 +26,10 @@
             ">
             </p>
         </div>
-        <div class="onlyTablet " hidden> Portfolio de Brandon Muteau </div>
+        <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="name">Mes compétences</h1>
-        <a href="home" class="close">X</a>
+        <h1 class="ski-name">Mes compétences</h1>
+        <a href="home" class="ski-close">X</a>
 
 
         <form method="">
@@ -39,19 +39,19 @@
 
         <?php if ($hlp->myGet('search') == null) { ?>
 
-            <div id="circle">
-                <p class="circleText ct">BM</p>
+            <div id="ski-circle">
+                <p class="ski-circle-text ct">BM</p>
             </div>
-            <div class="info">
-                <p class="staticName">Brandon Muteau</p>
-                <p class="mySkills">Mes stacks maitrisés</p>
+            <div class="ski-info">
+                <p>Brandon Muteau</p>
+                <p class="ski-my-skills">Mes stacks maitrisés</p>
             </div>
 
             <hr>
 
-            <ul class="stackList">
+            <ul class="ski-stack-list">
 
-                <li class="stackItem">
+                <li class="ski-stack-item">
                     <?php foreach ($mtStack as $mtStacks) : ?>
 
                         <?=
@@ -92,15 +92,15 @@
         }
 ?>
 
-<div class="onlyComputer" hidden>
+<div class="only-computer" hidden>
     <div class="bar">
-        <h2 class="experience">COMPETENCES</h2>
+        <h2 class="ski">COMPETENCES</h2>
     </div>
 
-    <div class="sideList">
+    <div class="exp-left-list">
         <img class="star" src="src/icon/star.svg">
-        <p class="starName">Brandon Muteau</p>
-        <ul class="sideList__ul">
+        <p class="exp-left-name">Brandon Muteau</p>
+        <ul class="exp-left-list-ul">
             <li><a class="b" href="profil">Info</a></li>
             <li><a class="b" href="formation">Formation</a></li>
             <li><a class="b" href="experience">Experience</a></li>
@@ -108,9 +108,9 @@
         </ul>
     </div>
 
-    <div class="content">
-        <ul class="content_list">
-            <li class="li_cont"> <img src="src/icon/badge_html.svg" alt="badge html" title="nom de la techno"> </li>
+    <div class="ski-content">
+        <ul class="ski-content-list">
+            <li class="ski-content-li"> <img src="src/icon/badge_html.svg" alt="badge html" title="nom de la techno"> </li>
         </ul>
 
     </div>

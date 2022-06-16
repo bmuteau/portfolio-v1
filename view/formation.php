@@ -15,8 +15,8 @@
 </head>
 
 <body class="white">
-    <div class="onlyMobile">
-        <div class="datetime">
+    <div class="only-mobile">
+        <div class="g-datetime">
             <p id="time" style=" 
                 color: black;
                 margin-top: 50px;
@@ -25,35 +25,34 @@
             ">
             </p>
         </div>
-        <div class="onlyTablet" hidden> Portfolio de Brandon Muteau </div>
+        <div class="only-tablet" hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="name">Qui suis-je? </h1>
-        <a href="home" class="close">X</a>
+        <h1 class="for-name">Qui suis-je? </h1>
+        <a href="home" class="for-close">X</a>
 
 
 
-        <h2 class="formation">FORMATIONS</h2>
-        <hr class="hrFormation">
-        <ul class="listFormation">
-            <!-- Take information in BDD ( name and date) -->
+        <h2 class="for">FORMATIONS</h2>
+        <hr class="for-hr">
+        <ul class="for-list">
             <li>
-                <p class="formationTitle">DUT Informatique</p>
-                <p class="formationDate">2020 - 2021</p>
+                <p>DUT Informatique</p>
+                <p>2020 - 2021</p>
             </li>
         </ul>
     </div>
 
 
-    <div class="onlyComputer" hidden>
+    <div class="only-computer" hidden>
 
         <div class="bar">
-            <h2 class="experience">FORMATIONS</h2>
+            <h2 class="for">FORMATIONS</h2>
         </div>
 
-        <div class="sideList">
+        <div class="exp-left-list">
             <img class="star" src="src/icon/star.svg">
-            <p class="starName">Brandon Muteau</p>
-            <ul class="sideList__ul">
+            <p class="exp-left-name">Brandon Muteau</p>
+            <ul class="exp-left-list-ul">
                 <li><a class="b" href="profil">Info</a></li>
                 <li><a class="b" href="formation">Formation</a></li>
                 <li><a class="b" href="experience">Experience</a></li>
@@ -61,8 +60,8 @@
             </ul>
         </div>
 
-        <div class="content">
-            <ul class="content_list">
+        <div class="for-content">
+            <ul class="for-content-list">
                 <li>Nom | Date | Lieu | Detail </br>
                     <hr>
                 </li>

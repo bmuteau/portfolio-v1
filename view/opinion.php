@@ -16,10 +16,10 @@
 </head>
 
 <body class="white wo">
-    <div class="onlyMobile">
-        <div class="onlyTablet t" hidden> Portfolio de Brandon Muteau </div>
+    <div class="only-mobile">
+        <div class="only-tablet t" hidden> Portfolio de Brandon Muteau </div>
 
-        <div class="datetime">
+        <div class="g-datetime">
             <p id="time" style=" 
                 color: black !important;
                 margin-top: -5rem;
@@ -29,54 +29,53 @@
             </p>
         </div>
 
-        <a href="home" class="close">X</a>
+        <a href="home" class="opi-close">X</a>
 
-        <h1 class="name">Votre avis m'intéresse ! </h1>
-        <form class="formOpinion">
-            <input type="text" name="surname" class="surnameInput" placeholder="Prénom">
-            <input type="number" name="note" class="noteInput" min="0" max="10" placeholder="Note">
-            <input type="email" name="email" class="emailInput" placeholder="E-mail">
-            <textarea name="opinion" class="opinionInput" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
-            <input type="submit" name="submit" class="submitInput" placeholder="Envoyer">
+        <h1 class="opi-name">Votre avis m'intéresse ! </h1>
+        <form class="opi-form">
+            <input type="text" name="surname" class="opi-surname" placeholder="Prénom">
+            <input type="number" name="note" class="opi-note" min="0" max="10" placeholder="Note">
+            <input type="email" name="email" class="opi-email" placeholder="E-mail">
+            <textarea name="opinion" class="opi-opinion" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
+            <input type="submit" name="submit" class="opi-submit" placeholder="Envoyer">
         </form>
 
-        <h2 class="name">Vos avis</h2>
+        <h2 class="opi-name">Vos avis</h2>
         <ul>
-            <!-- boucle for qui liste tout les avis -->
-            <li class="opinion">
-                <p class="surname">Prénom</p>
-                <p class="avis">Avis</p>
-                <p class="note">Note/10</p>
-                <hr class="hrOpinion">
+            <li class="opi-list">
+                <p class="opi-surname-res">Prénom</p>
+                <p class="opi-avis-res">Avis</p>
+                <p class="opi-note-res">Note/10</p>
+                <hr class="opi-hr">
             </li>
         </ul>
 
     </div>
 
-    <div class="onlyComputer" hidden>
+    <div class="only-computer" hidden>
 
-        <div class="opinionDiv">
+        <div class="opi-div">
 
-            <div class="avisDiv">
-                <h2 class="name">Vos avis</h2>
+            <div class="opi-div">
+                <h2 class="opi-name">Vos avis</h2>
                 <ul>
                     <!-- boucle for qui liste tout les avis -->
-                    <li class="opinion">
-                        <p class="surname">Prénom</p>
-                        <p class="avis">Avis</p>
-                        <p class="note">Note/10</p>
-                        <hr class="hrOpinion">
+                    <li class="opi-list">
+                        <p class="opi-surname-res">Prénom</p>
+                        <p class="opi-avis-res">Avis</p>
+                        <p class="opi-note-res">Note/10</p>
+                        <hr class="opi-hr">
                     </li>
 
                 </ul>
             </div>
 
-            <form class="form_avis">
-                <input type="text" name="surname" class="surnameInput" placeholder="Prénom"></br>
-                <input type="number" name="note" class="noteInput" min="0" max="10" placeholder="Note"></br>
-                <input type="email" name="email" class="emailInput" placeholder="E-mail"></br>
-                <textarea name="opinion" class="opinionInput" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
-                <input type="submit" name="submit" class="submitInput" placeholder="Envoyer">
+            <form class="opi-form">
+                <input type="text" name="surname" class="opi-surname" placeholder="Prénom">
+                <input type="number" name="note" class="opi-note" min="0" max="10" placeholder="Note">
+                <input type="email" name="email" class="opi-email" placeholder="E-mail">
+                <textarea name="opinion" class="opi-opinion" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
+                <input type="submit" name="submit" class="opi-submit" placeholder="Envoyer">
             </form>
         </div>
 
@@ -122,7 +121,7 @@
                 <a href="mailto:muteaub@gmail.com"> <img class="mail__start" src="src/icon/blue_mail.svg" alt="mail"></a>
             </div>
 
-            <p id="timeComputer"></p>
+            <p id="time-computer"></p>
         </div>
     </div>
 

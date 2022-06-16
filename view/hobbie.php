@@ -16,9 +16,9 @@
 
 <body class="white">
 
-    <div class="onlyMobile">
+    <div class="only-mobile">
 
-        <div class="datetime">
+        <div class="g-datetime">
             <p id="time" style=" 
                 color: black;
                 margin-top: 50px;
@@ -28,36 +28,34 @@
             </p>
         </div>
 
-        <div class="onlyTablet" hidden> Portfolio de Brandon Muteau </div>
+        <div class="only-tablet" hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="name">Qui suis-je? </h1>
-        <a href="home" class="close">X</a>
+        <h1 class="hob-name">Qui suis-je? </h1>
+        <a href="home" class="hob-close">X</a>
 
 
-        <h2 class="hobbie">LOISIRS</h2>
+        <h2 class="hob">LOISIRS</h2>
 
-        <hr class="hrHobbie">
-        <ul class="listHobbie">
-            <!-- Take information in BDD ( name and image) -->
+        <hr class="hob-hr">
+        <ul class="hob-list">
             <li>
-                <img src="src/hobbie/velo.png" alt="velo" class="hobbieImg">
-                <p class="hobbieName">Vélo</p>
-
+                <img src="src/hobbie/velo.png" alt="velo" class="hob-img">
+                <p class="hob-activity">Vélo</p>
             </li>
         </ul>
 
     </div>
 
-    <div class="onlyComputer" hidden>
+    <div class="only-computer" hidden>
 
         <div class="bar">
-            <h2 class="experience">LOISIRS</h2>
+            <h2 class="hob">LOISIRS</h2>
         </div>
 
-        <div class="sideList">
+        <div class="exp-left-list">
             <img class="star" src="src/icon/star.svg">
-            <p class="starName">Brandon Muteau</p>
-            <ul class="sideList__ul">
+            <p class="exp-left-name">Brandon Muteau</p>
+            <ul class="exp-left-list-ul">
                 <li><a class="b" href="profil">Info</a></li>
                 <li><a class="b" href="formation">Formation</a></li>
                 <li><a class="b" href="experience">Experience</a></li>
@@ -65,10 +63,9 @@
             </ul>
         </div>
 
-        <div class="content">
-            <ul class="content_list">
-                <li class="content_li"><img src="src/hobbie/velo.png" alt="velo" title="Le vélo c'est cool ! ">
-
+        <div class="hob-content">
+            <ul class="hob-content-list">
+                <li class="hob-content-li"><img src="src/hobbie/velo.png" alt="velo" title="Le vélo c'est cool ! ">
                 </li>
             </ul>
 

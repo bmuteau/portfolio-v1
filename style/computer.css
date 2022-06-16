@@ -3,10 +3,10 @@
   body {
     margin: 0;
   }
-  .onlyComputer {
+  .only-computer {
     display: block;
   }
-  .onlyMobile {
+  .only-mobile {
     display: none;
   }
   .taskbar {
@@ -130,7 +130,7 @@
     height: 80%;
     padding-right: 3rem;
   }
-  #timeComputer {
+  #time-computer {
     color: white !important;
     font-size: 2.5rem !important;
     margin-top: -2.5rem !important;
@@ -153,8 +153,11 @@
   .ac {
     background: #03a9f4;
   }
-  .formation,
-  .experience {
+  .for,
+  .exp,
+  .pro,
+  .hob,
+  .ski {
     margin-top: 2rem !important;
     padding-top: 0.8rem;
   }
@@ -163,7 +166,7 @@
     height: 3rem;
     margin-top: -2rem;
   }
-  .sideList {
+  .exp-left-list {
     background-color: #8080806b;
     width: 24rem;
     margin-top: 5rem;
@@ -178,7 +181,7 @@
     height: 5rem;
     margin-top: 2rem;
   }
-  .starName {
+  .exp-left-name {
     width: 15rem;
     margin-left: 6rem;
     margin-top: -4.6rem;
@@ -187,10 +190,14 @@
   .b {
     color: black;
   }
-  .sideList__ul > li {
+  .exp-left-list-ul > li {
     margin-left: 4rem;
   }
-  .content {
+  .content,
+  .exp-content,
+  .for-content,
+  .ski-content,
+  .hob-content {
     background-color: #efefef;
     width: 47rem;
     margin-left: 32rem;
@@ -199,12 +206,16 @@
     padding-top: 1rem;
     text-align: center;
   }
-  .content_list {
+  .content_list,
+  .for-content-list,
+  .ski-content-list,
+  .hob-content-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
   }
-  .content_li > img {
+  .content_li > img,
+  .hob-content-li > img {
     height: 7rem;
   }
   /* Home Page COMPUTER */
@@ -212,7 +223,7 @@
     background-image: url("../src/fond-d-ecran-windows.jpg") !important;
     background-size: cover !important;
   }
-  .home_container {
+  .hom-container {
     display: grid;
     grid-template-columns: repeat(4, 20rem);
     grid-template-rows: repeat(3, 21rem);
@@ -221,27 +232,27 @@
     font-weight: bolder;
   }
 
-  .home_projects > img {
+  .hom-projects > img {
     height: 8rem;
     margin-top: 3rem;
     margin-bottom: -1rem;
   }
-  .home_opinion > img {
+  .hom-opinion > img {
     height: 8rem;
     margin-top: 3rem;
     margin-bottom: -1rem;
   }
-  .home_who > img {
+  .hom-who > img {
     height: 8rem;
     margin-top: 3rem;
     margin-bottom: -1rem;
   }
-  .home_skill > img {
+  .hom-skill > img {
     height: 8rem;
     margin-top: 3rem;
     margin-bottom: -1rem;
   }
-  .home_container > a {
+  .hom-container > a {
     color: black;
   }
 
@@ -251,7 +262,7 @@
     background-size: 88rem !important;
     background-position-y: -9rem;
   }
-  .goToHome {
+  .loc-go-home {
     height: 11rem;
     width: 38rem;
     margin-top: 18rem;
@@ -267,7 +278,7 @@
     background-size: cover;
     overflow: hidden;
   }
-  .opinionDiv {
+  .opi-div {
     height: 34rem;
     width: 74rem;
     background-color: white;
@@ -275,10 +286,11 @@
     margin-top: 9.5rem;
     overflow-y: scroll;
   }
-  .avisDiv {
+  .opi-div {
     width: 35rem;
   }
-  .opinion {
+  .opinion,
+  .opi-list {
     font-size: 2rem !important;
   }
   .form_avis {
@@ -297,12 +309,12 @@
     font-size: 1.3rem;
     text-align: center;
   }
-  .submitInput {
+  .opi-submit {
     font-size: 1.3rem;
     padding-bottom: 1.2rem;
   }
   /* Profil Page COMPUTER */
-  .profil_logo {
+  .pro-logo {
     width: 52rem;
     height: 25rem;
     margin-top: -28rem;
@@ -313,52 +325,67 @@
     grid-template-rows: repeat(3, 8rem);
     grid-column-gap: 3.5rem;
   }
-  .logo_prof {
+  .logo_prof,
+  .pro-logo-formation,
+  .pro-logo-hobbie,
+  .pro-logo-experience {
     height: 8rem;
     margin-top: 3rem;
     margin-bottom: -1rem;
   }
-  .prof_name {
+  .prof_name,
+  .pro-name-formation,
+  .pro-name-hobbie,
+  .pro-name-experience {
     color: black;
     text-align: center;
     font-weight: bolder;
     font-size: 2rem;
   }
-  .profil_formation {
+  .pro-formation {
     grid-area: 1 / 1 / 2 / 2;
   }
-  .profil_exp {
+  .pro-experience {
     grid-area: 1 / 2 / 2 / 3;
   }
-  .profil_hobbie {
+  .pro-hobbie {
     grid-area: 1 / 3 / 2 / 4;
   }
   /* Project Page COMPUTER */
-  .proj_edge {
+  .proj-edge {
     background-image: url("../src/fond-d-ecran-edge.jpg");
     background-size: cover;
     background-position-y: -7rem;
   }
 
-  .name {
+  .name,
+  .exp-name,
+  .pp-name,
+  .for-name,
+  .hob-name,
+  .ski-name,
+  .proj-name,
+  .opi-name,
+  .pro-name {
     text-align: center !important;
     color: white !important;
   }
   .search_bar {
     text-align: center;
   }
-  .search{
+  .proj-search{
     background-color: white!important;
   }
-  .loupe {
+  .proj-loupe {
     margin-left: 70rem;
   }
-  .proj_logo {
+  .proj-logo {
     height: 8rem;
     margin-top: 13rem;
     margin-left: 3rem;
   }
-  .texts {
+  .texts,
+  .proj-texts {
     font-size: 1.5rem!important;
     text-align: inherit!important;
     margin-left: 5.5rem!important;
@@ -367,6 +394,6 @@
     list-style-type: none;
     display: inline-flex;
   }
-  .li_cont > img {
+  .ski-content-li > img {
     height: 5rem;
   }

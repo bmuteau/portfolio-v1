@@ -14,55 +14,55 @@
 </head>
 
 <body class="home">
-    <div class="onlyMobile">
-        <div class="datetime">
-            <p id="timeHeader"></p>
+    <div class="only-mobile">
+        <div class="g-datetime">
+            <p id="time-header"></p>
         </div>
 
-        <div class="onlyTablet w" hidden> Portfolio de Brandon Muteau </div>
+        <div class="only-tablet w" hidden> Portfolio de Brandon Muteau </div>
 
 
-        <div class="parent">
+        <div class="hom-home">
 
-            <div class="project">
+            <div class="hom-project">
                 <a href="projet">
                     <img src="src/icon/folder.svg" alt="folder">
-                    <p class="text">Mes projets</p>
+                    <p class="hom-text">Mes projets</p>
                 </a>
             </div>
-            <div class="skills">
+            <div class="hom-skills">
                 <a href="competence">
                     <img src="src/icon/contact.svg" alt="contact">
-                    <p class="text">Mes compétences</p>
+                    <p class="hom-text">Mes compétences</p>
                 </a>
             </div>
-            <div class="who">
+            <div class="hom-who">
                 <a href="profil">
                     <img src="src/icon/setting.png" alt="setting">
-                    <p class="text">Qui suis-je?</p>
+                    <p class="hom-text">Qui suis-je?</p>
                 </a>
             </div>
-            <div class="opinion">
+            <div class="hom-opinion">
                 <a href="avis">
                     <img src="src/icon/textnote.svg" alt="textnote">
-                    <p class="text l">Avis</p>
+                    <p class="hom-text l">Avis</p>
                 </a>
             </div>
         </div>
 
-        <div class="tools">
+        <div class="hom-tools">
 
-            <div class="mail">
+            <div class="hom-mail">
                 <a href="mailto:muteaub@gmail.com">
                     <img src="src/icon/blue_mail.svg" alt="mail">
                 </a>
             </div>
-            <div class="blue_github">
+            <div class="hom-blue-github">
                 <a href="https://github.com/bmuteau">
                     <img src="src/icon/blue_github.svg" alt="github">
                 </a>
             </div>
-            <div class="blue_linkedin">
+            <div class="hom-blue-linkedin">
                 <a href="https://www.linkedin.com/in/brandon-muteau-a38467169/">
                     <img src="src/icon/blue_linkedin.svg" alt="linkedin">
                 </a>
@@ -71,32 +71,32 @@
 
     </div>
 
-    <div class="onlyComputer" hidden>
-        <div class="home_container">
+    <div class="only-computer" hidden>
+        <div class="hom-container">
 
             <a href="projet">
-                <div class="home_projects">
+                <div class="hom-projects">
                     <img src="src/icon/edge.svg" alt="edge">
                     <p>Mes projets</p>
                 </div>
             </a>
 
             <a href="avis">
-                <div class="home_opinion">
+                <div class="hom-opinion">
                     <img src="src/icon/word.svg" alt="word">
                     <p>Avis</p>
                 </div>
             </a>
 
             <a href="profil">
-                <div class="home_who">
+                <div class="hom-who">
                     <img src="src/icon/config_user.svg" alt="config user">
                     <p>Qui suis-je?</p>
                 </div>
             </a>
 
             <a href="competence">
-                <div class="home_skill">
+                <div class="hom-skill">
                     <img src="src/icon/folder.svg" alt="folder">
                     <p>Mes compétences</p>
                 </div>
@@ -146,7 +146,7 @@
                 <a href="mailto:muteaub@gmail.com"> <img class="mail__start" src="src/icon/blue_mail.svg" alt="mail"></a>
             </div>
 
-            <p id="timeComputer"></p>
+            <p id="time-computer"></p>
         </div>
     </div>
     <script src="script/datetimeHeader.js"></script>

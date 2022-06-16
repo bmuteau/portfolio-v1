@@ -15,10 +15,10 @@
 </head>
 
 <body class="home log">
-    <div class="onlyMobile">
-        <h1 class="title">Portfolio de Brandon Muteau</h1>
+    <div class="only-mobile">
+        <h1 class="loc-title">Portfolio de Brandon Muteau</h1>
 
-        <div class="datetime">
+        <div class="g-datetime">
             <p id="time"></p>
             <p id="date"></p>
         </div>
@@ -31,9 +31,9 @@
 
     </div>
 
-    <div class="onlyComputer" hidden>
+    <div class="only-computer" hidden>
 
-        <div class="goToHome"><a href="home" title="Clique pour accéder à mon portfolio">Se connecter ! </a></div>
+        <div class="loc-go-home"><a href="home" title="Clique pour accéder à mon portfolio">Se connecter ! </a></div>
 
     </div>
 </body>

@@ -14,9 +14,9 @@
     <title>Brandon Muteau - Mes projets</title>
 </head>
 
-<body class="white proj_edge">
-    <div class="onlyMobile">
-        <div class="datetime">
+<body class="white proj-edge">
+    <div class="only-mobile">
+        <div class="g-datetime">
             <p id="time" style=" 
                 color: black!important;
                 margin-top: 0px;
@@ -25,22 +25,22 @@
             ">
             </p>
         </div>
-        <div class="onlyTablet " hidden> Portfolio de Brandon Muteau </div>
+        <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="name">Mes projets</h1>
-        <a href="home" class="close">X</a>
+        <h1 class="proj-name">Mes projets</h1>
+        <a href="home" class="proj-close">X</a>
 
 
         <form method="GET">
-            <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="src/icon/find_loupe.svg"></span></button>
-            <input type="text" name="search" placeholder="Rechercher un projet" class="search">
+            <button class="search-button" type='submit'><span><img class="proj-loupe" src="src/icon/find_loupe.svg"></span></button>
+            <input type="text" name="search" placeholder="Rechercher un projet" class="proj-search">
         </form>
 
         <?php if ($hlp->myGet('search') == null) { ?>
 
-            <div class="projectList">
+            <div class="proj-list">
                 <!-- Remplacer par une boucle for avec les projets trouvé en BDD -->
-                <div class="projectItem">
+                <div class="proj-item">
 
                     <?php foreach ($mtProject as $mtProjects) : ?>
 
@@ -98,14 +98,14 @@
     <?php if ($hlp->myGet('search') == null) { ?>
 
 
-        <div class="lastProject">
-            <ul class="proj_list">
+        <div>
+            <ul class="proj-list">
                 <?php foreach ($mtProject as $mtProjects) : ?>
                     <?=
                     '<li>' .
                         '<a href="projectProfil?id=' . $mtProjects['id'] . ' ">' .
-                        '<img class="proj_logo" src="src/icon/drive.svg" alt="drive">' .
-                        '<p class="texts>' .  $mtProjects['name'] . '</p>' .
+                        '<img class="proj-logo" src="src/icon/drive.svg" alt="drive">' .
+                        '<p class="proj-texts>' .  $mtProjects['name'] . '</p>' .
                         '</a>  </li>'
 
                     ?>
@@ -181,7 +181,7 @@
             <a href="mailto:muteaub@gmail.com"> <img class="mail__start" src="src/icon/blue_mail.svg" alt="mail"></a>
         </div>
 
-        <p id="timeComputer"></p>
+        <p id="time-computer"></p>
     </div>
 
 

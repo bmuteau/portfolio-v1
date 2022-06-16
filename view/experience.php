@@ -16,11 +16,11 @@
 
 <body class="white">
 
-    <div class="onlyMobile">
+    <div class="only-mobile">
 
 
 
-        <div class="datetime">
+        <div class="g-datetime">
             <p id="time" style=" 
                 color: black;
                 margin-top: 50px;
@@ -29,34 +29,34 @@
             ">
             </p>
         </div>
-        <div class="onlyTablet" hidden> Portfolio de Brandon Muteau </div>
+        <div class="only-tablet" hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="name">Qui suis-je? </h1>
-        <a href="home" class="close">X</a>
+        <h1 class="exp-name">Qui suis-je? </h1>
+        <a href="home" class="exp-close">X</a>
 
-        <h2 class="experience">EXPERIENCES</h2>
-        <hr class="hrExperience">
-        <ul class="listExperience">
+        <h2 class="exp">EXPERIENCES</h2>
+        <hr class="exp-hr">
+        <ul class="exp-list">
             <!-- Take information in BDD ( name, date and details) -->
             <li>
-                <p class="experienceTitle">title</p>
-                <p class="experienceDate">2020 - 2021</p>
-                <p class="experienceDetails">Details</p>
+                <p>title</p>
+                <p>2020 - 2021</p>
+                <p>Details</p>
             </li>
         </ul>
 
     </div>
 
-    <div class="onlyComputer" hidden>
+    <div class="only-computer" hidden>
 
         <div class="bar">
-            <h2 class="experience">EXPERIENCES</h2>
+            <h2 class="exp">EXPERIENCES</h2>
         </div>
 
-        <div class="sideList">
+        <div class="exp-left-list">
             <img class="star" src="src/icon/star.svg">
-            <p class="starName">Brandon Muteau</p>
-            <ul class="sideList__ul">
+            <p class="exp-left-name">Brandon Muteau</p>
+            <ul class="exp-left-list-ul">
                 <li><a class="b" href="profil">Info</a></li>
                 <li><a class="b" href="formation">Formation</a></li>
                 <li><a class="b" href="experience">Experience</a></li>
@@ -64,7 +64,7 @@
             </ul>
         </div>
 
-        <div class="content">
+        <div class="exp-content">
             <ul class="content_list">
                 <li>Nom | Date | Lieu | Detail </br>
                     <hr>

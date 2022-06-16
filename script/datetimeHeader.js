@@ -3,8 +3,8 @@ function startTime() {
   var h = today.getHours();
   var m = today.getMinutes();
   m = checkTime(m);
-  document.getElementById("timeHeader").innerHTML = h + ":" + m;
-  document.getElementById("timeComputer").innerHTML = h + ":" + m;
+  document.getElementById("time-header").innerHTML = h + ":" + m;
+  document.getElementById("time-computer").innerHTML = h + ":" + m;
   var t = setTimeout(startTime, 500);
 }
 

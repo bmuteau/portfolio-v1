@@ -3,39 +3,49 @@
 #time {
     color: white!important;
 }
-  .onlyTablet {
+  .only-tablet {
     display: block;
     margin-top: -3rem;
     margin-left: 1rem;
     font-size: 1.5rem;
     font-weight: bolder;
   }
-  .name {
+  .name,
+  .exp-name,
+  .pp-name,
+  .for-name,
+  .ski-name,
+  .proj-name,
+  .hob-name,
+  .opi-name,
+  .pro-name {
     margin-top: 5rem !important;
     font-size: 3rem;
   }
-  .formation,
-  .experience,
-  .hobbie {
+  .for,
+  .exp,
+  .hob,
+  .pro,
+  .ski {
     font-size: 2rem;
   }
   .hobbie {
     margin-left: 2rem;
     margin-top: 5rem;
   }
-  .hrFormation,
-  .hrExperience,
-  .hrHobbie {
+  .for-hr,
+  .exp-hr,
+  .hob-hr {
     margin-left: 2rem;
   }
   li {
     font-size: 1.5rem;
   }
-  .hobbieImg {
+  .hob-img {
     height: 9rem !important;
     margin-left: 3rem !important;
   }
-  .hobbieName {
+  .hob-activity {
     margin-left: 12rem !important;
     margin-top: 2rem !important;
     font-size: 3rem !important;
@@ -52,60 +62,62 @@
     color: white;
     margin-top: -4rem;
   }
-  #timeHeader {
+  #time-header {
     font-size: 2rem !important;
     margin-left: 38rem !important;
     font-weight: bolder;
   }
-  .parent {
+  .hom-home {
     grid-template-columns: repeat(3, 13rem) !important;
     grid-template-rows: repeat(4, 10rem) !important;
     margin-left: 2rem !important;
     margin-top: 2rem;
   }
-  .project img {
+  .hom-project img {
     height: 6rem !important;
     width: 6rem !important;
     margin: 2rem 3rem !important;
   }
-  .skills img {
+  .hom-skills img {
     height: 6rem !important;
     width: 6rem !important;
     margin: 2rem 3rem !important;
   }
-  .who img {
+  .hom-who img {
     height: 6rem !important;
     width: 6rem !important;
     margin: 2rem 3rem !important;
   }
-  .opinion img {
+  .hom-opinion img {
     height: 6rem !important;
     width: 11rem !important;
     margin: 2rem 3rem !important;
   }
-  .text {
+  .text,
+  .hom-text {
     font-size: 1.7rem !important;
   }
   .l {
     margin-left: 7rem;
   }
-  .tools {
+  .tools,
+  .hom-tools {
     grid-template-rows: 8rem !important;
     margin-left: 12rem !important;
     margin-right: 11rem !important;
     margin-top: -3rem !important;
   }
-  .mail img {
+  .hom-mail img {
     height: 6rem !important;
     width: 6rem !important;
     margin: 1rem 2rem !important;
   }
-  .blue_github img {
+  .hom-blue-github img {
     height: 6rem !important;
     width: 6rem !important;
     margin: 1rem 3rem !important;
   }
-  .blue_linkedin img {
+  .hom-blue-linkedin img {
     height: 6rem !important;
     width: 6rem !important;
     margin: 1rem 4rem !important;
@@ -113,7 +125,7 @@
 
   /* Locked Page TABLET */
 
-  .title {
+  .loc-title {
     font-size: 2rem !important;
   }
   #date {
@@ -127,82 +139,85 @@
   .t {
     margin-top: 1rem!important;
   }
-  .formOpinion {
+  .opi-form {
     grid-row-gap: 3rem!important;
   }
-  .formOpinion > input , textarea {
+  .opi-form > input , textarea {
     height: 3rem !important;
     font-size: 2rem !important;
   }
  textarea {
     height: 8rem!important;
  }
- .hrOpinion {
+ .opi-hr {
     margin-top: 3rem !important;
   }
   /* Profil Page TABLET */
-  #circle {
+  #pro-circle,
+  #ski-circle {
     width: 5rem!important;
     height: 5rem!important;
     border-radius: 5rem!important;
   }
-  .circleText {
+  .pro-circle-text,
+  .ski-circle-text {
     top: 15rem!important;
     left: 4.4rem!important;
     font-size: 2rem!important;
   }
-  .info {
+  .pro-info,
+  .ski-info {
     margin-top: -7rem!important;
     margin-left: 9rem!important;
     font-size: 2rem!important;
   }
-  .profilImg {
+  .pro-profil-img {
     height: 10rem!important;
     width: 8rem!important;
   }
-  .me {
+  .pro-me {
     font-size: 1.5rem!important;
     margin-top: 1rem!important;
   }
   /* Project Page TABLET */
 
-  .search {
+  .proj-search {
     height: 3rem!important;
   }
-  .loupe{
+  .proj-loupe{
     height: 3rem!important;
   }
-  .search::placeholder {
+  .proj-search::placeholder {
     font-size: 1.5rem!important;
   }
-  .projectList {
+  .proj-list {
     grid-template-columns: repeat(3, 9rem)!important;
     grid-template-rows: repeat(4, 11rem)!important;
   }
-  .projectItem3 {
-    grid-area: 1 / 3 / 2 / 4 !important;
-  }
+
   /* ProjectProfil Page TABLET */
 
-  .projectImage {
+  .pp-img{
     margin-left: 7rem!important;
     margin-top: 1rem!important;
   }
-  .infoProject {
+  .pp-info {
     margin-top: -10rem!important;
     width: 50%!important;
     margin-left: 17rem!important;
   }
-  .desc {
+  .desc,
+  .pp-desc {
     font-size: 3rem!important;
   }
-  .description {
+  .description,
+  .pp-description {
     font-size: 2rem;
   }
   .ct {
     top: 21rem!important; ;
   }
-  .stackItem {
+  .ski-stack-item {
     font-size: 2rem!important;
     margin-top: 3rem!important;
     
@@ -210,6 +225,6 @@
 .imgStack {
     height: 4rem!important;
 }
-.stackList {
+.ski-stack-list {
     margin-top: 1rem!important;
 }
