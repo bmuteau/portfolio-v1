@@ -23,4 +23,18 @@ class HelperFunction
         }
         return null;
     }
+
+    public static function getProjectModel(int $id)
+    {
+        global $db;
+        $res = array();
+
+        $connect = $db->connect();
+        if ($connect != null) {
+            $stm = $connect->prepare("SELECT * FROM project WHERE id=? ");
+            $stm->execute(array($id));
+            return $stm->fetchAll();
+        }
+        return $res;
+    }
 }

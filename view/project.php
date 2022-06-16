@@ -45,7 +45,7 @@
                     <?php foreach ($mtProject as $mtProjects) : ?>
 
                         <?=
-                        '<a href="projectProfil?id=' . $mtProjects['id'] . ' ">' .
+                        '<a href="projetProfile?id=' . $mtProjects['id'] . ' ">' .
 
                             '<img src="src/icon/drive.svg" alt="drive">' .
                             $mtProjects['name'] .
@@ -69,7 +69,7 @@
             while ($a = $allProject->fetch()) { ?>
             <li>
                 <img src="src/icon/drive.svg" alt="drive">
-                <a href="projectProfil?id=<?= $a['id'] ?>">
+                <a href="projetProfile?id=<?= $a['id'] ?>">
                     <?= $a['name'] ?>
                 </a>
             </li>
@@ -103,7 +103,7 @@
                 <?php foreach ($mtProject as $mtProjects) : ?>
                     <?=
                     '<li>' .
-                        '<a href="projectProfil?id=' . $mtProjects['id'] . ' ">' .
+                        '<a href="projetProfile?id=' . $mtProjects['id'] . ' ">' .
                         '<img class="proj-logo" src="src/icon/drive.svg" alt="drive">' .
                         '<p class="proj-texts>' .  $mtProjects['name'] . '</p>' .
                         '</a>  </li>'
@@ -122,7 +122,7 @@
             while ($a = $allProject->fetch()) { ?>
                 <li>
                     <img src="src/icon/drive.svg" alt="drive">
-                    <a href="projectProfil?id=<?= $a['id'] ?>">
+                    <a href="projetProfile?id=<?= $a['id'] ?>">
                         <?= $a['name'] ?>
                     </a>
                 </li>

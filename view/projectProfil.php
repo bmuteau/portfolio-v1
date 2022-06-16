@@ -27,29 +27,31 @@
     </div>
     <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>
 
-    <h1 class="pp-name">Nom du projet</h1>
+    <h1 class="pp-name"><?= $projectData['name'] ?></h1>
     <a href="home" class="pp-close">X</a>
 
 
     <img src="src/icon/drive.svg" class="pp-img" alt="drive">
     <div class="pp-info">
-        <p> Nom du projet</p>
-        <p> Pro ou perso </p>
-        <p> Temps de dévelopement Heures</p>
-        <p><a href="lien du projet en bdd" class="link"> Voir le projet </a></p>
+        <p> <?= $projectData['name'] ?></p>
+        <p> <?= $projectData['type'] ?> </p>
+        <p> <?= $projectData['duration'] ?> Heures</p>
+        <p><a href="<?= $projectData['link'] ?>" class="link"> Voir le projet </a></p>
     </div>
 
     <h2 class="pp-desc">Description</h2>
-    <p class="pp-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut incidunt omnis dolores delectus perspiciatis odio error iure ad vero impedit.</p>
+    <p class="pp-description"><?= $projectData['desc'] ?></p>
 
     <h2 class="pp-desc">Stack utilisés</h2>
+    <ul>
+        <?php foreach ($stack as $stacks) : ?>
+            <li class="pp-stack">
+                <img src="src/icon/<?= $stacks['logo'] ?>">
 
+            </li>
+        <?php endforeach ?>
+    </ul>
 
-    <div class="pp-stack">
-        <img src="src/icon/badge_html.svg" alt="html">
-        <img src="src/icon/badge_html.svg" alt="html">
-        <img src="src/icon/badge_html.svg" alt="html">
-    </div>
 
 </body>
 

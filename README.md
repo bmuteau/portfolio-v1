@@ -4,7 +4,6 @@ ToDo :
 
 
     Front-End:
-        * update all syntaxe name like this (computer_name_class)
         * and delete !important
         * change the hard time by "timeComputer" in computer taskbar
         * verify windows open with "ac" in the taskbar in every computer page
@@ -18,7 +17,6 @@ ToDo :
         
     
     Back-End :
-        * loop for stack | ProjectProfil page
         * Add Formation to BDD  
         * Add Experience to BDD  
         * Add Hobbie to BDD  
@@ -28,6 +26,7 @@ ToDo :
         * send opinion in bdd | opinion page
         * loop for opinion | opinion page
         * make some template for delete doublon ( taskbar,sidebar,hobbie,)
+        * look for mutliple stack in the same project ( project_id in stack_list? )
 
     Back-Office : 
         * Make the back office for push :

@@ -146,7 +146,7 @@
                 <a href="mailto:muteaub@gmail.com"> <img class="mail__start" src="src/icon/blue_mail.svg" alt="mail"></a>
             </div>
 
-            <p id="time-computer"></p>
+            <p id="time-computer" class="time-for-home-computer"></p>
         </div>
     </div>
     <script src="script/datetimeHeader.js"></script>

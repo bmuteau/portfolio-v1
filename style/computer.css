@@ -130,11 +130,11 @@
     height: 80%;
     padding-right: 3rem;
   }
-  #time-computer {
-    color: white !important;
-    font-size: 2.5rem !important;
-    margin-top: -2.5rem !important;
-    margin-left: 112rem !important;
+  .time-for-home-computer {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: -7.5rem;
+    margin-left: 73rem;
   }
   .logo__start {
     margin-left: 105rem;
@@ -193,7 +193,6 @@
   .exp-left-list-ul > li {
     margin-left: 4rem;
   }
-  .content,
   .exp-content,
   .for-content,
   .ski-content,
@@ -206,7 +205,6 @@
     padding-top: 1rem;
     text-align: center;
   }
-  .content_list,
   .for-content-list,
   .ski-content-list,
   .hob-content-list {
@@ -214,7 +212,6 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .content_li > img,
   .hob-content-li > img {
     height: 7rem;
   }
@@ -289,7 +286,6 @@
   .opi-div {
     width: 35rem;
   }
-  .opinion,
   .opi-list {
     font-size: 2rem !important;
   }
@@ -325,7 +321,6 @@
     grid-template-rows: repeat(3, 8rem);
     grid-column-gap: 3.5rem;
   }
-  .logo_prof,
   .pro-logo-formation,
   .pro-logo-hobbie,
   .pro-logo-experience {
@@ -333,7 +328,6 @@
     margin-top: 3rem;
     margin-bottom: -1rem;
   }
-  .prof_name,
   .pro-name-formation,
   .pro-name-hobbie,
   .pro-name-experience {
@@ -358,7 +352,6 @@
     background-position-y: -7rem;
   }
 
-  .name,
   .exp-name,
   .pp-name,
   .for-name,
@@ -384,7 +377,6 @@
     margin-top: 13rem;
     margin-left: 3rem;
   }
-  .texts,
   .proj-texts {
     font-size: 1.5rem!important;
     text-align: inherit!important;

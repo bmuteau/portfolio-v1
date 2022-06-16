@@ -10,7 +10,6 @@
     font-size: 1.5rem;
     font-weight: bolder;
   }
-  .name,
   .exp-name,
   .pp-name,
   .for-name,
@@ -93,14 +92,12 @@
     width: 11rem !important;
     margin: 2rem 3rem !important;
   }
-  .text,
   .hom-text {
     font-size: 1.7rem !important;
   }
   .l {
     margin-left: 7rem;
   }
-  .tools,
   .hom-tools {
     grid-template-rows: 8rem !important;
     margin-left: 12rem !important;
@@ -206,11 +203,9 @@
     width: 50%!important;
     margin-left: 17rem!important;
   }
-  .desc,
   .pp-desc {
     font-size: 3rem!important;
   }
-  .description,
   .pp-description {
     font-size: 2rem;
   }
