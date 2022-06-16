@@ -18,7 +18,6 @@ ToDo :
         
     
     Back-End :
-        * loop for hobbie | hobbie page
         * send opinion in bdd | opinion page
         * loop for opinion | opinion page
         * make some template for delete doublon ( taskbar,sidebar,hobbie,)

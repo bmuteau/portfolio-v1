@@ -38,11 +38,19 @@
 
         <hr class="hob-hr">
         <ul class="hob-list">
-            <li>
-                <img src="src/hobbie/velo.png" alt="velo" class="hob-img">
-                <p class="hob-activity">Vélo</p>
-            </li>
+
+            <?php foreach ($hobbie as $hobbies) : ?>
+                <?=
+                '<li>
+                <img src="src/hobbie/' . $hobbies['image'] . '"  title="' . $hobbies['name'] . '" class="hob-img">' .
+                    '<p class="hob-activity">' . $hobbies['name'] . '</p>
+                </li>'
+                ?>
+
+            <?php endforeach ?>
+
         </ul>
+
 
     </div>
 
@@ -65,9 +73,17 @@
 
         <div class="hob-content">
             <ul class="hob-content-list">
-                <li class="hob-content-li"><img src="src/hobbie/velo.png" alt="velo" title="Le vélo c'est cool ! ">
-                </li>
+                <?php foreach ($hobbie as $hobbies) : ?>
+                    <?=
+                    '<li>
+                <img src="src/hobbie/' . $hobbies['image'] . '"  title="' . $hobbies['name'] . '" class="hob-img">
+                </li>'
+                    ?>
+
+                <?php endforeach ?>
+
             </ul>
+
 
         </div>
 
