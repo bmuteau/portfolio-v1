@@ -19,7 +19,6 @@ ToDo :
         
     
     Back-End :
-        * loop for opinion | opinion page
         * make some template for delete doublon ( taskbar,sidebar,hobbie,)
         * look for mutliple stack in the same project ( project_id in stack_list? )
         * add a message thanking the opinion and block possibility to post again (24h ? / IP ?)

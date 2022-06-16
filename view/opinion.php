@@ -42,12 +42,18 @@
 
         <h2 class="opi-name">Vos avis</h2>
         <ul>
-            <li class="opi-list">
-                <p class="opi-surname-res">Prénom</p>
-                <p class="opi-avis-res">Avis</p>
-                <p class="opi-note-res">Note/10</p>
+            <?php foreach ($avis as $avisList) : ?>
+                <?=
+
+                '<li class="opi-list">
+                <p class="opi-surname-res">' . $avisList['firstname'] . '</p>
+                <p class="opi-avis-res">' . $avisList['avis'] . '</p>
+                <p class="opi-note-res">' . $avisList['note'] . '/10</p>
                 <hr class="opi-hr">
-            </li>
+                </li>'
+                ?>
+
+            <?php endforeach ?>
         </ul>
 
     </div>
@@ -59,14 +65,18 @@
             <div class="opi-div">
                 <h2 class="opi-name">Vos avis</h2>
                 <ul>
-                    <!-- boucle for qui liste tout les avis -->
-                    <li class="opi-list">
-                        <p class="opi-surname-res">Prénom</p>
-                        <p class="opi-avis-res">Avis</p>
-                        <p class="opi-note-res">Note/10</p>
-                        <hr class="opi-hr">
-                    </li>
+                    <?php foreach ($avis as $avisList) : ?>
+                        <?=
 
+                        '<li class="opi-list">
+                        <p class="opi-surname-res">' . $avisList['firstname'] . '</p>
+                        <p class="opi-avis-res">' . $avisList['avis'] . '</p>
+                        <p class="opi-note-res">' . $avisList['note'] . '/10</p>
+                        <hr class="opi-hr">
+                        </li>'
+                        ?>
+
+                    <?php endforeach ?>
                 </ul>
             </div>
 

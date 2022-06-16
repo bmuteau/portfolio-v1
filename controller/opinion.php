@@ -28,4 +28,10 @@ if (isset($_POST['submit'])) {
     }
 }
 
+$connect = $db->connect();
+
+$stm = $connect->prepare("SELECT * FROM avis  ORDER BY id DESC");
+$stm->execute();
+$avis = $stm->fetchAll();
+
 include 'view/opinion.php';
