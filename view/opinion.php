@@ -32,11 +32,11 @@
         <a href="home" class="opi-close">X</a>
 
         <h1 class="opi-name">Votre avis m'intéresse ! </h1>
-        <form class="opi-form">
-            <input type="text" name="surname" class="opi-surname" placeholder="Prénom">
+        <form class="opi-form" method="POST">
+            <input type="text" name="firstname" class="opi-surname" placeholder="Prénom">
             <input type="number" name="note" class="opi-note" min="0" max="10" placeholder="Note">
             <input type="email" name="email" class="opi-email" placeholder="E-mail">
-            <textarea name="opinion" class="opi-opinion" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
+            <textarea name="avis" class="opi-opinion" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
             <input type="submit" name="submit" class="opi-submit" placeholder="Envoyer">
         </form>
 
@@ -70,11 +70,11 @@
                 </ul>
             </div>
 
-            <form class="opi-form">
-                <input type="text" name="surname" class="opi-surname" placeholder="Prénom">
+            <form class="opi-form" method="POST">
+                <input type="text" name="firstname" class="opi-surname" placeholder="Prénom">
                 <input type="number" name="note" class="opi-note" min="0" max="10" placeholder="Note">
                 <input type="email" name="email" class="opi-email" placeholder="E-mail">
-                <textarea name="opinion" class="opi-opinion" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
+                <textarea name="avis" class="opi-opinion" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
                 <input type="submit" name="submit" class="opi-submit" placeholder="Envoyer">
             </form>
         </div>
