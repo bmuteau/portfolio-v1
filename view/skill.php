@@ -37,26 +37,62 @@
             <input type="text" name="search" placeholder="Rechercher une compétences" class="search">
         </form>
 
-        <div id="circle">
-            <p class="circleText ct">BM</p>
-        </div>
-        <div class="info">
-            <p class="staticName">Brandon Muteau</p>
-            <p class="mySkills">Mes stacks maitrisés</p>
-        </div>
+        <?php if ($hlp->myGet('search') == null) { ?>
 
-        <hr>
+            <div id="circle">
+                <p class="circleText ct">BM</p>
+            </div>
+            <div class="info">
+                <p class="staticName">Brandon Muteau</p>
+                <p class="mySkills">Mes stacks maitrisés</p>
+            </div>
 
-        <ul class="stackList">
+            <hr>
 
-            <li class="stackItem">
-                <img src="src/icon/badge_html.svg" class="imgStack" alt="html">Nom de la stack
-            </li>
+            <ul class="stackList">
 
-        </ul>
+                <li class="stackItem">
+                    <?php foreach ($mtStack as $mtStacks) : ?>
+
+                        <?=
+                        '<img src="src/icon/badge_html.svg" alt="html">' .
+                            $mtStacks['name']
+                        ?>
+
+                    <?php endforeach ?>
+                </li>
+
+            </ul>
     </div>
 
+<?php } elseif ($allStack->rowCount() > 0) {
+?>
 
+    <ul>
+
+        <?php
+
+            while ($a = $allStack->fetch()) { ?>
+            <li>
+                <img src="src/icon/badge_html.svg" alt="html">
+                <?= $a['name'] ?>
+                </a>
+            </li>
+
+
+        <?php }
+
+        ?>
+
+    </ul>
+<?php
+        } else { ?>
+    <p>Aucun résultat pour : <?= $q ?> </p>
+<?php
+        }
+?>
+
+<div class="onlyComputer" hidden>
     <div class="bar">
         <h2 class="experience">EXPERIENCES</h2>
     </div>
@@ -122,9 +158,9 @@
 
         <p id="time">23:23</p>
     </div>
+</div>
 
 
-    </div>
 
 </body>
 

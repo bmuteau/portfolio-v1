@@ -95,22 +95,50 @@
         <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="src/icon/find_loupe.svg"></span></button>
     </form>
     <!-- Quand une recherche est faite, basculer sur une page blanche avec les resultats(pas de redirection vers projectProfil) -->
+    <?php if ($hlp->myGet('search') == null) { ?>
 
-    <div class="lastProject">
-        <ul class="proj_list">
-            <?php foreach ($mtProject as $mtProjects) : ?>
-                <?=
-                '<li>' .
-                    '<a href="projectProfil?id=' . $mtProjects['id'] . ' ">' .
-                    '<img class="proj_logo" src="src/icon/drive.svg" alt="drive">' .
-                    '<p class="texts>' .  $mtProjects['name'] . '</p>' .
-                    '</a>  </li>'
 
-                ?>
-            <?php endforeach ?>
+        <div class="lastProject">
+            <ul class="proj_list">
+                <?php foreach ($mtProject as $mtProjects) : ?>
+                    <?=
+                    '<li>' .
+                        '<a href="projectProfil?id=' . $mtProjects['id'] . ' ">' .
+                        '<img class="proj_logo" src="src/icon/drive.svg" alt="drive">' .
+                        '<p class="texts>' .  $mtProjects['name'] . '</p>' .
+                        '</a>  </li>'
+
+                    ?>
+                <?php endforeach ?>
+            </ul>
+
+        </div>
+    <?php } elseif ($allProject->rowCount() > 0) {
+    ?>
+        <ul>
+
+            <?php
+
+            while ($a = $allProject->fetch()) { ?>
+                <li>
+                    <img src="src/icon/drive.svg" alt="drive">
+                    <a href="projectProfil?id=<?= $a['id'] ?>">
+                        <?= $a['name'] ?>
+                    </a>
+                </li>
+
+
+            <?php }
+
+            ?>
+
         </ul>
-
-    </div>
+    <?php
+    } else { ?>
+        <p>Aucun résultat pour : <?= $q ?> </p>
+    <?php
+    }
+    ?>
 
     <div class="taskbar">
 
