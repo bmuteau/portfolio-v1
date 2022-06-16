@@ -18,8 +18,6 @@ ToDo :
         
     
     Back-End :
-        * loop for formation | formation page
-        * loop for experience | experience page
         * loop for hobbie | hobbie page
         * send opinion in bdd | opinion page
         * loop for opinion | opinion page

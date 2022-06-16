@@ -37,13 +37,18 @@
         <h2 class="exp">EXPERIENCES</h2>
         <hr class="exp-hr">
         <ul class="exp-list">
-            <!-- Take information in BDD ( name, date and details) -->
-            <li>
-                <p>title</p>
-                <p>2020 - 2021</p>
-                <p>Details</p>
-            </li>
+            <?php foreach ($job as $jobs) : ?>
+                <?=
+                '<li>
+                <p>' . $jobs['name'] . ' | ' . $jobs['place'] . '</p>
+                <p>' . $jobs['start'] . ' - ' . $jobs['end'] . '</p>
+                <p>' . $jobs['detail'] . '</p>
+                </li>'
+                ?>
+
+            <?php endforeach ?>
         </ul>
+
 
     </div>
 
@@ -66,10 +71,16 @@
 
         <div class="exp-content">
             <ul class="content_list">
-                <li>Nom | Date | Lieu | Detail </br>
-                    <hr>
-                </li>
+                <?php foreach ($job as $jobs) : ?>
+                    <?=
+                    '<li>' . $jobs['name'] . ' | ' . $jobs['start'] . ' - ' . $jobs['end'] . '</br>' .
+                        $jobs['detail'] . '</br>' .
+                        $jobs['place'] . ' | ' . $jobs['company'] . '</li>'
+                    ?>
+                <?php endforeach ?>
             </ul>
+
+
 
         </div>
 

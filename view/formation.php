@@ -38,9 +38,10 @@
         <ul class="for-list">
             <?php foreach ($formation as $formations) : ?>
                 <?=
-                '<li>' .
-                    '</p>' . $formations['name'] . '</p>' .
-                    '<p>' . $formations['start'] . ' - ' . $formations['end'] . '</p>'
+                '<li>
+                <p>' . $formations['name'] . '</p>
+                <p>' . $formations['start'] . ' - ' . $formations['end'] . '</p>
+                </li>'
                 ?>
 
             <?php endforeach ?>
