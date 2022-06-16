@@ -45,7 +45,8 @@
 
   .home {
     background-image: url(../src/fond-d-ecran-ipad.jpg) !important;
-    background-size: 64rem !important;
+    background-size: cover !important;
+    background: fixed;
   }
   .w {
     color: white;
