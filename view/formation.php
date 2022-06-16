@@ -34,12 +34,19 @@
 
         <h2 class="for">FORMATIONS</h2>
         <hr class="for-hr">
+
         <ul class="for-list">
-            <li>
-                <p>DUT Informatique</p>
-                <p>2020 - 2021</p>
-            </li>
+            <?php foreach ($formation as $formations) : ?>
+                <?=
+                '<li>' .
+                    '</p>' . $formations['name'] . '</p>' .
+                    '<p>' . $formations['start'] . ' - ' . $formations['end'] . '</p>'
+                ?>
+
+            <?php endforeach ?>
+
         </ul>
+
     </div>
 
 
@@ -60,11 +67,17 @@
             </ul>
         </div>
 
+
         <div class="for-content">
             <ul class="for-content-list">
-                <li>Nom | Date | Lieu | Detail </br>
-                    <hr>
-                </li>
+                <?php foreach ($formation as $formations) : ?>
+                    <?=
+                    '<li>' . $formations['name'] . '|' . $formations['start'] . ' - ' . $formations['end'] . '</li>'
+                    ?>
+
+                <?php endforeach ?>
+
+
             </ul>
 
         </div>

@@ -14,12 +14,10 @@ ToDo :
         * remove style in html code formation,experience (time,opinion,profil,project,ProjectProfil,skill)
         * link home page with the starter button | computer taskbar
         * make a favicon
+        * link good image for the different project in projectProfile
         
     
     Back-End :
-        * Add Formation to BDD  
-        * Add Experience to BDD  
-        * Add Hobbie to BDD  
         * loop for formation | formation page
         * loop for experience | experience page
         * loop for hobbie | hobbie page
