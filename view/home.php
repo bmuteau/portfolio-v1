@@ -72,36 +72,37 @@
     </div>
 
     <div class="only-computer" hidden>
-        <div class="hom-container">
+        <div class="home-for-computer">
+            <div class="hom-container">
 
-            <a href="projet">
-                <div class="hom-projects">
-                    <img src="src/icon/edge.svg" alt="edge">
-                    <p>Mes projets</p>
-                </div>
-            </a>
+                <a href="projet">
+                    <div class="hom-projects">
+                        <img src="src/icon/edge.svg" alt="edge">
+                        <p>Mes projets</p>
+                    </div>
+                </a>
 
-            <a href="avis">
-                <div class="hom-opinion">
-                    <img src="src/icon/word.svg" alt="word">
-                    <p>Avis</p>
-                </div>
-            </a>
+                <a href="avis">
+                    <div class="hom-opinion">
+                        <img src="src/icon/word.svg" alt="word">
+                        <p>Avis</p>
+                    </div>
+                </a>
 
-            <a href="profil">
-                <div class="hom-who">
-                    <img src="src/icon/config_user.svg" alt="config user">
-                    <p>Qui suis-je?</p>
-                </div>
-            </a>
+                <a href="profil">
+                    <div class="hom-who">
+                        <img src="src/icon/config_user.svg" alt="config user">
+                        <p>Qui suis-je?</p>
+                    </div>
+                </a>
 
-            <a href="competence">
-                <div class="hom-skill">
-                    <img src="src/icon/folder.svg" alt="folder">
-                    <p>Mes compétences</p>
-                </div>
-            </a>
-
+                <a href="competence">
+                    <div class="hom-skill">
+                        <img src="src/icon/folder.svg" alt="folder">
+                        <p>Mes compétences</p>
+                    </div>
+                </a>
+            </div>
         </div>
 
 

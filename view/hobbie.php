@@ -19,7 +19,7 @@
     <div class="only-mobile">
 
         <div class="g-datetime">
-            <p id="time" style=" 
+            <p id="time" class="time-for-tablet" style=" 
                 color: black;
                 margin-top: 50px;
                 margin-left: -5rem;
@@ -30,7 +30,7 @@
 
         <div class="only-tablet" hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="hob-name">Qui suis-je? </h1>
+        <h1 class="hob-name hob-name-for-tablet">Qui suis-je? </h1>
         <a href="home" class="hob-close">X</a>
 
 
@@ -66,7 +66,7 @@
             <ul class="hob-content-list">
                 <?php foreach ($hobbie as $hobbies) : ?>
                     <?=
-                    '<li>
+                    '<li class="li-for-computer">
                 <img src="src/hobbie/' . $hobbies['image'] . '"  title="' . $hobbies['name'] . '" class="hob-img">
                 </li>'
                     ?>

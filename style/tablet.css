@@ -1,7 +1,7 @@
 
   /* Experience,Formation and Hobbie Page TABLET  */
-#time {
-    color: white!important;
+.time-for-tablet {
+    color: white;
 }
   .only-tablet {
     display: block;

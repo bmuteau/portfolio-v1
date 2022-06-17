@@ -77,6 +77,7 @@ $urlsPossible = array(
     "profil" => 7,
     "projet" => 8,
     "projetProfile" => 9,
+    "backoffice" => 10,
 
 );
 
@@ -91,6 +92,7 @@ $filesPossible = array(
     "controller/profil.php", //7
     "controller/project.php", //8
     "controller/projectProfil.php", //9   
+    "controller/backoffice.php", // 10
 
 );
 

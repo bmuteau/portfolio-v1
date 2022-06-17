@@ -17,7 +17,7 @@
 <body class="white">
     <div class="only-mobile">
         <div class="g-datetime">
-            <p id="time" style=" 
+            <p id="time" class="time-for-tablet" style=" 
                 color: black;
                 margin-top: 50px;
                 margin-left: -5rem;
@@ -27,7 +27,7 @@
         </div>
         <div class="only-tablet" hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="for-name">Qui suis-je? </h1>
+        <h1 class="for-name for-name-for-tablet">Qui suis-je? </h1>
         <a href="home" class="for-close">X</a>
 
 
@@ -54,7 +54,7 @@
     <div class="only-computer" hidden>
 
         <div class="bar">
-            <h2 class="for">FORMATIONS</h2>
+            <h2 class="for-computer">FORMATIONS</h2>
         </div>
 
 
@@ -64,7 +64,7 @@
             <ul class="for-content-list">
                 <?php foreach ($formation as $formations) : ?>
                     <?=
-                    '<li>' . $formations['name'] . '|' . $formations['start'] . ' - ' . $formations['end'] . '</li>'
+                    '<li class="li-for-computer">' . $formations['name'] . '|' . $formations['start'] . ' - ' . $formations['end'] . '</li>'
                     ?>
 
                 <?php endforeach ?>

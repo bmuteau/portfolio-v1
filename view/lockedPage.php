@@ -14,7 +14,7 @@
     <title>Brandon Muteau Portfolio V1</title>
 </head>
 
-<body class="home log">
+<body class="home ">
     <div class="only-mobile">
         <h1 class="loc-title">Portfolio de Brandon Muteau</h1>
 
@@ -31,10 +31,11 @@
 
     </div>
 
-    <div class="only-computer" hidden>
+    <div class="loc-for-computer">
+        <div class="only-computer" hidden>
 
-        <div class="loc-go-home"><a href="home" title="Clique pour accéder à mon portfolio">Se connecter ! </a></div>
-
+            <div class="loc-go-home"><a href="home" title="Clique pour accéder à mon portfolio">Se connecter ! </a></div>
+        </div>
     </div>
 </body>
 

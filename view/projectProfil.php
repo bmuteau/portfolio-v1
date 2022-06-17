@@ -17,7 +17,7 @@
 <body class="white">
 
     <div class="g-datetime">
-        <p id="time" style=" 
+        <p id="time" class="time-for-tablet" style=" 
                    color: black!important;
                     margin-top: 50px;
                     margin-left: 38rem;
@@ -27,7 +27,7 @@
     </div>
     <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>
 
-    <h1 class="pp-name"><?= $projectData['name'] ?></h1>
+    <h1 class="pp-name pp-name-for-tablet"><?= $projectData['name'] ?></h1>
     <a href="home" class="pp-close">X</a>
 
 

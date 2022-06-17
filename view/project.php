@@ -17,7 +17,7 @@
 <body class="white proj-edge">
     <div class="only-mobile">
         <div class="g-datetime">
-            <p id="time" style=" 
+            <p id="time" class="time-for-tablet" style=" 
                 color: black!important;
                 margin-top: 0px;
                 margin-left: 40rem;
@@ -27,7 +27,7 @@
         </div>
         <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="proj-name">Mes projets</h1>
+        <h1 class="proj-name proj-name-for-tablet">Mes projets</h1>
         <a href="home" class="proj-close">X</a>
 
 
@@ -105,7 +105,7 @@
                     '<li>' .
                         '<a href="projetProfile?id=' . $mtProjects['id'] . ' ">' .
                         '<img class="proj-logo" src="src/icon/drive.svg" alt="drive">' .
-                        '<p class="proj-texts>' .  $mtProjects['name'] . '</p>' .
+                        '<p class="proj-texts-for-computer">' .  $mtProjects['name'] . '</p>' .
                         '</a>  </li>'
 
                     ?>

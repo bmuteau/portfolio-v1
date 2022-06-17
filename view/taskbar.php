@@ -14,7 +14,7 @@
 
     <button class="opinion__start">
         <img class="opinion__start--logo" src="src/icon/word.svg" alt="word">
-        <a href="opinion">
+        <a href="avis">
             Avis
         </a>
     </button>

@@ -19,7 +19,7 @@
 
     <body class="white">
         <div class="g-datetime">
-            <p id="time" style=" 
+            <p id="time" class="time-for-tablet" style=" 
                 color: black !important;
                 margin-top: -1rem;
                 margin-left: 37rem;
@@ -29,7 +29,7 @@
         </div>
         <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="pro-name">Qui suis-je? </h1>
+        <h1 class="pro-name pro-name-for-tablet">Qui suis-je? </h1>
         <a href="home" class="pro-close">X</a>
 
 

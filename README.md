@@ -15,12 +15,15 @@ ToDo :
         * link home page with the starter button | computer taskbar
         * make a favicon
         * link good image for the different project in projectProfile
+        * front end backoffice
         
         
     
     Back-End :
-        * look for mutliple stack in the same project ( project_id in stack_list? )
-        * add a message thanking the opinion and block possibility to post again (24h ? / IP ?)
+        * look for mutliple stack in the same project and loop to it ( project_id in stack_list? ) /!\ 1 /!\
+        * add a message thanking the opinion and block possibility to post again (24h ? / IP ?) /!\ 2 /!\
+
+        * routing for backoffice
 
     Back-Office : 
         * Make the back office for push :
@@ -39,3 +42,7 @@ ToDo :
         * test backend
         * test backoffice
         * complete with the back office my info
+
+Next Features : 
+        * drag and drop icon home page 
+        

@@ -21,7 +21,7 @@
 
 
         <div class="g-datetime">
-            <p id="time" style=" 
+            <p id="time" class="time-for-tablet" style=" 
                 color: black;
                 margin-top: 50px;
                 margin-left: -5rem;
@@ -31,7 +31,7 @@
         </div>
         <div class="only-tablet" hidden> Portfolio de Brandon Muteau </div>
 
-        <h1 class="exp-name">Qui suis-je? </h1>
+        <h1 class="exp-name exp-name-for-tablet">Qui suis-je? </h1>
         <a href="home" class="exp-close">X</a>
 
         <h2 class="exp">EXPERIENCES</h2>
@@ -63,7 +63,7 @@
             <ul class="content_list">
                 <?php foreach ($job as $jobs) : ?>
                     <?=
-                    '<li>' . $jobs['name'] . ' | ' . $jobs['start'] . ' - ' . $jobs['end'] . '</br>' .
+                    '<li class="li-for-computer">' . $jobs['name'] . ' | ' . $jobs['start'] . ' - ' . $jobs['end'] . '</br>' .
                         $jobs['detail'] . '</br>' .
                         $jobs['place'] . ' | ' . $jobs['company'] . '</li>'
                     ?>

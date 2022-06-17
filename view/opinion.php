@@ -20,7 +20,7 @@
         <div class="only-tablet t" hidden> Portfolio de Brandon Muteau </div>
 
         <div class="g-datetime">
-            <p id="time" style=" 
+            <p id="time" class="time-for-tablet" style=" 
                 color: black !important;
                 margin-top: -5rem;
                 margin-left: 37rem;
@@ -31,7 +31,7 @@
 
         <a href="home" class="opi-close">X</a>
 
-        <h1 class="opi-name">Votre avis m'intéresse ! </h1>
+        <h1 class="opi-name opi-name-for-tablet">Votre avis m'intéresse ! </h1>
         <form class="opi-form" method="POST">
             <input type="text" name="firstname" class="opi-surname" placeholder="Prénom">
             <input type="number" name="note" class="opi-note" min="0" max="10" placeholder="Note">
@@ -63,12 +63,12 @@
         <div class="opi-div">
 
             <div class="opi-div">
-                <h2 class="opi-name">Vos avis</h2>
+                <h2 class="opi-name-for-computer">Vos avis</h2>
                 <ul>
                     <?php foreach ($avis as $avisList) : ?>
                         <?=
 
-                        '<li class="opi-list">
+                        '<li class="opi-list-for-computer">
                         <p class="opi-surname-res">' . $avisList['firstname'] . '</p>
                         <p class="opi-avis-res">' . $avisList['avis'] . '</p>
                         <p class="opi-note-res">' . $avisList['note'] . '/10</p>
