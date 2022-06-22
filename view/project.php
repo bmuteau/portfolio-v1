@@ -32,14 +32,13 @@
 
 
         <form method="GET">
-            <button class="search-button" type='submit'><span><img class="proj-loupe" src="src/icon/find_loupe.svg"></span></button>
-            <input type="text" name="search" placeholder="Rechercher un projet" class="proj-search">
+            <button class="search-button" type='submit'><span><img class="proj-loupe proj-loupe-tab" src="src/icon/find_loupe.svg"></span></button>
+            <input type="text" name="search" placeholder="Rechercher un projet" class="proj-search proj-search-tab">
         </form>
 
         <?php if ($hlp->myGet('search') == null) { ?>
 
-            <div class="proj-list">
-                <!-- Remplacer par une boucle for avec les projets trouvé en BDD -->
+            <div class="proj-list proj-list-tab ">
                 <div class="proj-item">
 
                     <?php foreach ($mtProject as $mtProjects) : ?>

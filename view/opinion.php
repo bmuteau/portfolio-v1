@@ -17,7 +17,7 @@
 
 <body class="white wo">
     <div class="only-mobile">
-        <div class="only-tablet t" hidden> Portfolio de Brandon Muteau </div>
+        <div class="only-tablet t t-tab" hidden> Portfolio de Brandon Muteau </div>
 
         <div class="g-datetime">
             <p id="time" class="time-for-tablet" style=" 
@@ -32,11 +32,11 @@
         <a href="home" class="opi-close">X</a>
 
         <h1 class="opi-name opi-name-for-tablet">Votre avis m'intéresse ! </h1>
-        <form class="opi-form" method="POST">
+        <form class="opi-form opi-form-tab" method="POST">
             <input type="text" name="firstname" class="opi-surname" placeholder="Prénom">
             <input type="number" name="note" class="opi-note" min="0" max="10" placeholder="Note">
             <input type="email" name="email" class="opi-email" placeholder="E-mail">
-            <textarea name="avis" class="opi-opinion" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
+            <textarea name="avis" class="opi-opinion textarea-tab " rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
             <input type="submit" name="submit" class="opi-submit" placeholder="Envoyer">
         </form>
 
@@ -49,7 +49,7 @@
                 <p class="opi-surname-res">' . $avisList['firstname'] . '</p>
                 <p class="opi-avis-res">' . $avisList['avis'] . '</p>
                 <p class="opi-note-res">' . $avisList['note'] . '/10</p>
-                <hr class="opi-hr">
+                <hr class="opi-hr opi-hr-tab">
                 </li>'
                 ?>
 

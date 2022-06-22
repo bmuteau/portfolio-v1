@@ -39,19 +39,19 @@
 
         <?php if ($hlp->myGet('search') == null) { ?>
 
-            <div id="ski-circle">
-                <p class="ski-circle-text ct">BM</p>
+            <div id="ski-circle ski-circle-tab">
+                <p class="ski-circle-text ski-circle-text-tab  ct-tab">BM</p>
             </div>
-            <div class="ski-info">
+            <div class="ski-info ski-info-tab">
                 <p>Brandon Muteau</p>
                 <p class="ski-my-skills">Mes stacks maitrisés</p>
             </div>
 
             <hr>
 
-            <ul class="ski-stack-list">
+            <ul class="ski-stack-list ski-stack-list-tab">
 
-                <li class="ski-stack-item">
+                <li class="ski-stack-item ski-stack-item-tab">
                     <?php foreach ($mtStack as $mtStacks) : ?>
 
                         <?=

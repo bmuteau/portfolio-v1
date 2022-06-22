@@ -31,15 +31,15 @@
     <a href="home" class="pp-close">X</a>
 
 
-    <img src="src/icon/drive.svg" class="pp-img" alt="drive">
-    <div class="pp-info">
+    <img src="src/icon/drive.svg" class="pp-img pp-img-tab" alt="drive">
+    <div class="pp-info pp-info-tab">
         <p> <?= $projectData['name'] ?></p>
         <p> <?= $projectData['type'] ?> </p>
         <p> <?= $projectData['duration'] ?> Heures</p>
         <p><a href="<?= $projectData['link'] ?>" class="link"> Voir le projet </a></p>
     </div>
 
-    <h2 class="pp-desc">Description</h2>
+    <h2 class="pp-desc pp-desc-tab">Description</h2>
     <p class="pp-description"><?= $projectData['desc'] ?></p>
 
     <h2 class="pp-desc">Stack utilisés</h2>

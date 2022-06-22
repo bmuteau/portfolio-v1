@@ -4,7 +4,6 @@ ToDo :
 
 
     Front-End:
-        * and delete !important
         * change the hard time by "timeComputer" in computer taskbar
         * verify windows open with "ac" in the taskbar in every computer page (if?)
         * make 404 notfound page
@@ -16,6 +15,7 @@ ToDo :
         * make a favicon
         * link good image for the different project in projectProfile
         * front end backoffice
+        * login page only admin
         
         
     

@@ -42,8 +42,8 @@
             <?php foreach ($hobbie as $hobbies) : ?>
                 <?=
                 '<li>
-                <img src="src/hobbie/' . $hobbies['image'] . '"  title="' . $hobbies['name'] . '" class="hob-img">' .
-                    '<p class="hob-activity">' . $hobbies['name'] . '</p>
+                <img src="src/hobbie/' . $hobbies['image'] . '"  title="' . $hobbies['name'] . '" class="hob-img-tab">' .
+                    '<p class="hob-activity hob-activity-tab">' . $hobbies['name'] . '</p>
                 </li>'
                 ?>
 

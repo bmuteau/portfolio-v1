@@ -13,56 +13,56 @@
     <title>Brandon Muteau - Mon portfolio</title>
 </head>
 
-<body class="home">
+<body class="home hom-tab">
     <div class="only-mobile">
         <div class="g-datetime">
-            <p id="time-header"></p>
+            <p id="time-header" class="hom-time"></p>
         </div>
 
         <div class="only-tablet w" hidden> Portfolio de Brandon Muteau </div>
 
 
-        <div class="hom-home">
+        <div class="hom-home hom-home-tab">
 
-            <div class="hom-project">
+            <div class="hom-project hom-project-tab">
                 <a href="projet">
                     <img src="src/icon/folder.svg" alt="folder">
-                    <p class="hom-text">Mes projets</p>
+                    <p class="hom-text hom-text-tab ">Mes projets</p>
                 </a>
             </div>
-            <div class="hom-skills">
+            <div class="hom-skills hom-skills-tab">
                 <a href="competence">
                     <img src="src/icon/contact.svg" alt="contact">
-                    <p class="hom-text">Mes compétences</p>
+                    <p class="hom-text hom-text-tab ">Mes compétences</p>
                 </a>
             </div>
-            <div class="hom-who">
+            <div class="hom-who hom-who-tab">
                 <a href="profil">
                     <img src="src/icon/setting.png" alt="setting">
-                    <p class="hom-text">Qui suis-je?</p>
+                    <p class="hom-text hom-text-tab ">Qui suis-je?</p>
                 </a>
             </div>
-            <div class="hom-opinion">
+            <div class="hom-opinion hom-opinion-tab">
                 <a href="avis">
                     <img src="src/icon/textnote.svg" alt="textnote">
-                    <p class="hom-text l">Avis</p>
+                    <p class="hom-text hom-text-tab l">Avis</p>
                 </a>
             </div>
         </div>
 
-        <div class="hom-tools">
+        <div class="hom-tools hom-tools-tab">
 
-            <div class="hom-mail">
+            <div class="hom-mail hom-mail-tab">
                 <a href="mailto:muteaub@gmail.com">
                     <img src="src/icon/blue_mail.svg" alt="mail">
                 </a>
             </div>
-            <div class="hom-blue-github">
+            <div class="hom-blue-github hom-blue-github-tab">
                 <a href="https://github.com/bmuteau">
                     <img src="src/icon/blue_github.svg" alt="github">
                 </a>
             </div>
-            <div class="hom-blue-linkedin">
+            <div class="hom-blue-linkedin hom-blue-linkedin-tab">
                 <a href="https://www.linkedin.com/in/brandon-muteau-a38467169/">
                     <img src="src/icon/blue_linkedin.svg" alt="linkedin">
                 </a>

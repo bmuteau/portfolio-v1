@@ -16,15 +16,15 @@
 
 <body class="home ">
     <div class="only-mobile">
-        <h1 class="loc-title">Portfolio de Brandon Muteau</h1>
+        <h1 class="loc-title loc-title-tab">Portfolio de Brandon Muteau</h1>
 
         <div class="g-datetime">
             <p id="time"></p>
-            <p id="date"></p>
+            <p id="date" class="date-tab"></p>
         </div>
 
         <a href="home"><img src="src/icon/lock.svg" class="lock"></a>
-        <div class="logo">
+        <div class="logo logo-tab">
             <a href="https://github.com/bmuteau/"><img src="src/icon/black_github.svg" class="black_github"></a>
             <a href="https://www.linkedin.com/in/brandon-muteau-a38467169/"><img src="src/icon/black_linkedin.svg" class="black_linkedin"></a>
         </div>

@@ -33,16 +33,16 @@
         <a href="home" class="pro-close">X</a>
 
 
-        <div id="pro-circle">
-            <p class="pro-circle-text">BM</p>
+        <div id="pro-circle pro-circle-tab">
+            <p class="pro-circle-text pro-circle-text-tab">BM</p>
         </div>
-        <div class="pro-info">
+        <div class="pro-info pro-info-tab">
             <p>Brandon Muteau</p>
             <p class="pro-my-skills">Développeur Web</p>
         </div>
 
-        <div class="pro-me">
-            <img src="src/profil.JPG" alt="profil" class="pro-profil-img">
+        <div class="pro-me pro-me-tab">
+            <img src="src/profil.JPG" alt="profil" class="pro-profil-img pro-profil-img-tab">
             <p>
                 Brandon </br>
                 MUTEAU
@@ -54,7 +54,7 @@
             <a href="mailto:muteaub@gmail.com" class="pro-mail">M'envoyer un mail</a>
         </div>
 
-        <div class="pro-me">
+        <div class="pro-me pro-me-tab">
             <a href="formation">Formations</a></br>
             <hr>
             <a href="experience">Experiences</a></br>
