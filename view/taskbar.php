@@ -19,7 +19,7 @@
         </a>
     </button>
 
-    <button class="who__start ac">
+    <button class="who__start ">
         <img class="who__start--logo" src="src/icon/config_user.svg" alt="user">
         <a href="profil">
             Qui suis-je?

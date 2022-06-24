@@ -10,7 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-
+    <style type="text/css">
+        .projects__start {
+            background: #03a9f4;
+        }
+    </style>
     <title>Brandon Muteau - Mes projets</title>
 </head>
 
