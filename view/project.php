@@ -43,24 +43,24 @@
         <?php if ($hlp->myGet('search') == null) { ?>
 
             <div class="proj-list proj-list-tab ">
-                <div class="proj-item">
+                <ul class="proj-item">
 
                     <?php foreach ($mtProject as $mtProjects) : ?>
 
                         <?=
-                        '<a href="projetProfile?id=' . $mtProjects['id'] . ' ">' .
+                        '<li><a href="projetProfile?id=' . $mtProjects['id'] . ' ">' .
 
                             '<img src="src/icon/drive.svg" alt="drive">' .
                             $mtProjects['name'] .
-                            '</a>'
+                            '</a></li>'
 
                         ?>
 
                     <?php endforeach ?>
 
-                </div>
-
             </div>
+
+    </div>
     </div>
 <?php } elseif ($allProject->rowCount() > 0) {
 ?>

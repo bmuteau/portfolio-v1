@@ -187,10 +187,7 @@
   .proj-search-tab::placeholder {
     font-size: 1.5rem;
   }
-  .proj-list-tab {
-    grid-template-columns: repeat(3, 9rem);
-    grid-template-rows: repeat(4, 11rem);
-  }
+
 
   /* ProjectProfil Page TABLET */
 
