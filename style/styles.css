@@ -414,3 +414,14 @@ hr {
   color:black;
   text-align: center;
 }
+/* NotFound Page */
+.nf-center {
+  text-align: center;
+  font-size: 2rem;
+  width: 44rem;
+  margin-top: 14rem;
+  margin-left: 20rem;
+}
+.nf-center > a {
+  color: black;
+}

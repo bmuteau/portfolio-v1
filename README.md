@@ -4,8 +4,6 @@ ToDo :
 
 
     Front-End:
-        * verify windows open with "ac" in the taskbar in every computer page (if?)
-        * make 404 notfound page
         * flex wrap for project list , experience mobile and tablet
         * fix list project with a max item (?)
         * fix presentation of project result search
@@ -15,6 +13,7 @@ ToDo :
         * link good image for the different project in projectProfile
         * front end backoffice
         * login page only admin
+        * correct spelling mistakes
         
         
     
@@ -23,6 +22,7 @@ ToDo :
         * add a message thanking the opinion and block possibility to post again (24h ? / IP ?) /!\ 2 /!\
 
         * routing for backoffice
+        * routing for 404
 
     Back-Office : 
         * Make the back office for push :
