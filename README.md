@@ -1,12 +1,10 @@
 First portfolio
 
-PAUSE 
 
 ToDo :
 
 
     Front-End:
-        * fix list project with a max item for computer (?)
         * fix presentation of project result search
         * remove style in html code formation,experience (time,opinion,profil,project,ProjectProfil,hobbie,skill)
         * link home page with the starter button | computer taskbar

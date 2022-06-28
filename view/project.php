@@ -89,13 +89,13 @@
 <?php
         }
 ?>
-<div class="onlyComputer" hidden>
+<div class="only-computer" hidden>
 
-    <h1 class="name">Mes projets</h1>
+    <h1 class="proj-name-comp">Mes projets</h1>
 
     <form class="search_bar" method="">
-        <input type="text" name="search" placeholder="Rechercher un projet" class="search">
-        <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="src/icon/find_loupe.svg"></span></button>
+        <input type="text" name="search" placeholder="Rechercher un projet" class="proj-search-comp">
+        <button class="search-button" type='submit'><span class='icone-loupe'><img class="proj-loupe" src="src/icon/find_loupe.svg"></span></button>
     </form>
     <!-- Quand une recherche est faite, basculer sur une page blanche avec les resultats(pas de redirection vers projectProfil) -->
     <?php if ($hlp->myGet('search') == null) { ?>
@@ -103,12 +103,12 @@
 
         <div>
             <ul class="proj-list">
-                <?php foreach ($mtProject as $mtProjects) : ?>
+                <?php foreach ($mtProjectL as $mtProjectLs) : ?>
                     <?=
                     '<li>' .
-                        '<a href="projetProfile?id=' . $mtProjects['id'] . ' ">' .
+                        '<a href="projetProfile?id=' . $mtProjectLs['id'] . ' ">' .
                         '<img class="proj-logo" src="src/icon/drive.svg" alt="drive">' .
-                        '<p class="proj-texts-for-computer">' .  $mtProjects['name'] . '</p>' .
+                        '<p class="proj-texts-for-computer">' .  $mtProjectLs['name'] . '</p>' .
                         '</a>  </li>'
 
                     ?>

@@ -361,20 +361,33 @@
   .search_bar {
     text-align: center;
   }
+  .proj-search-comp{
+    height: 3rem;
+    width: 30rem;
+    font-size: 2rem;
+  }
   .proj-loupe {
-    margin-left: 70rem;
+    height: 3rem;
+    margin-left: 53rem;
   }
   .proj-logo {
     height: 8rem;
     margin-top: 13rem;
     margin-left: 3rem;
   }
+  .proj-name-comp {
+    color: white;
+    font-size: 3rem;
+    width: 16rem;
+    margin-inline: auto;
+    margin-top: 2rem;
+  }
   .proj-texts-for-computer {
     font-size: 1.5rem;
     text-align: inherit;
     margin-left: 5.5rem;
   }
-  .proj_list {
+  .proj-list {
     list-style-type: none;
     display: inline-flex;
   }
