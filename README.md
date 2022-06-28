@@ -1,11 +1,12 @@
 First portfolio
 
+PAUSE 
+
 ToDo :
 
 
     Front-End:
-        * flex wrap for project list , experience mobile and tablet
-        * fix list project with a max item (?)
+        * fix list project with a max item for computer (?)
         * fix presentation of project result search
         * remove style in html code formation,experience (time,opinion,profil,project,ProjectProfil,hobbie,skill)
         * link home page with the starter button | computer taskbar
@@ -23,6 +24,7 @@ ToDo :
 
         * routing for backoffice
         * routing for 404
+        * fix the hidden taskbar and sidebar if is in small screen
 
     Back-Office : 
         * Make the back office for push :
