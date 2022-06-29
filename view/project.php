@@ -89,59 +89,61 @@
 <?php
         }
 ?>
+</div>
 <div class="only-computer" hidden>
 
     <h1 class="proj-name-comp">Mes projets</h1>
 
-    <form class="search_bar" method="">
-        <input type="text" name="search" placeholder="Rechercher un projet" class="proj-search-comp">
+
+    <form class="search_bar" method="GET">
+        <input type="text" name="search_comp" placeholder="Rechercher un projet" class="proj-search-comp">
         <button class="search-button" type='submit'><span class='icone-loupe'><img class="proj-loupe" src="src/icon/find_loupe.svg"></span></button>
     </form>
-    <!-- Quand une recherche est faite, basculer sur une page blanche avec les resultats(pas de redirection vers projectProfil) -->
-    <?php if ($hlp->myGet('search') == null) { ?>
 
 
-        <div>
+    <div>
+        <?php if ($hlp->myGet('search_comp') == null) { ?>
             <ul class="proj-list">
                 <?php foreach ($mtProjectL as $mtProjectLs) : ?>
                     <?=
                     '<li>' .
                         '<a href="projetProfile?id=' . $mtProjectLs['id'] . ' ">' .
-                        '<img class="proj-logo" src="src/icon/drive.svg" alt="drive">' .
+                        '<img class="proj-logo" src="src/icon/drive.svg" alt="drive"/>' .
                         '<p class="proj-texts-for-computer">' .  $mtProjectLs['name'] . '</p>' .
-                        '</a>  </li>'
+                        '</a> 
+                         </li>'
 
                     ?>
                 <?php endforeach ?>
             </ul>
 
-        </div>
-    <?php } elseif ($allProject->rowCount() > 0) {
-    ?>
-        <ul>
+    </div>
+<?php } elseif ($allProjectComp->rowCount() > 0) {
+?>
+    <ul class="proj-list">
 
-            <?php
+        <?php
 
-            while ($a = $allProject->fetch()) { ?>
-                <li>
-                    <img src="src/icon/drive.svg" alt="drive">
-                    <a href="projetProfile?id=<?= $a['id'] ?>">
-                        <?= $a['name'] ?>
-                    </a>
-                </li>
+            while ($b = $allProjectComp->fetch()) { ?>
+            <li>
+                <img class="proj-logo proj-log-res" src="src/icon/drive.svg" alt="drive">
+                <a class="proj-texts-for-computer-res" href="projetProfile?id=<?= $b['id'] ?>">
+                    <?= $b['name'] ?>
+                </a>
+            </li>
 
 
-            <?php }
+        <?php }
 
-            ?>
+        ?>
 
-        </ul>
-    <?php
-    } else { ?>
-        <p>Aucun résultat pour : <?= $q ?> </p>
-    <?php
-    }
-    ?>
+    </ul>
+<?php
+        } else { ?>
+    <p class="proj-error">Aucun résultat pour : <?= $q ?> </p>
+<?php
+        }
+?>
 
 
 </body>

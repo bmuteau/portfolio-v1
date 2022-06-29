@@ -18,6 +18,12 @@ if ($hlp->myGet('search') != null) {
     $allProject = $connect->query('SELECT * FROM project WHERE name LIKE "%' . $q . '%" ORDER BY id DESC');
 }
 
+$allProjectComp = "";
+if ($hlp->myGet('search_comp') != null) {
+    $q = htmlspecialchars($hlp->myGet('search_comp'));
+    $allProjectComp = $connect->query('SELECT * FROM project WHERE name LIKE "%' . $q . '%" ORDER BY id DESC');
+}
+
 
 
 include 'view/taskbar.php';

@@ -368,7 +368,7 @@
   }
   .proj-loupe {
     height: 3rem;
-    margin-left: 53rem;
+    margin-right: -108rem;
   }
   .proj-logo {
     height: 8rem;
@@ -385,12 +385,25 @@
   .proj-texts-for-computer {
     font-size: 1.5rem;
     text-align: inherit;
-    margin-left: 5.5rem;
+    margin-left: 5rem;
   }
+  .proj-texts-for-computer-res {
+    font-size: 2rem;
+    margin-left: -7rem;
+  }
+.proj-log-res {
+  padding-bottom: 2rem;
+}
+.proj-error {
+  text-align: center;
+  font: caption;
+  font-size: 2rem;
+}
   .proj-list {
     list-style-type: none;
     display: inline-flex;
   }
+
   .ski-content-li > img {
     height: 5rem;
   }
