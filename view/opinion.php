@@ -25,12 +25,7 @@
         <div class="only-tablet t t-tab" hidden> Portfolio de Brandon Muteau </div>
 
         <div class="g-datetime">
-            <p id="time" class="time-for-tablet" style=" 
-                color: black !important;
-                margin-top: -5rem;
-                margin-left: 37rem;
-                font-size: 25px;
-            ">
+            <p id="time" class="time-for-tablet">
             </p>
         </div>
 

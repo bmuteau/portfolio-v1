@@ -24,12 +24,7 @@
 
     <body class="white">
         <div class="g-datetime">
-            <p id="time" class="time-for-tablet" style=" 
-                color: black !important;
-                margin-top: -1rem;
-                margin-left: 37rem;
-                font-size: 25px;
-            ">
+            <p id="time" class="time-for-tablet">
             </p>
         </div>
         <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>

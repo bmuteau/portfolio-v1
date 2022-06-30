@@ -22,12 +22,7 @@
 
     <div class="only-mobile">
         <div class="g-datetime">
-            <p id="time" class="time-for-tablet" style=" 
-                color: black!important;
-                margin-top: 50px;
-                margin-left: 40rem;
-                font-size: 25px;
-            ">
+            <p id="time" class="time-for-tablet">
             </p>
         </div>
         <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>

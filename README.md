@@ -5,7 +5,6 @@ ToDo :
 
 
     Front-End:
-        * remove style in html code formation,experience (time,opinion,profil,project,ProjectProfil,hobbie,skill)
         * link home page with the starter button | computer taskbar
         * make a favicon
         * link good image for the different project in projectProfile and project
