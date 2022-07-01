@@ -5,8 +5,6 @@ ToDo :
 
 
     Front-End:
-        * login page only admin
-        * correct spelling mistakes
         * fix the hidden taskbar and sidebar if is in small screen
         * fix presentation of project result search tablet & mobile
         * update the size for logo in project page computer

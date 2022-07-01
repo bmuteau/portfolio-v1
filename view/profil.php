@@ -62,7 +62,7 @@
         <div class="pro-me pro-me-tab">
             <a href="formation">Formations</a></br>
             <hr>
-            <a href="experience">Experiences</a></br>
+            <a href="experience">Expériences</a></br>
             <hr>
             <a href="hobbie">Loisirs</a></br>
 
@@ -86,7 +86,7 @@
         <div class="pro-experience">
             <a href="experience">
                 <img class="pro-logo-experience" src="src/icon/styling_wp.png" alt="screen">
-                <p class="pro-name-formation">Experiences</p>
+                <p class="pro-name-formation">Expériences</p>
             </a>
         </div>
         <div class="pro-hobbie">

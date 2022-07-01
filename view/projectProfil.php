@@ -20,7 +20,7 @@
             background: #03a9f4;
         }
     </style>
-    <title>Brandon Muteau - Nom du projet</title>
+    <title>Brandon Muteau - <?= $projectData['name'] ?></title>
 </head>
 
 <body class="white">

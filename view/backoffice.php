@@ -47,7 +47,7 @@
                         <option value="Personnelle">Personnelle</option>
                     </select><br>
                     <input type="text" name="link" placeholder="Lien du projet"></br></br>
-                    <legend>Veuillez sélectionner les stacks utilisé :</legend><br>
+                    <legend>Veuillez sélectionner les stacks utilisés :</legend><br>
                     <!-- boucle sur les stacks existantes -->
                     <div>
                         <input type="checkbox" id="stack" name="stack" value="PHP">
@@ -70,7 +70,7 @@
             </div>
 
             <div class="bo-add-exp">
-                <h2>Ajouter une experience ! </h2>
+                <h2>Ajouter une expérience ! </h2>
                 <button id="togg4">+</button>
                 <form class="bo-form" id="exp-tog" style="display:none;" method="POST">
                     <input type="text" name="name" placeholder="Intitulé du poste"></br>
