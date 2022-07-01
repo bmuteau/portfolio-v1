@@ -501,3 +501,35 @@ button {
 .bo-user-id > p {
   margin-left: 4rem;
 }
+/* Login Page COMPUTER */
+
+.log-login {
+  margin-top: 3rem;
+  font-size: 2rem;
+  background-color: #f6f6f6;
+  width: 45rem;
+  height: auto;
+  padding: 2rem 0;
+  margin-inline: auto;
+  display: block;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+}
+.log-login > input {
+  width: 20rem;
+  height: auto;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  margin: 1rem 0;
+  
+}
+.log-submit:active {
+  transform: scale(0.7);
+}
+.backoffice > a {
+  color: black; 
+  font-size: 2rem;
+}
