@@ -4,11 +4,11 @@ global  $db, $hlp;
 
 $connect = $db->connect();
 
-$stm = $connect->prepare("SELECT id,name FROM project ORDER BY id DESC");
+$stm = $connect->prepare("SELECT id,name,image FROM project ORDER BY id DESC");
 $stm->execute();
 $mtProject = $stm->fetchAll();
 
-$stm = $connect->prepare("SELECT id,name FROM project ORDER BY id DESC LIMIT 7");
+$stm = $connect->prepare("SELECT id,name,image FROM project ORDER BY id DESC LIMIT 7");
 $stm->execute();
 $mtProjectL = $stm->fetchAll();
 

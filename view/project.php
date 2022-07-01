@@ -50,7 +50,7 @@
                         <?=
                         '<li><a href="projetProfile?id=' . $mtProjects['id'] . ' ">' .
 
-                            '<img src="src/icon/drive.svg" alt="drive">' .
+                            '<img src="src/project/' . $mtProjects['image'] . '" alt="drive">' .
                             $mtProjects['name'] .
                             '</a></li>'
 
@@ -71,7 +71,7 @@
 
             while ($a = $allProject->fetch()) { ?>
             <li>
-                <img src="src/icon/drive.svg" alt="drive">
+                <img src="src/project/<?= $a['image'] ?>" alt="drive">
                 <a href="projetProfile?id=<?= $a['id'] ?>">
                     <?= $a['name'] ?>
                 </a>
@@ -108,7 +108,7 @@
                     <?=
                     '<li>' .
                         '<a href="projetProfile?id=' . $mtProjectLs['id'] . ' ">' .
-                        '<img class="proj-logo" src="src/icon/drive.svg" alt="drive"/>' .
+                        '<img class="proj-logo" src="src/project/' . $mtProjectLs['image'] . '" alt="drive"/>' .
                         '<p class="proj-texts-for-computer">' .  $mtProjectLs['name'] . '</p>' .
                         '</a> 
                          </li>'
@@ -126,7 +126,7 @@
 
             while ($b = $allProjectComp->fetch()) { ?>
             <li>
-                <img class="proj-logo proj-log-res" src="src/icon/drive.svg" alt="drive">
+                <img class="proj-logo proj-log-res" src="src/project/<?= $b["image"] ?>" alt="drive">
                 <a class="proj-texts-for-computer-res" href="projetProfile?id=<?= $b['id'] ?>">
                     <?= $b['name'] ?>
                 </a>
