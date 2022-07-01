@@ -2,7 +2,9 @@
 
     <button class="taskbar__start">
         <img class="taskbar__start--logo" src="src/icon/windows.png" alt="Windows">
-        Brandon
+        <a href="home">
+            Brandon
+        </a>
     </button>
 
     <button class="projects__start">
