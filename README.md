@@ -5,7 +5,6 @@ ToDo :
 
 
     Front-End:
-        * front end backoffice
         * login page only admin
         * correct spelling mistakes
         * fix the hidden taskbar and sidebar if is in small screen
@@ -21,6 +20,10 @@ ToDo :
 
         * routing for backoffice
         * routing for 404
+        * login page 
+        * backoffice loopstack in project add
+        * try to make easy the back office script
+        * delete button for avis in backoffice
 
 
     Back-Office : 
@@ -30,6 +33,7 @@ ToDo :
             - formation 
             - experience
             - hobbie
+        * See the 5 last opinion
         
     Others: 
         * organized image folder
@@ -43,4 +47,5 @@ ToDo :
 
 Next Features : 
         * drag and drop icon home page 
+        * modernize backoffice style
         
