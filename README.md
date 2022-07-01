@@ -5,7 +5,6 @@ ToDo :
 
 
     Front-End:
-        * link home page with the starter button | computer taskbar
         * make a favicon
         * link good image for the different project in projectProfile and project
         * front end backoffice
@@ -13,6 +12,7 @@ ToDo :
         * correct spelling mistakes
         * fix the hidden taskbar and sidebar if is in small screen
         * fix presentation of project result search tablet & mobile
+        
         
         
     
