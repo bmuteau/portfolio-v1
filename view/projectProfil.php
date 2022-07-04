@@ -35,7 +35,7 @@
     <a href="home" class="pp-close">X</a>
 
 
-    <img src="src/icon/drive.svg" class="pp-img pp-img-tab" alt="drive">
+    <img src="src/project/<?= $projectData['image'] ?>" class="pp-img pp-img-tab" alt="drive">
     <div class="pp-info pp-info-tab">
         <p> <?= $projectData['name'] ?></p>
         <p> <?= $projectData['type'] ?> </p>

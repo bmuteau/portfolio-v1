@@ -5,9 +5,10 @@ ToDo :
 
 
     Front-End:
-        * change for the good image in project profil, skill
         * loop skill computer
         * project profil for computer
+        * change for stack image in projectprofil
+        * change for the good image skill
         
         
         

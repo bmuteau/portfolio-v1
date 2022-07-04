@@ -232,7 +232,8 @@ a {
 
 .pp-img {
   height: 9.4rem;
-  margin-left: 6rem;
+  display: block;
+  margin: auto;
 }
 .pp-info {
   text-align: center;
