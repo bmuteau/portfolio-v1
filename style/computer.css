@@ -25,6 +25,7 @@
     );
     width: 100vw;
     height: 3rem;
+    display: block;
   }
 
   .taskbar__start {
@@ -170,6 +171,7 @@
     margin-top: 5rem;
     margin-left: 2rem;
     font-size: 2rem;
+    display: block;
   }
   .li-for-computer {
     font-size: 2.5rem ;

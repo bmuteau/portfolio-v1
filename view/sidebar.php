@@ -1,4 +1,4 @@
-<div class="exp-left-list">
+<div class="exp-left-list" hidden>
     <img class="star" src="src/icon/star.svg">
     <p class="exp-left-name">Brandon Muteau</p>
     <ul class="exp-left-list-ul">

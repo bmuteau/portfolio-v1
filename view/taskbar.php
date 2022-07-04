@@ -1,4 +1,4 @@
-<div class="taskbar">
+<div class="taskbar" hidden>
 
     <button class="taskbar__start">
         <img class="taskbar__start--logo" src="src/icon/windows.png" alt="Windows">
