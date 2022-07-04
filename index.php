@@ -53,35 +53,35 @@ if (isset($_GET['url'])) {
 
 
 $urlsPossible = array(
-    "locked" => 0,
-    "home" => 1,
-    "experience" => 2,
-    "formation" => 3,
-    "competence" => 4,
-    "hobbie" => 5,
-    "avis" => 6,
-    "profil" => 7,
-    "projet" => 8,
-    "projetProfile" => 9,
-    "backoffice" => 10,
-    "notFound" => 11,
+    "notFound" => 0,
+    "locked" => 1,
+    "home" => 2,
+    "experience" => 3,
+    "formation" => 4,
+    "competence" => 5,
+    "hobbie" => 6,
+    "avis" => 7,
+    "profil" => 8,
+    "projet" => 9,
+    "projetProfile" => 10,
+    "backoffice" => 11,
     "login" => 12
 
 );
 
 $filesPossible = array(
-    "controller/lockedPage.php", //0
-    "controller/home.php", //1
-    "controller/experience.php", //2
-    "controller/formation.php", //3
-    "controller/skill.php", //4
-    "controller/hobbie.php", //5
-    "controller/opinion.php", //6
-    "controller/profil.php", //7
-    "controller/project.php", //8
-    "controller/projectProfil.php", //9   
-    "controller/backoffice.php", // 10
-    "controller/notFound.php", // 11
+    "controller/notFound.php", //0
+    "controller/lockedPage.php", //1
+    "controller/home.php", //2
+    "controller/experience.php", //3
+    "controller/formation.php", //4
+    "controller/skill.php", //5
+    "controller/hobbie.php", //6
+    "controller/opinion.php", //7
+    "controller/profil.php", //8
+    "controller/project.php", //9
+    "controller/projectProfil.php", //10   
+    "controller/backoffice.php", // 11
     "controller/login.php", // 12
 
 );
