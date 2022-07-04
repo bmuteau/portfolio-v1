@@ -5,9 +5,9 @@ ToDo :
 
 
     Front-End:
-        * update the size for logo in project page computer
         * change for the good image in project profil, skill
         * loop skill computer
+        * project profil for computer
         
         
         
