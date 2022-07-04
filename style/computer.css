@@ -548,3 +548,26 @@ button {
 .ski-item-img-comp {
   height: 4rem;
 }
+.pp-img-comp {
+  height: 12rem;
+  display: block;
+  margin: auto;
+}
+.pp-top-left {
+  float: left;
+  margin: 2rem;
+  width: 43rem;
+
+}
+.pp-info-comp {
+  text-align: center;
+  font-weight: bolder;
+  font-size:1.5rem;
+  width: 40rem;
+  float: right;
+  margin-top: 8rem;
+}
+.pp-description-comp {
+text-align: center;
+font-size: 1.5rem;
+}

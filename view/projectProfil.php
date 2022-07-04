@@ -24,38 +24,68 @@
 </head>
 
 <body class="white">
+    <div class="only-mobile">
 
-    <div class="g-datetime">
-        <p id="time" class="time-for-tablet">
-        </p>
+        <div class="g-datetime">
+            <p id="time" class="time-for-tablet">
+            </p>
+        </div>
+        <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>
+
+        <h1 class="pp-name pp-name-for-tablet"><?= $projectData['name'] ?></h1>
+        <a href="home" class="pp-close">X</a>
+
+
+        <img src="src/project/<?= $projectData['image'] ?>" class="pp-img pp-img-tab" alt="drive">
+        <div class="pp-info pp-info-tab">
+            <p> <?= $projectData['name'] ?></p>
+            <p> <?= $projectData['type'] ?> </p>
+            <p> <?= $projectData['duration'] ?> Heures</p>
+            <p><a href="<?= $projectData['link'] ?>" class="link"> Voir le projet </a></p>
+        </div>
+
+        <h2 class="pp-desc pp-desc-tab">Description</h2>
+        <p class="pp-description"><?= $projectData['desc'] ?></p>
+
+        <h2 class="pp-desc">Stack utilisés</h2>
+        <ul>
+            <?php foreach ($stack as $stacks) : ?>
+                <li class="pp-stack">
+                    <img src="src/icon/<?= $stacks['logo'] ?>">
+
+                </li>
+            <?php endforeach ?>
+        </ul>
     </div>
-    <div class="only-tablet " hidden> Portfolio de Brandon Muteau </div>
 
-    <h1 class="pp-name pp-name-for-tablet"><?= $projectData['name'] ?></h1>
-    <a href="home" class="pp-close">X</a>
+    <div class="only-computer" hidden>
+
+        <div class="pp-top-left">
+            <img src="src/project/<?= $projectData['image'] ?>" class="pp-img-comp" alt="drive">
+            <h1 class="pp-name pp-name-for-tablet"><?= $projectData['name'] ?></h1>
+            <h2 class="pp-desc pp-desc-tab">Description</h2>
+            <p class="pp-description-comp"><?= $projectData['desc'] ?></p>
+        </div>
+
+        <div class="pp-info-comp">
+            <p> <?= $projectData['name'] ?></p>
+            <p> <?= $projectData['type'] ?> </p>
+            <p> <?= $projectData['duration'] ?> Heures</p>
+            <p><a href="<?= $projectData['link'] ?>" class="link"> Voir le projet </a></p>
+            <h2 class="pp-desc">Stack utilisés</h2>
+            <ul>
+                <?php foreach ($stack as $stacks) : ?>
+                    <li class="pp-stack">
+                        <img src="src/icon/<?= $stacks['logo'] ?>">
+
+                    </li>
+                <?php endforeach ?>
+            </ul>
+        </div>
 
 
-    <img src="src/project/<?= $projectData['image'] ?>" class="pp-img pp-img-tab" alt="drive">
-    <div class="pp-info pp-info-tab">
-        <p> <?= $projectData['name'] ?></p>
-        <p> <?= $projectData['type'] ?> </p>
-        <p> <?= $projectData['duration'] ?> Heures</p>
-        <p><a href="<?= $projectData['link'] ?>" class="link"> Voir le projet </a></p>
+
     </div>
-
-    <h2 class="pp-desc pp-desc-tab">Description</h2>
-    <p class="pp-description"><?= $projectData['desc'] ?></p>
-
-    <h2 class="pp-desc">Stack utilisés</h2>
-    <ul>
-        <?php foreach ($stack as $stacks) : ?>
-            <li class="pp-stack">
-                <img src="src/icon/<?= $stacks['logo'] ?>">
-
-            </li>
-        <?php endforeach ?>
-    </ul>
-
 
 </body>
 

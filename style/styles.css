@@ -175,6 +175,7 @@ a {
 .pro-name {
   font-weight: bolder;
   margin-top: 2.5rem;
+  text-align: center;
 }
 .proj-name {
   margin-top: -4.5rem
@@ -258,6 +259,7 @@ a {
 }
 .pp-stack {
   text-align: center;
+  list-style-type: none;
 }
 
 .pp-stack > img {

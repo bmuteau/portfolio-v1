@@ -45,5 +45,6 @@ ToDo :
 
 Next Features : 
         * drag and drop icon home page 
-        * modernize backoffice style
+        * modernize backoffice style, projectprofil page
+
         
