@@ -36,7 +36,7 @@
         <a href="home" class="ski-close">X</a>
 
 
-        <form method="">
+        <form method="POST">
             <button class="search-button" type='submit'><span class='icone-loupe'><img class="loupe" src="src/icon/find_loupe.svg"></span></button>
             <input type="text" name="search" placeholder="Rechercher une compétences" class="search">
         </form>
@@ -100,6 +100,24 @@
     <div class="bar">
         <h2 class="ski">COMPETENCES</h2>
     </div>
+
+    <ul class="ski-stack-list">
+
+        <?php foreach ($mtStack as $mtStacks) : ?>
+            <li class="ski-stack-item-comp ">
+
+                <?=
+                '<img src="src/icon/badge_html.svg" class="ski-item-img-comp" alt="html"><p class="ski-item-name">' .
+                    $mtStacks['name'] . '</p>'
+                ?>
+
+            <?php endforeach ?>
+            </li>
+
+    </ul>
+
+
+
 
 
 

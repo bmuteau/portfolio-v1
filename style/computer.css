@@ -536,3 +536,15 @@ button {
   color: black; 
   font-size: 2rem;
 }
+.ski-stack-list {
+  width: 57rem;
+  float: right;
+}
+.ski-stack-item-comp {
+  font-size: 2rem;
+  font-weight: bolder;
+    margin-left: 1rem;
+}
+.ski-item-img-comp {
+  height: 4rem;
+}
