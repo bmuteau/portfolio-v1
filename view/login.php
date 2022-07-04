@@ -23,11 +23,19 @@
     <h1>Login</h1>
     <form method="POST" class="log-login">
         <label for="username">Email: </label></br>
-        <input type="email" name="email" id="email" placeholder="Email"></br>
+        <input type="email" name="mail" id="email" placeholder="Email"></br>
         <label for="password">Password: </label></br>
         <input type="password" name="password" id="password" placeholder="Password"> </br>
-        <input type="submit" class="log-submit" value="Login">
+        <input type="submit" name="login" class="log-submit" value="Login">
     </form>
+
+    <?php
+    if ($result > 0) {
+    ?>
+        <div class="error2"><?= $error ?></div>
+    <?php
+    }
+    ?>
 
     <a href="home"> -> Tu t'es perdu? <- </a>
 </body>
