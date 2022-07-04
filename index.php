@@ -10,14 +10,9 @@ use Application\HelperFunction;
 $db_class_name = "Application\Database";
 
 $autoloader_db = function ($db_class_name) {
-    // on prépare le terrain : on remplace le séparteur d'espace de nom par le séparateur de répertoires du système
     $name = str_replace('\\', DIRECTORY_SEPARATOR, $db_class_name);
-    // on construit le chemin complet du fichier à inclure :
-    // il faut que l'autoloader soit toujours à la racine du site : tout part de là avec __DIR__
     $path = __DIR__ . DIRECTORY_SEPARATOR . $name . '.php';
 
-    // on vérfie que le fichier existe et on l'inclut
-    // sinon on passe la main à une autre autoloader (return false)
     if (is_file($path)) {
         include $path;
     } else {
@@ -29,14 +24,9 @@ spl_autoload_register($autoloader_db);
 $hlp_class_name = "Application\HelperFunction";
 
 $autoloader_hlp = function ($hlp_class_name) {
-    // on prépare le terrain : on remplace le séparteur d'espace de nom par le séparateur de répertoires du système
     $name = str_replace('\\', DIRECTORY_SEPARATOR, $hlp_class_name);
-    // on construit le chemin complet du fichier à inclure :
-    // il faut que l'autoloader soit toujours à la racine du site : tout part de là avec __DIR__
     $path = __DIR__ . DIRECTORY_SEPARATOR . $name . '.php';
 
-    // on vérfie que le fichier existe et on l'inclut
-    // sinon on passe la main à une autre autoloader (return false)
     if (is_file($path)) {
         include $path;
     } else {
@@ -60,10 +50,6 @@ if (isset($_GET['url'])) {
 } else {
     array_push($urlword, "");
 }
-
-// $adminNeeded = array(
-
-// );
 
 
 $urlsPossible = array(

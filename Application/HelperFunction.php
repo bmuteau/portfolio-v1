@@ -37,4 +37,12 @@ class HelperFunction
         }
         return $res;
     }
+
+    public static function isConnected(): bool
+    {
+        if (isset($_SESSION['id']) && isset($_SESSION['email']) && isset($_SESSION['password'])) {
+            return true;
+        }
+        return false;
+    }
 }

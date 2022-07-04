@@ -1,5 +1,7 @@
 <?php
+global $hlp, $db;
 
-
-
-include 'view/backoffice.php';
+if ($hlp->isConnected() == true) {
+    include 'view/backoffice.php';
+}
+include 'view/login.php';
