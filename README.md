@@ -5,7 +5,6 @@ ToDo :
 
 
     Front-End:
-        * change for the good image skill
         
         
         

@@ -5,7 +5,7 @@ global $db, $hlp;
 
 $connect = $db->connect();
 
-$stm = $connect->prepare("SELECT name FROM stack_list ");
+$stm = $connect->prepare("SELECT name,logo FROM stack_list ");
 $stm->execute();
 $mtStack = $stm->fetchAll();
 

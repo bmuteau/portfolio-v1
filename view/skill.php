@@ -59,7 +59,7 @@
                     <li class="ski-stack-item ski-stack-item-tab">
 
                         <?=
-                        '<img src="src/icon/badge_html.svg" class="ski-item-img" alt="html"><p class="ski-item-name">' .
+                        '<img src="src/stack/' .  $mtStacks['logo'] . '" class="ski-item-img" alt="' .  $mtStacks['name'] . '"><p class="ski-item-name">' .
                             $mtStacks['name'] . '</p>'
                         ?>
 
@@ -78,7 +78,7 @@
 
             while ($a = $allStack->fetch()) { ?>
             <li>
-                <img class="ski-item-img ski-item-img-tab" src=" src/icon/badge_html.svg" alt="html">
+                <img class="ski-item-img ski-item-img-tab" src=" src/stack/<?= $a['logo'] ?>" alt="<?= $a['name'] ?>">
                 <p class="ski-item-name ski-item-name-tab"> <?= $a['name'] ?> </p>
                 </a>
             </li>
@@ -107,7 +107,7 @@
             <li class="ski-stack-item-comp ">
 
                 <?=
-                '<img src="src/icon/badge_html.svg" class="ski-item-img-comp" alt="html"><p class="ski-item-name">' .
+                '<img src="src/stack/' .  $mtStacks['logo'] . '" class="ski-item-img-comp" alt="' .  $mtStacks['name'] . '"><p class="ski-item-name">' .
                     $mtStacks['name'] . '</p>'
                 ?>
 
@@ -115,18 +115,7 @@
             </li>
 
     </ul>
-
-
-
-
-
-
-    <div class="ski-content">
-        <ul class="ski-content-list">
-            <li class="ski-content-li"> <img src="src/icon/badge_html.svg" alt="badge html" title="nom de la techno"> </li>
-        </ul>
-
-    </div>
+</div>
 
 
 
