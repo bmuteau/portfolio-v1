@@ -5,8 +5,9 @@ ToDo :
 
 
     Front-End:
-        * fix presentation of project result search tablet & mobile
         * update the size for logo in project page computer
+        * change for the good image in project profil, skill
+        * loop skill computer
         
         
         

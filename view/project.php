@@ -50,9 +50,10 @@
                         <?=
                         '<li><a href="projetProfile?id=' . $mtProjects['id'] . ' ">' .
 
-                            '<img src="src/project/' . $mtProjects['image'] . '" alt="drive">' .
+                            '<img class="proj-img proj-image-tab" src="src/project/' . $mtProjects['image'] . '" alt="drive">
+                            <p class="proj-item-name proj-item-name-tab">' .
                             $mtProjects['name'] .
-                            '</a></li>'
+                            '</p></a></li>'
 
                         ?>
 
@@ -65,15 +66,15 @@
 <?php } elseif ($allProject->rowCount() > 0) {
 ?>
 
-    <ul>
+    <ul class="proj-item">
 
         <?php
 
             while ($a = $allProject->fetch()) { ?>
             <li>
-                <img src="src/project/<?= $a['image'] ?>" alt="drive">
+                <img class="proj-img proj-image-tab" src="src/project/<?= $a['image'] ?>" alt="drive">
                 <a href="projetProfile?id=<?= $a['id'] ?>">
-                    <?= $a['name'] ?>
+                    <p class="proj-item-name proj-item-name-tab"> <?= $a['name'] ?></p>
                 </a>
             </li>
 
@@ -85,7 +86,7 @@
     </ul>
 <?php
         } else { ?>
-    <p>Aucun résultat pour : <?= $q ?> </p>
+    <p class="proj-error-tab proj-error">Aucun résultat pour : <?= $q ?> </p>
 <?php
         }
 ?>

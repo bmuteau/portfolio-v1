@@ -55,16 +55,16 @@
 
             <ul class="ski-stack-list ski-stack-list-tab">
 
-                <li class="ski-stack-item ski-stack-item-tab">
-                    <?php foreach ($mtStack as $mtStacks) : ?>
+                <?php foreach ($mtStack as $mtStacks) : ?>
+                    <li class="ski-stack-item ski-stack-item-tab">
 
                         <?=
-                        '<img src="src/icon/badge_html.svg" alt="html">' .
-                            $mtStacks['name']
+                        '<img src="src/icon/badge_html.svg" class="ski-item-img" alt="html"><p class="ski-item-name">' .
+                            $mtStacks['name'] . '</p>'
                         ?>
 
                     <?php endforeach ?>
-                </li>
+                    </li>
 
             </ul>
     </div>
@@ -72,14 +72,14 @@
 <?php } elseif ($allStack->rowCount() > 0) {
 ?>
 
-    <ul>
+    <ul class="ski-stack-list ski-stack-list-tab">
 
         <?php
 
             while ($a = $allStack->fetch()) { ?>
             <li>
-                <img src="src/icon/badge_html.svg" alt="html">
-                <?= $a['name'] ?>
+                <img class="ski-item-img ski-item-img-tab" src=" src/icon/badge_html.svg" alt="html">
+                <p class="ski-item-name ski-item-name-tab"> <?= $a['name'] ?> </p>
                 </a>
             </li>
 
@@ -91,7 +91,7 @@
     </ul>
 <?php
         } else { ?>
-    <p>Aucun résultat pour : <?= $q ?> </p>
+    <p class="ski-error-tab ski-error">Aucun résultat pour : <?= $q ?> </p>
 <?php
         }
 ?>

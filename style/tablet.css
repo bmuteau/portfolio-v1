@@ -187,7 +187,16 @@
   .proj-search-tab::placeholder {
     font-size: 1.5rem;
   }
+  .proj-image-tab, .ski-item-img-tab {
+    height:8rem!important;
+  }
+  .proj-item-name-tab, .ski-item-name-tab {
+    font-size: 1.9rem;
+  }
+.proj-error-tab, .ski-error-tab {
+  font-size: 2.5rem;
 
+}
 
   /* ProjectProfil Page TABLET */
 
