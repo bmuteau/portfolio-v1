@@ -5,8 +5,6 @@ ToDo :
 
 
     Front-End:
-        * project profil for computer
-        * change for stack image in projectprofil
         * change for the good image skill
         
         

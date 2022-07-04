@@ -51,7 +51,7 @@
         <ul>
             <?php foreach ($stack as $stacks) : ?>
                 <li class="pp-stack">
-                    <img src="src/icon/<?= $stacks['logo'] ?>">
+                    <img src="src/stack/<?= $stacks['logo'] ?>">
 
                 </li>
             <?php endforeach ?>
@@ -73,14 +73,15 @@
             <p> <?= $projectData['duration'] ?> Heures</p>
             <p><a href="<?= $projectData['link'] ?>" class="link"> Voir le projet </a></p>
             <h2 class="pp-desc">Stack utilisés</h2>
-            <ul>
+            <ul class="pp-stack-list">
                 <?php foreach ($stack as $stacks) : ?>
                     <li class="pp-stack">
-                        <img src="src/icon/<?= $stacks['logo'] ?>">
+                        <img src="src/stack/<?= $stacks['logo'] ?>">
 
                     </li>
                 <?php endforeach ?>
             </ul>
+            <a class="pp-back-proj" href="projet">Retour à la page précédente</a>
         </div>
 
 

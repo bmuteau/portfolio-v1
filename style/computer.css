@@ -557,17 +557,27 @@ button {
   float: left;
   margin: 2rem;
   width: 43rem;
+  margin-top: 4rem;
 
 }
 .pp-info-comp {
   text-align: center;
   font-weight: bolder;
   font-size:1.5rem;
-  width: 40rem;
+  width: 36rem;
   float: right;
   margin-top: 8rem;
+  margin-right: 2rem;
 }
 .pp-description-comp {
 text-align: center;
 font-size: 1.5rem;
+}
+.pp-back-proj {
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+.pp-stack-list {
+  margin-bottom: 5rem;
 }
