@@ -1,11 +1,15 @@
 <?php
 global $hlp, $db;
 $id = $hlp->myGet("id");
-
+$result = -1;
+$error = "";
 
 if ($hlp->isConnected() == true) {
-
     $connect = $db->connect();
+
+    if (isset($_POST['submit-stack'])) {
+        $result = $hlp->addStack($_POST['name-stack'], $_FILES['sta-logo']);
+    }
 
     $stm = $connect->prepare("SELECT * FROM stack_list ");
     $stm->execute();

@@ -85,4 +85,34 @@ class HelperFunction
             unset($_SESSION['password']);
         }
     }
+
+    public static function addStack(string $name, $logo)
+    {
+        global $db;
+        $connect = $db->connect();
+        if (!empty($_FILES)) {
+            $file_name = $_FILES['sta-logo']['name'];
+            $file_extension = strrchr($file_name, ".");
+
+            $file_tmp_name = $_FILES['sta-logo']['tmp_name'];
+            $file_dest = './src/stack/' . $file_name;
+
+            $extensions_auto = array('.png', '.svg', '.jpg', '.jpeg', '.gif');
+
+            if (in_array($file_extension, $extensions_auto)) {
+                if (move_uploaded_file($file_tmp_name, $file_dest));
+                if ($connect != null) {
+                    $stm = $connect->prepare("INSERT INTO stack_list (name, logo) VALUES (?,?)");
+                    $stm->execute(array(
+                        $name,
+                        $file_name
+                    ));
+                    return 0;
+                }
+                return 1;
+            } else {
+                echo " Seul les images sont autorisé";
+            }
+        }
+    }
 }

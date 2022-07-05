@@ -28,7 +28,7 @@
                 <h2>Ajouter une stack ! </h2>
                 <button id="togg1">+</button>
                 <form style="display:none;" class="bo-form" id="sta-tog" method="POST" enctype="multipart/form-data">
-                    <input type="text" name="name" placeholder="Nom de la stack"></br>
+                    <input type="text" name="name-stack" placeholder="Nom de la stack"></br>
                     <input class="bo-files" type="file" name="sta-logo"></br>
                     <input type="submit" class="bo-submit" name="submit-stack">
                 </form>
@@ -103,13 +103,6 @@
         <div class="bo-second-div">
             <div class="bo-last-avis">
 
-
-
-
-
-
-                <!--  -->
-
                 <?php
 
                 foreach ($avis as $aviss) : ?>
@@ -130,8 +123,6 @@
                     ?>
 
                 <?php endforeach ?>
-
-
 
             </div>
         </div>
