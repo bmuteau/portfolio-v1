@@ -50,8 +50,13 @@
                     <legend>Veuillez sélectionner les stacks utilisés :</legend><br>
                     <!-- boucle sur les stacks existantes -->
                     <div>
-                        <input type="checkbox" id="stack" name="stack" value="PHP">
-                        <label for="stack">PHP</label>
+                        <?php
+                        for ($i = 0; $i < count($stackItem); $i++) {
+                            echo '<input type="checkbox" name="stack[]" value="' . $stackItem[$i]['id'] . '">' . $stackItem[$i]['name'] . '<br>';
+                        }
+
+                        ?>
+
                     </div>
                     <input type="submit" class="bo-submit" name="submit-project">
                 </form>
