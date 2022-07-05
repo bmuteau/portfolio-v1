@@ -86,7 +86,7 @@ class HelperFunction
         }
     }
 
-    public static function addStack(string $name, $logo)
+    public static function addStack(string $name, $file_name)
     {
         global $db;
         $connect = $db->connect();
@@ -106,6 +106,39 @@ class HelperFunction
                     $stm->execute(array(
                         $name,
                         $file_name
+                    ));
+                    return 0;
+                }
+                return 1;
+            } else {
+                echo " Seul les images sont autorisé";
+            }
+        }
+    }
+    public static function addProject($name, $description, $file_name, $duration, $type, $link)
+    {
+        global $db;
+        $connect = $db->connect();
+        if (!empty($_FILES)) {
+            $file_name = $_FILES['pro-logo']['name'];
+            $file_extension = strrchr($file_name, ".");
+
+            $file_tmp_name = $_FILES['pro-logo']['tmp_name'];
+            $file_dest = './src/project/' . $file_name;
+
+            $extensions_auto = array('.png', '.svg', '.jpg', '.jpeg', '.gif');
+
+            if (in_array($file_extension, $extensions_auto)) {
+                if (move_uploaded_file($file_tmp_name, $file_dest));
+                if ($connect != null) {
+                    $stm = $connect->prepare("INSERT INTO project( name, description, image, duration, type, link) VALUES (?,?,?,?,?,?)");
+                    $stm->execute(array(
+                        $name,
+                        $description,
+                        $file_name,
+                        $duration,
+                        $type,
+                        $link
                     ));
                     return 0;
                 }

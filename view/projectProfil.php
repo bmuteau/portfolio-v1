@@ -45,7 +45,7 @@
         </div>
 
         <h2 class="pp-desc pp-desc-tab">Description</h2>
-        <p class="pp-description"><?= $projectData['desc'] ?></p>
+        <p class="pp-description"><?= $projectData['description'] ?></p>
 
         <h2 class="pp-desc">Stack utilisés</h2>
         <ul>
@@ -64,7 +64,7 @@
             <img src="src/project/<?= $projectData['image'] ?>" class="pp-img-comp" alt="drive">
             <h1 class="pp-name pp-name-for-tablet"><?= $projectData['name'] ?></h1>
             <h2 class="pp-desc pp-desc-tab">Description</h2>
-            <p class="pp-description-comp"><?= $projectData['desc'] ?></p>
+            <p class="pp-description-comp"><?= $projectData['description'] ?></p>
         </div>
 
         <div class="pp-info-comp">

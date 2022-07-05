@@ -10,6 +10,11 @@ if ($hlp->isConnected() == true) {
     if (isset($_POST['submit-stack'])) {
         $result = $hlp->addStack($_POST['name-stack'], $_FILES['sta-logo']);
     }
+    if (isset($_POST['submit-project'])) {
+        $result = $hlp->addProject($_POST['name-project'],  $_POST['desc-project'], $_FILES['pro-logo'], $_POST['duration-project'], $_POST['type-project'], $_POST['link-project']);
+        var_dump($_POST['link-project']);
+    }
+
 
     $stm = $connect->prepare("SELECT * FROM stack_list ");
     $stm->execute();

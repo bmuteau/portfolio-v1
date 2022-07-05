@@ -38,15 +38,15 @@
                 <h2>Ajouter un projet ! </h2>
                 <button id="togg2">+</button>
                 <form class="bo-form" style="display:none;" id="pro-tog" method="POST" enctype="multipart/form-data">
-                    <input type="text" name="name" placeholder="Nom du projet" /></br></br>
-                    <textarea name="desc" placeholder="Description"></textarea></br>
+                    <input type="text" name="name-project" placeholder="Nom du projet" /></br></br>
+                    <textarea name="desc-project" placeholder="Description"></textarea></br>
                     <input class="bo-files" type="file" name="pro-logo"></br>
-                    <input type="number" name="duration" placeholder="Durée"></br></br>
-                    <select name="type">
+                    <input type="number" name="duration-project" placeholder="Durée"></br></br>
+                    <select name="type-project">
                         <option value="Professionnel">Professionnel</option>
                         <option value="Personnelle">Personnelle</option>
                     </select><br>
-                    <input type="text" name="link" placeholder="Lien du projet"></br></br>
+                    <input type="text" name="link-project" placeholder="Lien du projet"></br></br>
                     <legend>Veuillez sélectionner les stacks utilisés :</legend><br>
                     <!-- boucle sur les stacks existantes -->
                     <div>

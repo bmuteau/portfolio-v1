@@ -17,8 +17,6 @@ ToDo :
 
     Back-Office : 
         * Make the back office for push :
-            - stack item
-            - project info 
             - formation 
             - experience
             - hobbie
