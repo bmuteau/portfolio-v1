@@ -102,16 +102,36 @@
 
         <div class="bo-second-div">
             <div class="bo-last-avis">
-                <!-- boucle sur les 5 derniers avis -->
-                <div class="bo-avis">
-                    <div class="bo-user-id">
-                        <p>prenom</p>
-                        <p>note</p>
-                        <p>id</p><br>
-                    </div>
-                    <p class="bo-user-mail">email</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta velit voluptas quos expedita temporibus, iste officia, placeat autem hic modi labore quis eveniet facere quasi.</p>
-                </div>
+
+
+
+
+
+
+                <!--  -->
+
+                <?php
+
+                foreach ($avis as $aviss) : ?>
+
+                    <?=
+
+                    '<div class="bo-avis">
+        <a href="backoffice?id=' . $aviss['id'] . '"> X </a> </br>
+        <div class="bo-user-id">
+        <p>' . $aviss['firstname'] . '</p>
+        <p>' . $aviss['note'] . '</p>
+        <p>' . $aviss['id'] . '</p><br>
+        </div>
+        <p class="bo-user-mail">' . $aviss['email'] . '</p>
+        <p>' . $aviss['avis'] . '</p>
+    </div>'
+
+                    ?>
+
+                <?php endforeach ?>
+
+
 
             </div>
         </div>

@@ -5,7 +5,7 @@ ToDo :
 
 
     Front-End:
-        
+
         
         
     
@@ -13,8 +13,6 @@ ToDo :
         * look for mutliple stack in the same project and loop to it ( project_id in stack_list? ) /!\ 1 /!\
         * add a message thanking the opinion and block possibility to post again (24h ? / IP ?) /!\ 2 /!\
 
-        * try to make easy the back office script
-        * delete button for avis in backoffice
 
 
     Back-Office : 
