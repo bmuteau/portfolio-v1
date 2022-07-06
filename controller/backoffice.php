@@ -19,6 +19,9 @@ if ($hlp->isConnected() == true) {
     if (isset($_POST['submit-experience'])) {
         $result = $hlp->addExperience($_POST['name-experience'],  $_POST['exp-start-date'], $_POST['exp-end-date'], $_POST['exp-detail'], $_POST['company'], $_POST['place']);
     }
+    if (isset($_POST['submit-hob'])) {
+        $result = $hlp->addHobbie($_FILES['image-hob'], $_POST['name-hob']);
+    }
 
     $stm = $connect->prepare("SELECT * FROM stack_list ");
     $stm->execute();

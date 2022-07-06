@@ -16,8 +16,7 @@ ToDo :
 
 
     Back-Office : 
-        * Make the back office for push :
-            - hobbie
+
         * See the 5 last opinion
         
     Others: 

@@ -92,8 +92,8 @@
                 <h2>Ajouter un hobbie ! </h2>
                 <button id="togg5">+</button>
                 <form class="bo-form" id="hob-tog" style="display:none;" method="POST" enctype="multipart/form-data">
-                    <input class="bo-files" type="file" name="image"></br>
-                    <input type="text" name="name" placeholder="Nom"></br>
+                    <input class="bo-files" type="file" name="image-hob"></br>
+                    <input type="text" name="name-hob" placeholder="Nom"></br>
                     <input type="submit" class="bo-submit" name="submit-hob">
                 </form>
             </div>

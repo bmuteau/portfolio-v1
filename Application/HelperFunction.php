@@ -183,4 +183,33 @@ class HelperFunction
         }
         return 1;
     }
+    public static function addHobbie($file_name, string $name)
+    {
+        global $db;
+        $connect = $db->connect();
+        if (!empty($_FILES)) {
+            $file_name = $_FILES['image-hob']['name'];
+            $file_extension = strrchr($file_name, ".");
+
+            $file_tmp_name = $_FILES['image-hob']['tmp_name'];
+            $file_dest = './src/hobbie/' . $file_name;
+
+            $extensions_auto = array('.png', '.svg', '.jpg', '.jpeg', '.gif');
+
+            if (in_array($file_extension, $extensions_auto)) {
+                if (move_uploaded_file($file_tmp_name, $file_dest));
+                if ($connect != null) {
+                    $stm = $connect->prepare("INSERT INTO hobbie (image, name) VALUES (?,?)");
+                    $stm->execute(array(
+                        $file_name,
+                        $name
+                    ));
+                    return 0;
+                }
+                return 1;
+            } else {
+                echo " Seul les images sont autorisé";
+            }
+        }
+    }
 }
