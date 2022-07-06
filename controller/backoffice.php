@@ -27,7 +27,7 @@ if ($hlp->isConnected() == true) {
     $stm->execute();
     $stackItem = $stm->fetchAll();
 
-    $stm = $connect->prepare("SELECT * FROM avis");
+    $stm = $connect->prepare("SELECT * FROM avis ORDER BY id DESC LIMIT 5");
     $stm->execute();
     $avis = $stm->fetchAll();
 
