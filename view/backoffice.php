@@ -78,10 +78,10 @@
                 <h2>Ajouter une expérience ! </h2>
                 <button id="togg4">+</button>
                 <form class="bo-form" id="exp-tog" style="display:none;" method="POST">
-                    <input type="text" name="name" placeholder="Intitulé du poste"></br>
+                    <input type="text" name="name-experience" placeholder="Intitulé du poste"></br>
                     <input type="number" name="exp-start-date" placeholder="Année de début"></br>
                     <input type="number" name="exp-end-date" placeholder="Année de fin"></br></br>
-                    <textarea name="detail" placeholder="Détail de l'expérience"></textarea></br>
+                    <textarea name="exp-detail" placeholder="Détail de l'expérience"></textarea></br>
                     <input type="text" name="company" placeholder="Nom de l'entreprise"></br>
                     <input type="text" name="place" placeholder="Ville, pays"></br>
                     <input type="submit" class="bo-submit" name="submit-experience">

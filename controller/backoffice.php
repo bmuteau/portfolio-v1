@@ -16,7 +16,9 @@ if ($hlp->isConnected() == true) {
     if (isset($_POST['submit-formation'])) {
         $result = $hlp->addFormation($_POST['name-formation'],  $_POST['for-start-date'], $_POST['for-end-date']);
     }
-
+    if (isset($_POST['submit-experience'])) {
+        $result = $hlp->addExperience($_POST['name-experience'],  $_POST['exp-start-date'], $_POST['exp-end-date'], $_POST['exp-detail'], $_POST['company'], $_POST['place']);
+    }
 
     $stm = $connect->prepare("SELECT * FROM stack_list ");
     $stm->execute();

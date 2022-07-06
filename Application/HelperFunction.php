@@ -164,4 +164,23 @@ class HelperFunction
         }
         return 1;
     }
+    public static function addExperience(string $name, int $start, int $end, string $detail, string $company, string $place)
+    {
+        global $db;
+        $connect = $db->connect();
+
+        if ($connect != null) {
+            $stm = $connect->prepare("INSERT INTO experience (name, start, end, detail, company, place) VALUES (?,?,?,?,?,?)");
+            $stm->execute(array(
+                $name,
+                $start,
+                $end,
+                $detail,
+                $company,
+                $place
+            ));
+            return 0;
+        }
+        return 1;
+    }
 }

@@ -17,13 +17,10 @@ ToDo :
 
     Back-Office : 
         * Make the back office for push :
-            - formation 
-            - experience
             - hobbie
         * See the 5 last opinion
         
     Others: 
-        * organized image folder
         * edit project img src in project view
         * clean code and remove doublon in css and reorganize ( by utils, page)
         * test all road
