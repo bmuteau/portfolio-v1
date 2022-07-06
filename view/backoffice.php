@@ -67,7 +67,7 @@
                 <button id="togg3">+</button>
 
                 <form class="bo-form" style="display:none;" id="for-tog" method="POST">
-                    <input type="text" name="name" placeholder="Intitulé"></br>
+                    <input type="text" name="name-formation" placeholder="Intitulé"></br>
                     <input type="number" name="for-start-date" placeholder="Année de début"></br>
                     <input type="number" name="for-end-date" placeholder="Année de fin"></br>
                     <input type="submit" class="bo-submit" name="submit-formation">

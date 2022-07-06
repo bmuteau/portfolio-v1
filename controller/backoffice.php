@@ -12,7 +12,9 @@ if ($hlp->isConnected() == true) {
     }
     if (isset($_POST['submit-project'])) {
         $result = $hlp->addProject($_POST['name-project'],  $_POST['desc-project'], $_FILES['pro-logo'], $_POST['duration-project'], $_POST['type-project'], $_POST['link-project']);
-        var_dump($_POST['link-project']);
+    }
+    if (isset($_POST['submit-formation'])) {
+        $result = $hlp->addFormation($_POST['name-formation'],  $_POST['for-start-date'], $_POST['for-end-date']);
     }
 
 

@@ -115,7 +115,7 @@ class HelperFunction
             }
         }
     }
-    public static function addProject($name, $description, $file_name, $duration, $type, $link)
+    public static function addProject(string $name, string $description, $file_name, int $duration, string $type, string $link)
     {
         global $db;
         $connect = $db->connect();
@@ -147,5 +147,21 @@ class HelperFunction
                 echo " Seul les images sont autorisé";
             }
         }
+    }
+    public static function addFormation(string $name, int $start, int $end)
+    {
+        global $db;
+        $connect = $db->connect();
+
+        if ($connect != null) {
+            $stm = $connect->prepare("INSERT INTO formation (name, start, end) VALUES (?,?,?)");
+            $stm->execute(array(
+                $name,
+                $start,
+                $end
+            ));
+            return 0;
+        }
+        return 1;
     }
 }
