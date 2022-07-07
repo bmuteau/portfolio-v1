@@ -20,7 +20,7 @@ if ($hlp->myGet('id') != null) {
     $projectData['type'] = $change[0]['type'];
     $projectData['duration'] = $change[0]['duration'];
     $projectData['link'] = $change[0]['link'];
-    $projectData['desc'] = $change[0]['desc'];
+    $projectData['description'] = $change[0]['description'];
 }
 
 $connect = $db->connect();
@@ -31,7 +31,7 @@ if ($connect != null) {
     $stm->execute(array($projectData['uid']));
     $pInfo = $stm->fetchAll();
 
-    $query = $connect->prepare("SELECT logo FROM stack_list INNER JOIN project ON stack_list.id=project.stack_id  WHERE project.id=? ");
+    $query = $connect->prepare("SELECT logo FROM stack_list INNER JOIN project WHERE project.id=? AND stack_id = project_id; ");
     $query->execute(array($projectData['uid']));
     $stack = $query->fetchAll();
 }

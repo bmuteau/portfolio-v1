@@ -584,4 +584,7 @@ font-size: 1.5rem;
 }
 .pp-stack-list {
   margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

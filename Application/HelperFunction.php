@@ -115,10 +115,12 @@ class HelperFunction
             }
         }
     }
-    public static function addProject(string $name, string $description, $file_name, int $duration, string $type, string $link)
+    public static function addProject(string $name, string $description, $file_name, int $duration, string $type, string $link, $checkbox)
     {
         global $db;
+
         $connect = $db->connect();
+
         if (!empty($_FILES)) {
             $file_name = $_FILES['pro-logo']['name'];
             $file_extension = strrchr($file_name, ".");
@@ -128,24 +130,28 @@ class HelperFunction
 
             $extensions_auto = array('.png', '.svg', '.jpg', '.jpeg', '.gif');
 
+            $checkbox = $_POST['stack'];
+
             if (in_array($file_extension, $extensions_auto)) {
                 if (move_uploaded_file($file_tmp_name, $file_dest));
                 if ($connect != null) {
-                    $stm = $connect->prepare("INSERT INTO project( name, description, image, duration, type, link) VALUES (?,?,?,?,?,?)");
-                    $stm->execute(array(
-                        $name,
-                        $description,
-                        $file_name,
-                        $duration,
-                        $type,
-                        $link
-                    ));
-                    return 0;
+                    for ($i = 0; $i < count($checkbox); $i++) {
+                        $stm = $connect->prepare("INSERT INTO project (name, description, image, duration, type, link, stack_id) VALUES (?,?,?,?,?,?,?)");
+                        $stm->execute(array(
+                            $name,
+                            $description,
+                            $file_name,
+                            $duration,
+                            $type,
+                            $link,
+                            $checkbox[$i]
+                        ));
+                    }
                 }
-                return 1;
-            } else {
-                echo " Seul les images sont autorisé";
             }
+            return 1;
+        } else {
+            echo " Seul les images sont autorisé";
         }
     }
     public static function addFormation(string $name, int $start, int $end)

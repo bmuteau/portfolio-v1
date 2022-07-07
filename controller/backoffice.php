@@ -11,7 +11,7 @@ if ($hlp->isConnected() == true) {
         $result = $hlp->addStack($_POST['name-stack'], $_FILES['sta-logo']);
     }
     if (isset($_POST['submit-project'])) {
-        $result = $hlp->addProject($_POST['name-project'],  $_POST['desc-project'], $_FILES['pro-logo'], $_POST['duration-project'], $_POST['type-project'], $_POST['link-project']);
+        $result = $hlp->addProject($_POST['name-project'],  $_POST['desc-project'], $_FILES['pro-logo'], $_POST['duration-project'], $_POST['type-project'], $_POST['link-project'], $_POST['stack']);
     }
     if (isset($_POST['submit-formation'])) {
         $result = $hlp->addFormation($_POST['name-formation'],  $_POST['for-start-date'], $_POST['for-end-date']);
