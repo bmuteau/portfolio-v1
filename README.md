@@ -10,8 +10,6 @@ ToDo :
         
     
     Back-End :
-        *  push stacks in project add BO /!\ 1 /!\
-        * add a message thanking the opinion and block possibility to post again (24h ? / IP ?) /!\ 2 /!\
 
 
 

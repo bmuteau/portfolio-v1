@@ -43,7 +43,13 @@
             <input type="email" name="email" class="opi-email" placeholder="E-mail">
             <textarea name="avis" class="opi-opinion textarea-tab " rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
             <input type="submit" name="submit" class="opi-submit" placeholder="Envoyer">
+            <input type="hidden" name="token" value="
+                <?php
+                if (isset($_SESSION['token'])) {
+                    echo $_SESSION['token'];
+                } ?>">
         </form>
+        <?= $message ?>
 
         <h2 class="opi-name">Vos avis</h2>
         <ul>
@@ -91,7 +97,14 @@
                 <input type="email" name="email" class="opi-email" placeholder="E-mail">
                 <textarea name="avis" class="opi-opinion" rows="6" cols="50" maxlength="250" placeholder="Votre avis..."></textarea>
                 <input type="submit" name="submit" class="opi-submit" placeholder="Envoyer">
+                <input type="hidden" name="token" value="
+                <?php
+                if (isset($_SESSION['token'])) {
+                    echo $_SESSION['token'];
+                } ?>">
             </form>
+
+            <?= $message ?>
         </div>
 
 
