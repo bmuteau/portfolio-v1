@@ -2,18 +2,16 @@
 @import url(tablet.css) (min-width:600px) and (max-width: 1024px);
 @import url(computer.css) (min-width:1025px);
 
+/* UTILS */
+
+/* MIXED CLASS */
+
 * {
   font-family: "Josefin Sans", sans-serif;
 }
-/* lockedPage MOBILE */
 .home {
   background-image: url(../src/fond-d-ecran-ios.jpg);
   background-size: cover;
-}
-.loc-title {
-  color: white;
-  text-align: center;
-  font-size: 1.5rem;
 }
 .exp-close,
 .pp-close,
@@ -35,7 +33,34 @@
   text-align: center;
   margin-top: 8rem;
 }
+a {
+  text-decoration: none;
+}
 
+.g-datetime {
+  margin-top: 3.1rem;
+}
+.exp-name,
+.pp-name,
+.for-name,
+.hob-name,
+.ski-name,
+.proj-name,
+.opi-name,
+.pro-name {
+  font-weight: bolder;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+/* PAGES */
+
+/* LOCKED PAGE */
+
+.loc-title {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
 #date {
   font-weight: bold;
   color: black;
@@ -54,7 +79,6 @@
   grid-template-rows: 1rem;
   margin-top: 12rem;
 }
-
 .black_github {
   grid-area: 1 / 1 / 2 / 2;
   height: 4.5rem;
@@ -67,7 +91,7 @@
   margin-top: 0.5rem;
 }
 
-/* Home page MOBILE */
+/* HOME PAGE */
 
 #time-header {
   color: white;
@@ -156,27 +180,9 @@
   width: 4.1rem;
   margin: 1rem;
 }
-a {
-  text-decoration: none;
-}
 
-/* project page MOBILE */
+/* PROJECT PAGE */
 
-.g-datetime {
-  margin-top: 3.1rem;
-}
-.exp-name,
-.pp-name,
-.for-name,
-.hob-name,
-.ski-name,
-.proj-name,
-.opi-name,
-.pro-name {
-  font-weight: bolder;
-  margin-top: 2.5rem;
-  text-align: center;
-}
 .proj-name {
   margin-top: -4.5rem
 }

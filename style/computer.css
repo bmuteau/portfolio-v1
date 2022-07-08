@@ -1,416 +1,135 @@
+/* UTILS */
 
-  /* Experience,Formation and Hobbie and taskbar Page COMPUTER  */
-  body {
-    margin: 0;
-  }
-  .only-computer {
-    display: block;
-  }
-  .only-mobile {
-    display: none;
-  }
-  .taskbar {
-    position: fixed;
-    bottom: 0;
-    background: linear-gradient(
-      180deg,
-      #0997ff,
-      #0053ee 8%,
-      #0050ee 40%,
-      #06f 88%,
-      #06f 93%,
-      #005bff 95%,
-      #003dd7 96%,
-      #003dd7
-    );
-    width: 100vw;
-    height: 3rem;
-    display: block;
-  }
+.b {
+  color: black;
+}
+.wo {
+  background-image: url("src/word-page.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
 
-  .taskbar__start {
-    padding-right: 4rem;
-    height: 100%;
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-style: italic;
-    border: none;
-    border-radius: 0px 10px 12px 0px;
-    box-shadow: 0px 5px 10px #79ce71 inset;
-    background: radial-gradient(circle, #5eac56 0%, #3c873c 100%) center/cover
-      no-repeat;
-    display: flex;
-    align-items: center;
-  }
-  .projects__start {
-    padding-right: 7rem;
-    height: 100%;
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-style: italic;
-    border: none;
-    box-shadow: 0px 5px 10px #4375e0 inset;
-    background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
-      no-repeat;
-    display: flex;
-    align-items: center;
-    margin-left: 12rem;
-    margin-top: -3rem;
-  }
-  .opinion__start {
-    padding-right: 7rem;
-    height: 100%;
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-style: italic;
-    border: none;
-    box-shadow: 0px 5px 10px #4375e0 inset;
-    background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
-      no-repeat;
-    display: flex;
-    align-items: center;
-    margin-left: 30rem;
-    margin-top: -3rem;
-  }
-  .who__start {
-    padding-right: 7rem;
-    height: 100%;
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-style: italic;
-    border: none;
-    box-shadow: 0px 5px 10px #4375e0 inset;
-    background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
-      no-repeat;
-    display: flex;
-    align-items: center;
-    margin-left: 44rem;
-    margin-top: -3rem;
-  }
-  .skill__start {
-    padding-right: 7rem;
-    height: 100%;
-    color: white;
-    font-weight: bold;
-    font-size: 1.5rem;
-    font-style: italic;
-    border: none;
-    box-shadow: 0px 5px 10px #4375e0 inset;
-    background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
-      no-repeat;
-    display: flex;
-    align-items: center;
-    margin-left: 62rem;
-    margin-top: -3rem;
-  }
-  .taskbar__start--logo {
-    width: auto;
-    height: 80%;
-  }
-  .projects__start--logo {
-    width: auto;
-    height: 80%;
-    padding-right: 3rem;
-  }
-  .opinion__start--logo {
-    width: auto;
-    height: 80%;
-    padding-right: 3rem;
-  }
-  .who__start--logo {
-    width: auto;
-    height: 80%;
-    padding-right: 3rem;
-  }
-  .skill__start--logo {
-    width: auto;
-    height: 80%;
-    padding-right: 3rem;
-  }
-  .time-for-home-computer {
-    color: white;
-    font-size: 1.5rem;
-    margin-top: -7.5rem;
-    margin-left: 73rem;
-  }
-  .logo__start {
-    margin-left: 105rem;
-    margin-top: -2.8rem;
-    background-color: #03a9f4;
-  }
-  .github__start,
-  .mail__start,
-  .linkedin__start {
-    height: 2.5rem;
-    width: auto;
-  }
-  a {
-    color: white;
-  }
-  .for-computer,
-  .exp-computer,
-  .pro-computer,
-  .hob-computer,
-  .ski-computer {
-    margin-top: 2rem;
-    padding-top: 0.8rem;
-    margin-left: 3rem;
-  }
-  .bar {
-    background-color: #121cde;
-    height: 3rem;
-    margin-top: -2rem;
-  }
-  .exp-left-list {
-    background-color: #8080806b;
-    width: 24rem;
-    margin-top: 5rem;
-    margin-left: 2rem;
-    font-size: 2rem;
-    display: block;
-  }
-  .li-for-computer {
-    font-size: 2.5rem ;
-    padding-bottom: 2rem ;
-  }
-  .star {
-    height: 5rem;
-    margin-top: 2rem;
-  }
-  .exp-left-name {
-    width: 15rem;
-    margin-left: 6rem;
-    margin-top: -4.6rem;
-    padding-bottom: 2rem;
-  }
-  .b {
-    color: black;
-  }
-  .exp-left-list-ul > li {
-    margin-left: 4rem;
-  }
-  .exp-content,
-  .for-content,
-  .ski-content,
-  .hob-content {
-    background-color: #efefef;
-    width: 47rem;
-    margin-left: 32rem;
-    margin-top: -27rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    text-align: center;
-  }
-  .for-content-list,
-  .ski-content-list,
-  .hob-content-list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .hob-content-li > img {
-    height: 7rem;
-  }
-  /* Home Page COMPUTER */
-  .home-for-computer {
-    background-image: url("../src/fond-d-ecran-windows.jpg") ;
-    background-size: cover ;
-    overflow-y: hidden;
-  }
-  .hom-container {
-    display: grid;
-    grid-template-columns: repeat(4, 20rem);
-    grid-template-rows: repeat(3, 21rem);
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bolder;
-  }
+/* MIXED CLASS */
 
-  .hom-projects > img {
-    height: 8rem;
-    margin-top: 3rem;
-    margin-bottom: -1rem;
-  }
-  .hom-opinion > img {
-    height: 8rem;
-    margin-top: 3rem;
-    margin-bottom: -1rem;
-  }
-  .hom-who > img {
-    height: 8rem;
-    margin-top: 3rem;
-    margin-bottom: -1rem;
-  }
-  .hom-skill > img {
-    height: 8rem;
-    margin-top: 3rem;
-    margin-bottom: -1rem;
-  }
-  .hom-container > a {
-    color: black;
-  }
-
-  /* locked Page COMPUTER */
-  .loc-for-computer {
-    background-image: url("../src/login-screen-windows.jpg") ;
-    background-size: cover ;
-    background-position-y: -9rem;
-  }
-  .loc-go-home {
-    height: 50rem;
-    width: 38rem;
-    margin-top: 0rem;
-    background-color: #5a7edc;
-    margin-left: 46rem;
-    text-align: center;
-    font-size: 3rem;
-    text-decoration: underline;
-    padding-top: 16rem;
-  }
-  /* Opinion Page COMPUTER */
-  .wo {
-    background-image: url("src/word-page.jpg");
-    background-size: cover;
-    overflow: hidden;
-  }
-  .opi-div {
-    height: 34rem;
-    width: 74rem;
-    background-color: white;
-    margin-left: 6rem;
-    margin-top: 9.5rem;
-    overflow-y: scroll;
-  }
-  .opi-div {
-    width: 35rem;
-  }
-  .opi-list-for-computer {
-    font-size: 2rem ;
-  }
-  .form_avis {
-    width: 35rem;
-    margin-left: 42rem;
-    margin-top: -15rem;
-    position: absolute;
-  }
-  .form_avis > input {
-    margin-left: 11rem;
-    height: 1.2rem;
-    margin-bottom: 0.5rem;
-    width: 8rem;
-  }
-  .form_avis > input::placeholder {
-    font-size: 1.3rem;
-    text-align: center;
-  }
-  .opi-submit {
-    font-size: 1.3rem;
-    padding-bottom: 1.2rem;
-  }
-  /* Profil Page COMPUTER */
-  .pro-logo {
-    width: 52rem;
-    height: 25rem;
-    margin-top: -28rem;
-    margin-left: 31rem;
-    display: grid;
-
-    grid-template-columns: repeat(5, 8rem);
-    grid-template-rows: repeat(3, 8rem);
-    grid-column-gap: 3.5rem;
-  }
-  .pro-logo-formation,
-  .pro-logo-hobbie,
-  .pro-logo-experience {
-    height: 8rem;
-    margin-top: 3rem;
-    margin-bottom: -1rem;
-  }
-  .pro-name-formation,
-  .pro-name-hobbie,
-  .pro-name-experience {
-    color: black;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 2rem;
-  }
-  .pro-formation {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-  .pro-experience {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-  .pro-hobbie {
-    grid-area: 1 / 3 / 2 / 4;
-  }
-  /* Project Page COMPUTER */
-  .proj-edge {
-    background-image: url("../src/fond-d-ecran-edge.jpg");
-    background-size: cover;
-    background-position-y: -7rem;
-  }
-
-  .opi-name-for-computer {
-    text-align: center;
-    color: black;
-    margin-top: 0rem;
-
-  }
-  .search_bar {
-    text-align: center;
-  }
-  .proj-search-comp{
-    height: 3rem;
-    width: 30rem;
-    font-size: 2rem;
-  }
-  .proj-loupe {
-    height: 3rem;
-    margin-right: -108rem;
-  }
-  .proj-logo {
-    height: 8rem;
-    width: 8rem;
-    margin-top: 13rem;
-    margin-left: 3rem;
-  }
-  .proj-name-comp {
-    color: white;
-    font-size: 3rem;
-    width: 16rem;
-    margin-inline: auto;
-    margin-top: 2rem;
-  }
-  .proj-texts-for-computer {
-    font-size: 1.5rem;
-    text-align: inherit;
-    margin-left: 5rem;
-  }
-  .proj-texts-for-computer-res {
-    font-size: 2rem;
-    margin-left: -7rem;
-  }
-.proj-log-res {
+body {
+  margin: 0;
+}
+.only-computer {
+  display: block;
+}
+.only-mobile {
+  display: none;
+}
+a {
+  color: white;
+}
+.for-computer,
+.exp-computer,
+.pro-computer,
+.hob-computer,
+.ski-computer {
+  margin-top: 2rem;
+  padding-top: 0.8rem;
+  margin-left: 3rem;
+}
+.bar {
+  background-color: #121cde;
+  height: 3rem;
+  margin-top: -2rem;
+}
+.li-for-computer {
+  font-size: 2.5rem;
   padding-bottom: 2rem;
 }
-.proj-error {
+.exp-content,
+.for-content,
+.ski-content,
+.hob-content {
+  background-color: #efefef;
+  width: 47rem;
+  margin-left: 32rem;
+  margin-top: -27rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   text-align: center;
-  font: caption;
-  font-size: 2rem;
 }
-  .proj-list {
-    list-style-type: none;
-    display: inline-flex;
-  }
+.for-content-list,
+.ski-content-list,
+.hob-content-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .ski-content-li > img {
-    height: 5rem;
-  }
-/* BackOffice Page COMPUTER */
+/* PAGES */
+
+/* PROJECT PAGE */
+
+.pp-img-comp {
+  height: 12rem;
+  display: block;
+  margin: auto;
+}
+.pp-top-left {
+  float: left;
+  margin: 2rem;
+  width: 43rem;
+  margin-top: 4rem;
+}
+.pp-info-comp {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  width: 36rem;
+  float: right;
+  margin-top: 8rem;
+  margin-right: 2rem;
+}
+.pp-description-comp {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.pp-back-proj {
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+.pp-stack-list {
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LOGIN PAGE */
+
+.log-login {
+  margin-top: 3rem;
+  font-size: 2rem;
+  background-color: #f6f6f6;
+  width: 45rem;
+  height: auto;
+  padding: 2rem 0;
+  margin-inline: auto;
+  display: block;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+}
+.log-login > input {
+  width: 20rem;
+  height: auto;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+.log-submit:active {
+  transform: scale(0.7);
+}
+
+/* BACKOFFICE PAGE */
 
 .backoffice {
   text-align: center;
@@ -420,7 +139,7 @@
   justify-content: space-evenly;
   margin-top: 3rem;
 }
-.bo-principal-div{
+.bo-principal-div {
   background-color: #f6f6f6;
   padding: 1rem 2rem;
 }
@@ -433,7 +152,6 @@ button {
   background-color: #dcb984;
   border: none;
   border-radius: 1rem;
-  
 }
 .bo-form > input {
   font-size: 1.5rem;
@@ -443,11 +161,11 @@ button {
   padding: 1rem 0;
   border-radius: 1rem;
 }
- .bo-files {
+.bo-files {
   border: none;
   margin-left: 4rem;
 }
- .bo-form > .bo-submit {
+.bo-form > .bo-submit {
   padding: 1rem 3rem;
   font-size: 1.7rem;
 }
@@ -455,7 +173,7 @@ button {
   transform: scale(0.7);
 }
 .bo-form > textarea {
-  height:5rem;
+  height: 5rem;
   font-size: 1.5rem;
   padding: 1rem 2rem;
 }
@@ -482,7 +200,6 @@ button {
   font-size: 2rem;
   padding: 1rem 2rem;
   max-width: 30rem;
-
 }
 .bo-user-id {
   display: flex;
@@ -500,45 +217,22 @@ button {
   margin-bottom: 2rem;
   background-color: #f6f6f6;
   padding: 1rem 2rem;
-
 }
 .bo-user-id > p {
   margin-left: 4rem;
 }
-.bo-avis > a{
+.bo-avis > a {
   color: black;
 }
-/* Login Page COMPUTER */
-
-.log-login {
-  margin-top: 3rem;
-  font-size: 2rem;
-  background-color: #f6f6f6;
-  width: 45rem;
-  height: auto;
-  padding: 2rem 0;
-  margin-inline: auto;
-  display: block;
-  border-radius: 3rem;
-  margin-bottom: 3rem;
-}
-.log-login > input {
-  width: 20rem;
-  height: auto;
-  font-size: 1.5rem;
-  border-radius: 1rem;
-  border: none;
-  padding: 0.5rem 2rem;
-  text-align: center;
-  margin: 1rem 0;
-  
-}
-.log-submit:active {
-  transform: scale(0.7);
-}
 .backoffice > a {
-  color: black; 
+  color: black;
   font-size: 2rem;
+}
+
+/* SKILL PAGE */
+
+.ski-content-li > img {
+  height: 5rem;
 }
 .ski-stack-list {
   width: 57rem;
@@ -547,44 +241,371 @@ button {
 .ski-stack-item-comp {
   font-size: 2rem;
   font-weight: bolder;
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 .ski-item-img-comp {
   height: 4rem;
 }
-.pp-img-comp {
-  height: 12rem;
-  display: block;
-  margin: auto;
-}
-.pp-top-left {
-  float: left;
-  margin: 2rem;
-  width: 43rem;
-  margin-top: 4rem;
+/* PROJECT PAGE */
 
+.proj-edge {
+  background-image: url("../src/fond-d-ecran-edge.jpg");
+  background-size: cover;
+  background-position-y: -7rem;
 }
-.pp-info-comp {
+.search_bar {
+  text-align: center;
+}
+.proj-search-comp {
+  height: 3rem;
+  width: 30rem;
+  font-size: 2rem;
+}
+.proj-loupe {
+  height: 3rem;
+  margin-right: -108rem;
+}
+.proj-logo {
+  height: 8rem;
+  width: 8rem;
+  margin-top: 13rem;
+  margin-left: 3rem;
+}
+.proj-name-comp {
+  color: white;
+  font-size: 3rem;
+  width: 16rem;
+  margin-inline: auto;
+  margin-top: 2rem;
+}
+.proj-texts-for-computer {
+  font-size: 1.5rem;
+  text-align: inherit;
+  margin-left: 5rem;
+}
+.proj-texts-for-computer-res {
+  font-size: 2rem;
+  margin-left: -7rem;
+}
+.proj-log-res {
+  padding-bottom: 2rem;
+}
+.proj-error {
+  text-align: center;
+  font: caption;
+  font-size: 2rem;
+}
+.proj-list {
+  list-style-type: none;
+  display: inline-flex;
+}
+/* PROFIL PAGE */
+
+.pro-logo {
+  width: 52rem;
+  height: 25rem;
+  margin-top: -28rem;
+  margin-left: 31rem;
+  display: grid;
+
+  grid-template-columns: repeat(5, 8rem);
+  grid-template-rows: repeat(3, 8rem);
+  grid-column-gap: 3.5rem;
+}
+.pro-logo-formation,
+.pro-logo-hobbie,
+.pro-logo-experience {
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.pro-name-formation,
+.pro-name-hobbie,
+.pro-name-experience {
+  color: black;
   text-align: center;
   font-weight: bolder;
-  font-size:1.5rem;
-  width: 36rem;
-  float: right;
-  margin-top: 8rem;
-  margin-right: 2rem;
+  font-size: 2rem;
 }
-.pp-description-comp {
-text-align: center;
-font-size: 1.5rem;
+.pro-formation {
+  grid-area: 1 / 1 / 2 / 2;
 }
-.pp-back-proj {
+.pro-experience {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.pro-hobbie {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+/* OPINION PAGE */
+
+.opi-div {
+  height: 34rem;
+  width: 74rem;
+  background-color: white;
+  margin-left: 6rem;
+  margin-top: 9.5rem;
+  overflow-y: scroll;
+}
+.opi-div {
+  width: 35rem;
+}
+.opi-list-for-computer {
+  font-size: 2rem;
+}
+.form_avis {
+  width: 35rem;
+  margin-left: 42rem;
+  margin-top: -15rem;
+  position: absolute;
+}
+.form_avis > input {
+  margin-left: 11rem;
+  height: 1.2rem;
+  margin-bottom: 0.5rem;
+  width: 8rem;
+}
+.form_avis > input::placeholder {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.opi-submit {
+  font-size: 1.3rem;
+  padding-bottom: 1.2rem;
+}
+.opi-name-for-computer {
+  text-align: center;
   color: black;
-  font-style: italic;
-  text-decoration: underline;
+  margin-top: 0rem;
 }
-.pp-stack-list {
-  margin-bottom: 5rem;
+
+/* LOCKED PAGE */
+
+.loc-for-computer {
+  background-image: url("../src/login-screen-windows.jpg");
+  background-size: cover;
+  background-position-y: -9rem;
+}
+.loc-go-home {
+  height: 50rem;
+  width: 38rem;
+  margin-top: 0rem;
+  background-color: #5a7edc;
+  margin-left: 46rem;
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  padding-top: 16rem;
+}
+
+/* HOME PAGE */
+
+.home-for-computer {
+  background-image: url("../src/fond-d-ecran-windows.jpg");
+  background-size: cover;
+  overflow-y: hidden;
+}
+.hom-container {
+  display: grid;
+  grid-template-columns: repeat(4, 20rem);
+  grid-template-rows: repeat(3, 21rem);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.hom-projects > img {
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.hom-opinion > img {
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.hom-who > img {
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.hom-skill > img {
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.hom-container > a {
+  color: black;
+}
+
+/* HOBBIE PAGE */
+
+.hob-content-li > img {
+  height: 7rem;
+}
+
+/* SIDE BAR PAGE */
+
+.exp-left-list {
+  background-color: #8080806b;
+  width: 24rem;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  display: block;
+}
+.star {
+  height: 5rem;
+  margin-top: 2rem;
+}
+.exp-left-name {
+  width: 15rem;
+  margin-left: 6rem;
+  margin-top: -4.6rem;
+  padding-bottom: 2rem;
+}
+.exp-left-list-ul > li {
+  margin-left: 4rem;
+}
+
+/* TASKBAR PAGE */
+
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    #0997ff,
+    #0053ee 8%,
+    #0050ee 40%,
+    #06f 88%,
+    #06f 93%,
+    #005bff 95%,
+    #003dd7 96%,
+    #003dd7
+  );
+  width: 100vw;
+  height: 3rem;
+  display: block;
+}
+
+.taskbar__start {
+  padding-right: 4rem;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic;
+  border: none;
+  border-radius: 0px 10px 12px 0px;
+  box-shadow: 0px 5px 10px #79ce71 inset;
+  background: radial-gradient(circle, #5eac56 0%, #3c873c 100%) center/cover
+    no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+.projects__start {
+  padding-right: 7rem;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic;
+  border: none;
+  box-shadow: 0px 5px 10px #4375e0 inset;
+  background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
+    no-repeat;
+  display: flex;
+  align-items: center;
+  margin-left: 12rem;
+  margin-top: -3rem;
+}
+.opinion__start {
+  padding-right: 7rem;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic;
+  border: none;
+  box-shadow: 0px 5px 10px #4375e0 inset;
+  background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
+    no-repeat;
+  display: flex;
+  align-items: center;
+  margin-left: 30rem;
+  margin-top: -3rem;
+}
+.who__start {
+  padding-right: 7rem;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic;
+  border: none;
+  box-shadow: 0px 5px 10px #4375e0 inset;
+  background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
+    no-repeat;
+  display: flex;
+  align-items: center;
+  margin-left: 44rem;
+  margin-top: -3rem;
+}
+.skill__start {
+  padding-right: 7rem;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic;
+  border: none;
+  box-shadow: 0px 5px 10px #4375e0 inset;
+  background: radial-gradient(circle, #1c3abd 0%, #0b07f7 100%) center/cover
+    no-repeat;
+  display: flex;
+  align-items: center;
+  margin-left: 62rem;
+  margin-top: -3rem;
+}
+.taskbar__start--logo {
+  width: auto;
+  height: 80%;
+}
+.projects__start--logo {
+  width: auto;
+  height: 80%;
+  padding-right: 3rem;
+}
+.opinion__start--logo {
+  width: auto;
+  height: 80%;
+  padding-right: 3rem;
+}
+.who__start--logo {
+  width: auto;
+  height: 80%;
+  padding-right: 3rem;
+}
+.skill__start--logo {
+  width: auto;
+  height: 80%;
+  padding-right: 3rem;
+}
+.time-for-home-computer {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: -7.5rem;
+  margin-left: 73rem;
+}
+.logo__start {
+  margin-left: 105rem;
+  margin-top: -2.8rem;
+  background-color: #03a9f4;
+}
+.github__start,
+.mail__start,
+.linkedin__start {
+  height: 2.5rem;
+  width: auto;
 }

@@ -1,38 +1,32 @@
 <div class="taskbar" hidden>
-
     <button class="taskbar__start">
         <img class="taskbar__start--logo" src="src/icon/windows.png" alt="Windows">
-        <a href="home">
-            Brandon
-        </a>
+
+        <a href="home"> Brandon </a>
     </button>
 
     <button class="projects__start">
         <img class="projects__start--logo" src="src/icon/edge.svg" alt="edge">
-        <a href="projet">
-            Mes projets
-        </a>
+
+        <a href="projet"> Mes projets </a>
     </button>
 
     <button class="opinion__start">
         <img class="opinion__start--logo" src="src/icon/word.svg" alt="word">
-        <a href="avis">
-            Avis
-        </a>
+
+        <a href="avis">Avis </a>
     </button>
 
     <button class="who__start ">
         <img class="who__start--logo" src="src/icon/config_user.svg" alt="user">
-        <a href="profil">
-            Qui suis-je?
-        </a>
+
+        <a href="profil"> Qui suis-je? </a>
     </button>
 
     <button class="skill__start">
         <img class="skill__start--logo" src="src/icon/folder.svg" alt="folder">
-        <a href="competence">
-            Mes compétences
-        </a>
+
+        <a href="competence"> Mes compétences</a>
     </button>
 
     <div class="logo__start">
@@ -43,10 +37,5 @@
 
     <p id="time-computer" class="time-for-home-computer"></p>
 </div>
-
-
-</div>
-
-
 
 <script src="script/datetime.js"></script>

@@ -1,5 +1,7 @@
 <?php
+
 global $hlp, $db;
+
 $id = $hlp->myGet("id");
 $result = -1;
 $error = "";
@@ -36,6 +38,5 @@ if ($hlp->isConnected() == true) {
 
     include 'view/backoffice.php';
 } else {
-
     include 'view/login.php';
 }

@@ -23,7 +23,6 @@ class HelperFunction
         }
         return null;
     }
-
     public static function getProjectModel(int $id)
     {
         global $db;
@@ -37,7 +36,6 @@ class HelperFunction
         }
         return $res;
     }
-
     public static function isConnected(): bool
     {
         if (isset($_SESSION['id']) && isset($_SESSION['email']) && isset($_SESSION['password'])) {
@@ -45,7 +43,6 @@ class HelperFunction
         }
         return false;
     }
-
     public static function connexion(string $email, string $password)
     {
         global $db;
@@ -70,7 +67,6 @@ class HelperFunction
         }
         return 3; // erreur avec de connexion avec la DB
     }
-
     public static function disconnected()
     {
         if (isset($_SESSION['id'])) {
@@ -85,7 +81,6 @@ class HelperFunction
             unset($_SESSION['password']);
         }
     }
-
     public static function addStack(string $name, $file_name)
     {
         global $db;

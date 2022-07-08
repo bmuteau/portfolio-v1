@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="style/styles.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -26,9 +27,9 @@
 </head>
 
 <body class="white wo">
+
     <div class="only-mobile">
         <div class="only-tablet t t-tab" hidden> Portfolio de Brandon Muteau </div>
-
         <div class="g-datetime">
             <p id="time" class="time-for-tablet">
             </p>
@@ -37,6 +38,7 @@
         <a href="home" class="opi-close">X</a>
 
         <h1 class="opi-name opi-name-for-tablet">Votre avis m'intéresse ! </h1>
+
         <form class="opi-form opi-form-tab" method="POST">
             <input type="text" name="firstname" class="opi-surname" placeholder="Prénom">
             <input type="number" name="note" class="opi-note" min="0" max="10" placeholder="Note">
@@ -49,13 +51,14 @@
                     echo $_SESSION['token'];
                 } ?>">
         </form>
+
         <?= $message ?>
 
         <h2 class="opi-name">Vos avis</h2>
+
         <ul>
             <?php foreach ($avis as $avisList) : ?>
                 <?=
-
                 '<li class="opi-list">
                 <p class="opi-surname-res">' . $avisList['firstname'] . '</p>
                 <p class="opi-avis-res">' . $avisList['avis'] . '</p>
@@ -63,7 +66,6 @@
                 <hr class="opi-hr opi-hr-tab">
                 </li>'
                 ?>
-
             <?php endforeach ?>
         </ul>
 
@@ -78,7 +80,6 @@
                 <ul>
                     <?php foreach ($avis as $avisList) : ?>
                         <?=
-
                         '<li class="opi-list-for-computer">
                         <p class="opi-surname-res">' . $avisList['firstname'] . '</p>
                         <p class="opi-avis-res">' . $avisList['avis'] . '</p>
@@ -86,7 +87,6 @@
                         <hr class="opi-hr">
                         </li>'
                         ?>
-
                     <?php endforeach ?>
                 </ul>
             </div>
@@ -106,11 +106,8 @@
 
             <?= $message ?>
         </div>
-
-
+    </div>
 
 </body>
-
-
 
 </html>

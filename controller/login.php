@@ -1,6 +1,7 @@
 <?php
 
 global $hlp, $db;
+
 $result = -1;
 $error = "";
 $hlp->disconnected();
@@ -19,9 +20,5 @@ if ($result > -1) {
         $error = "Il y'a une erreur de connexion!";
     }
 }
-
-
-
-
 
 include 'view/login.php';

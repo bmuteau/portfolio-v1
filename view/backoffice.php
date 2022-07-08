@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="style/styles.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -19,8 +20,8 @@
 </head>
 
 <body class="backoffice">
-
     <h1> BACK-OFFICE </h1>
+
     <div class="bo-wrapper">
         <div class="bo-principal-div">
 
@@ -48,15 +49,12 @@
                     </select><br>
                     <input type="text" name="link-project" placeholder="Lien du projet"></br></br>
                     <legend>Veuillez sélectionner les stacks utilisés :</legend><br>
-                    <!-- boucle sur les stacks existantes -->
                     <div>
                         <?php
                         for ($i = 0; $i < count($stackItem); $i++) {
                             echo '<input type="checkbox" name="stack[]" value="' . $stackItem[$i]['id'] . '">' . $stackItem[$i]['name'] . '<br>';
                         }
-
                         ?>
-
                     </div>
                     <input type="submit" class="bo-submit" name="submit-project">
                 </form>
@@ -65,7 +63,6 @@
             <div class="bo-add-formation">
                 <h2>Ajouter une formation ! </h2>
                 <button id="togg3">+</button>
-
                 <form class="bo-form" style="display:none;" id="for-tog" method="POST">
                     <input type="text" name="name-formation" placeholder="Intitulé"></br>
                     <input type="number" name="for-start-date" placeholder="Année de début"></br>
@@ -102,13 +99,9 @@
 
         <div class="bo-second-div">
             <div class="bo-last-avis">
-
                 <?php
-
                 foreach ($avis as $aviss) : ?>
-
                     <?=
-
                     '<div class="bo-avis">
         <a href="backoffice?id=' . $aviss['id'] . '"> X </a> </br>
         <div class="bo-user-id">
@@ -119,11 +112,8 @@
         <p class="bo-user-mail">' . $aviss['email'] . '</p>
         <p>' . $aviss['avis'] . '</p>
     </div>'
-
                     ?>
-
                 <?php endforeach ?>
-
             </div>
         </div>
     </div>
@@ -131,7 +121,5 @@
 </body>
 
 <script src="script/boDisplay.js"></script>
-
-
 
 </html>

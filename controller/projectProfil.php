@@ -4,12 +4,12 @@ global $db, $hlp;
 
 $id = $hlp->myGet('id');
 $userAccount = false;
-
 $projectData = array(
     'id' => "",
     'name' => "",
     'image' => "",
 );
+$connect = $db->connect();
 
 if ($hlp->myGet('id') != null) {
     $change = $hlp->getProjectModel($hlp->myGet('id'));
@@ -23,8 +23,6 @@ if ($hlp->myGet('id') != null) {
     $projectData['description'] = $change[0]['description'];
 }
 
-$connect = $db->connect();
-
 if ($connect != null) {
 
     $stm =  $connect->prepare("SELECT * FROM project  WHERE id=? ");
@@ -35,7 +33,5 @@ if ($connect != null) {
     $query->execute(array($projectData['uid']));
     $stack = $query->fetchAll();
 }
-
-
 
 include 'view/projectProfil.php';

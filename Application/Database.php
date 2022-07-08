@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Application;
-
 
 use PDO;
 use PDOException;
@@ -10,12 +8,12 @@ use PDOException;
 class Database
 {
 
-
-    // Connexion Local 
+    // Local connexion
     private static $dbHost = "localhost";
     private static $dbName = "portfolio-v1";
     private static $dbUsername = "root";
     private static $dbPassword = "";
+
 
     private static $connection = null;
 
@@ -36,7 +34,6 @@ class Database
         }
         return self::$connection;
     }
-
     public static function checkconnexion()
     {
         $connect = self::connect();

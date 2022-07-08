@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="style/styles.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -25,22 +26,23 @@
 </head>
 
 <body class="white">
-
     <div class="only-mobile">
-
-
 
         <div class="g-datetime">
             <p id="time" class="time-for-tablet">
             </p>
         </div>
+
         <div class="only-tablet" hidden> Portfolio de Brandon Muteau </div>
 
         <h1 class="exp-name exp-name-for-tablet">Qui suis-je? </h1>
+
         <a href="home" class="exp-close">X</a>
 
         <h2 class="exp">EXPERIENCES</h2>
+
         <hr class="exp-hr">
+
         <ul class="exp-list">
             <?php foreach ($job as $jobs) : ?>
                 <?=
@@ -53,8 +55,6 @@
 
             <?php endforeach ?>
         </ul>
-
-
     </div>
 
     <div class="only-computer" hidden>
@@ -62,7 +62,6 @@
         <div class="bar">
             <h2 class="exp">EXPERIENCES</h2>
         </div>
-
 
         <div class="exp-content">
             <ul class="content_list">
@@ -75,12 +74,9 @@
                 <?php endforeach ?>
             </ul>
 
-
-
         </div>
+    </div>
 
 </body>
-
-
 
 </html>

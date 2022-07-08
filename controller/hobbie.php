@@ -1,6 +1,6 @@
 <?php
-global  $db, $hlp;
 
+global  $db, $hlp;
 
 $connect = $db->connect();
 

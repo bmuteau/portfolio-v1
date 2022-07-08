@@ -2,6 +2,7 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
+
 global $db, $hlp;
 
 $firstname = "";
@@ -9,12 +10,6 @@ $email = "";
 $note = "";
 $avis = "";
 $message = "";
-
-if (isset($_SESSION['token'])) {
-    var_dump($_SESSION['token']);
-}
-
-
 
 if (isset($_POST['submit'])) {
     $_SESSION['token'] = date('d');
@@ -24,8 +19,8 @@ if (isset($_POST['submit'])) {
         $email = $_POST['email'];
         $note = $_POST['note'];
         $avis = $_POST['avis'];
-
         $connect = $db->connect();
+
         if ($connect != null) {
             $stm = $connect->prepare("INSERT INTO avis(firstname,email,note,avis) VALUES (?,?,?,?)");
             $stm->execute(array(
@@ -35,12 +30,11 @@ if (isset($_POST['submit'])) {
                 $avis
             ));
         }
-        $message = "Message  envoyé";
+        $message = "Avis envoyé";
     } else {
         $message = "Votre avis n'a pas était envoyé";
     }
 }
-$connect = $db->connect();
 
 $stm = $connect->prepare("SELECT * FROM avis  ORDER BY id DESC");
 $stm->execute();

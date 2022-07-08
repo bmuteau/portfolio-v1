@@ -15,16 +15,22 @@ ToDo :
 
     Back-Office : 
 
+/* UTILS */
 
+/* MIXED CLASS */
+
+/* PAGES */
         
     Others: 
-        * edit project img src in project view
-        * clean code and remove doublon in css and reorganize ( by utils, page)
+        * remove doublon in css and reorganize ( by utils, page) -> Need to finish styles and tablet
         * test all road
         * test responsive
         * test backend
         * test backoffice
         * complete with the back office my info
+        * test code with w3 https://validator.w3.org/
+        * Rapport de stage 
+        * PPT ?? 
         * make a good Readme
         * make a dev documentation
 

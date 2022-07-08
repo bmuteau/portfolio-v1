@@ -53,8 +53,8 @@ if (isset($_GET['url'])) {
 
 
 $urlsPossible = array(
-    "notFound" => 0,
-    "locked" => 1,
+    "locked" => 0,
+    "notFound" => 1,
     "home" => 2,
     "experience" => 3,
     "formation" => 4,
@@ -70,8 +70,8 @@ $urlsPossible = array(
 );
 
 $filesPossible = array(
-    "controller/notFound.php", //0
-    "controller/lockedPage.php", //1
+    "controller/lockedPage.php", //0
+    "controller/notFound.php", //1
     "controller/home.php", //2
     "controller/experience.php", //3
     "controller/formation.php", //4
