@@ -1,228 +1,245 @@
+/* UTILS */
 
-  /* Experience,Formation and Hobbie Page TABLET  */
+.w {
+  color: white;
+  margin-top: -4rem;
+}
+.l {
+  margin-left: 7rem;
+}
+
+/* MIXED CLASS */
+
+#pro-circle-tab,
+#ski-circle-tab {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+}
+.pro-circle-text-tab,
+.ski-circle-text-tab {
+  top: 15rem;
+  left: 4.4rem;
+  font-size: 2rem;
+}
+.pro-info-tab,
+.ski-info-tab {
+  margin-top: -7rem;
+  margin-left: 9rem;
+  font-size: 2rem;
+}
 .time-for-tablet {
-    color: white;
+  color: white;
 }
-  .only-tablet {
-    display: block;
-    margin-top: -3rem;
-    margin-left: 1rem;
-    font-size: 1.5rem;
-    font-weight: bolder;
-  }
-  .exp-name-for-tablet,
-  .pp-name-for-tablet,
-  .for-name-for-tablet,
-  .ski-name-for-tablet,
-  .proj-name-for-tablet,
-  .hob-name-for-tablet,
-  .opi-name-for-tablet,
-  .pro-name-for-tablet {
-    margin-top: 5rem;
-    font-size: 3rem;
-  }
-  .for,
-  .exp,
-  .hob,
-  .pro,
-  .ski {
-    font-size: 2rem;
-  }
-  .hobbie {
-    margin-left: 2rem;
-    margin-top: 5rem;
-  }
-  .for-hr,
-  .exp-hr,
-  .hob-hr {
-    margin-left: 2rem;
-  }
-  li {
-    font-size: 1.5rem;
-  }
-  .hob-img-tab {
-    height: 9rem ;
-    margin-left: 3rem ;
-  }
-    .hob-activity-tab {
-    margin-left: 12rem ;
-    margin-top: 2rem ;
-    font-size: 3rem ;
-  }
-
-  /* Home Page TABLET */
-
-  .hom-tab {
-    background-image: url(../src/fond-d-ecran-ipad.jpg) ;
-    background-size: cover ;
-    background: fixed;
-  }
-  .w {
-    color: white;
-    margin-top: -4rem;
-  }
-  .hom-time {
-    font-size: 2rem ;
-    margin-left: 38rem ;
-    font-weight: bolder;
-  }
-  .hom-home-tab {
-    grid-template-columns: repeat(3, 13rem) ;
-    grid-template-rows: repeat(4, 10rem);
-    margin-left: 2rem;
-    margin-top: 2rem;
-  }
-  .hom-project-tab img {
-    height: 6rem;
-    width: 6rem ;
-    margin: 2rem 3rem ;
-  }
-  .hom-skills-tab img {
-    height: 6rem;
-    width: 6rem;
-    margin: 2rem 3rem;
-  }
-  .hom-who-tab img {
-    height: 6rem ;
-    width: 6rem ;
-    margin: 2rem 3rem ;
-  }
-  .hom-opinion-tab img {
-    height: 6rem;
-    width: 11rem;
-    margin: 2rem 3rem;
-  }
-  .hom-text-tab {
-    font-size: 1.7rem ;
-  }
-  .l {
-    margin-left: 7rem;
-  }
-  .hom-tools-tab {
-    grid-template-rows: 8rem ;
-    margin-left: 12rem ;
-    margin-right: 11rem ;
-    margin-top: -3rem ;
-  }
-  .hom-mail-tab img {
-    height: 6rem ;
-    width: 6rem ;
-    margin: 1rem 2rem ;
-  }
-  .hom-blue-github-tab img {
-    height: 6rem ;
-    width: 6rem ;
-    margin: 1rem 3rem ;
-  }
-  .hom-blue-linkedin-tab img {
-    height: 6rem ;
-    width: 6rem ;
-    margin: 1rem 4rem ;
-  }
-
-  /* Locked Page TABLET */
-
-  .loc-title-tab {
-    font-size: 2rem ;
-  }
-  .date-tab {
-    color: white;
-  }
-  .logo-tab {
-    visibility: hidden;
-  }
-
-  /* Opinion Page Tablet */
-  .t-tab {
-    margin-top: 1rem;
-  }
-  .opi-form-tab {
-    grid-row-gap: 3rem;
-  }
-  .opi-form-tab > input , textarea {
-    height: 3rem ;
-    font-size: 2rem ;
-  }
- .textarea-tab {
-    height: 8rem;
- }
- .opi-hr-tab {
-    margin-top: 3rem ;
-  }
-  /* Profil Page TABLET */
-  #pro-circle-tab,
-  #ski-circle-tab {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 5rem;
-  }
-  .pro-circle-text-tab,
-  .ski-circle-text-tab {
-    top: 15rem;
-    left: 4.4rem;
-    font-size: 2rem;
-  }
-  .pro-info-tab,
-  .ski-info-tab {
-    margin-top: -7rem;
-    margin-left: 9rem;
-    font-size: 2rem;
-  }
-  .pro-profil-img-tab {
-    height: 10rem;
-    width: 8rem;
-  }
-  .pro-me-tab {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-  }
-  /* Project Page TABLET */
-
-  .proj-search-tab {
-    height: 3rem;
-  }
-  .proj-loupe-tab{
-    height: 3rem;
-  }
-  .proj-search-tab::placeholder {
-    font-size: 1.5rem;
-  }
-  .proj-image-tab, .ski-item-img-tab {
-    height:8rem!important;
-  }
-  .proj-item-name-tab, .ski-item-name-tab {
-    font-size: 1.9rem;
-  }
-.proj-error-tab, .ski-error-tab {
-  font-size: 2.5rem;
-
+.only-tablet {
+  display: block;
+  margin-top: -3rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.exp-name-for-tablet,
+.pp-name-for-tablet,
+.for-name-for-tablet,
+.ski-name-for-tablet,
+.proj-name-for-tablet,
+.hob-name-for-tablet,
+.opi-name-for-tablet,
+.pro-name-for-tablet {
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+.for,
+.exp,
+.hob,
+.pro,
+.ski {
+  font-size: 2rem;
+}
+.ct-tab {
+  top: 21rem;
+}
+.for-hr,
+.exp-hr,
+.hob-hr {
+  margin-left: 2rem;
+}
+li {
+  font-size: 1.5rem;
+}
+.t-tab {
+  margin-top: 1rem;
 }
 
-  /* ProjectProfil Page TABLET */
+/* PAGES */
 
-  .pp-img-tab{
-    margin-left: 7rem;
-    margin-top: 1rem;
-  }
-  .pp-info-tab {
-    margin-top: -10rem;
-    width: 50%;
-    margin-left: 17rem;
-  }
-  .pp-desc-tab {
-    font-size: 3rem;
-  }
-  .pp-description {
-    font-size: 2rem;
-  }
-  .ct-tab {
-    top: 21rem ;
-  }
-  .ski-stack-item-tab {
-    font-size: 2rem;
-    margin-top: 3rem;
-    
+/* SKILL PAGE */
+
+.ski-stack-item-tab {
+  font-size: 2rem;
+  margin-top: 3rem;
 }
 .ski-stack-list-tab {
-    margin-top: 1rem;
+  margin-top: 1rem;
+}
+
+/* PROJECT PROFIL PAGE */
+
+.pp-img-tab {
+  margin-left: 7rem;
+  margin-top: 1rem;
+}
+.pp-info-tab {
+  margin-top: -10rem;
+  width: 50%;
+  margin-left: 17rem;
+}
+.pp-desc-tab {
+  font-size: 3rem;
+}
+.pp-description {
+  font-size: 2rem;
+}
+
+/* PROJECT PAGE */
+
+.proj-search-tab {
+  height: 3rem;
+}
+.proj-loupe-tab {
+  height: 3rem;
+}
+.proj-search-tab::placeholder {
+  font-size: 1.5rem;
+}
+.proj-image-tab,
+.ski-item-img-tab {
+  height: 8rem !important;
+}
+.proj-item-name-tab,
+.ski-item-name-tab {
+  font-size: 1.9rem;
+}
+.proj-error-tab,
+.ski-error-tab {
+  font-size: 2.5rem;
+}
+
+/* PROFIL PAGE */
+
+.pro-profil-img-tab {
+  height: 10rem;
+  width: 8rem;
+}
+.pro-me-tab {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* OPINION PAGE */
+
+.opi-form-tab {
+  grid-row-gap: 3rem;
+}
+.opi-form-tab > input,
+textarea {
+  height: 3rem;
+  font-size: 2rem;
+}
+.textarea-tab {
+  height: 8rem;
+}
+.opi-hr-tab {
+  margin-top: 3rem;
+}
+
+/* LOCKED PAGE */
+
+.loc-title-tab {
+  font-size: 2rem;
+}
+.date-tab {
+  color: white;
+}
+.logo-tab {
+  visibility: hidden;
+}
+
+/* HOBBIE PAGE */
+
+.hob-img-tab {
+  height: 9rem;
+  margin-left: 3rem;
+}
+.hob-activity-tab {
+  margin-left: 12rem;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.hobbie {
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+/* HOME PAGE */
+
+.hom-tab {
+  background-image: url(../src/fond-d-ecran-ipad.jpg);
+  background-size: cover;
+  background: fixed;
+}
+.hom-time {
+  font-size: 2rem;
+  margin-left: 38rem;
+  font-weight: bolder;
+}
+.hom-home-tab {
+  grid-template-columns: repeat(3, 13rem);
+  grid-template-rows: repeat(4, 10rem);
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.hom-project-tab img {
+  height: 6rem;
+  width: 6rem;
+  margin: 2rem 3rem;
+}
+.hom-skills-tab img {
+  height: 6rem;
+  width: 6rem;
+  margin: 2rem 3rem;
+}
+.hom-who-tab img {
+  height: 6rem;
+  width: 6rem;
+  margin: 2rem 3rem;
+}
+.hom-opinion-tab img {
+  height: 6rem;
+  width: 11rem;
+  margin: 2rem 3rem;
+}
+.hom-text-tab {
+  font-size: 1.7rem;
+}
+.hom-tools-tab {
+  grid-template-rows: 8rem;
+  margin-left: 12rem;
+  margin-right: 11rem;
+  margin-top: -3rem;
+}
+.hom-mail-tab img {
+  height: 6rem;
+  width: 6rem;
+  margin: 1rem 2rem;
+}
+.hom-blue-github-tab img {
+  height: 6rem;
+  width: 6rem;
+  margin: 1rem 3rem;
+}
+.hom-blue-linkedin-tab img {
+  height: 6rem;
+  width: 6rem;
+  margin: 1rem 4rem;
 }

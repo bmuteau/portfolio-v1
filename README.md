@@ -15,15 +15,9 @@ ToDo :
 
     Back-Office : 
 
-/* UTILS */
 
-/* MIXED CLASS */
-
-/* PAGES */
         
     Others: 
-        * remove doublon in css and reorganize ( by utils, page) -> Need to finish styles and tablet
-        * test all road
         * test responsive
         * test backend
         * test backoffice
